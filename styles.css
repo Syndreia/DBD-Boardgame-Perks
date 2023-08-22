@@ -5,7 +5,7 @@ body, h1, h2, h3, p, div {
   border: 0;
 }
 
-/* Set a dark background */
+/* Set a very dark background */
 body {
   background-color: #121212;
   color: #fff;
