@@ -1,0 +1,185 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Set a dark background */
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+/* Search bar */
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  padding: 5px;
+}
+
+#searchButton {
+  padding: 5px 10px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Image container */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-item {
+  background-color: #292929;
+  border: 1px solid #444;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-item h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.image-item p {
+  margin-top: 5px;
+}
+
+/* Customize the button on hover */
+#searchButton:hover {
+  background-color: #ff3d00;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+}
+
+.cost-logo {
+  margin-right: 5px;
+  margin-left: 35%;
+  width: 15%; /* Adjust the size of the logo as needed */
+  height: 15%;
+}
+
+#filterTueur, #filterSurvivant {
+  margin-top: 2%;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#filterTueur:hover, #filterSurvivant:hover {
+  background-color: #ff3d00;
+}
+
+.type-logo {
+  text-align: center;
+  margin-top: 10px;
+  width: 35%; /* Adjust the size of the logos as needed */
+  height: auto;
+}
+
+.type-logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.parallax-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#parallax-layer1 {
+  background-image: url('img/background.jpg');
+  z-index: -3;
+}
+
+#parallax-layer2 {
+  background-image: url('img/DBD_Killers_mid.png');
+  z-index: -2;
+  background-size: 75%; /* Adjust this to your preference */
+  background-repeat: no-repeat;
+  background-position: bottom; /* Align the image at the bottom */
+}
+
+#parallax-layer3 {
+  background-image: url('img/survivors.png');
+  z-index: -1;
+  background-size: 60%; /* Adjust this to your preference */
+  background-repeat: no-repeat;
+  background-position: bottom; /* Align the image at the bottom */
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  display: block;
+  margin: auto;
+  max-width: 130%;
+  max-height: 130%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-open {
+  overflow: hidden;
+}
