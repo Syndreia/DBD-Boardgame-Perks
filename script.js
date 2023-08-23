@@ -75,8 +75,8 @@ function filterByType(type) {
 
 window.addEventListener('scroll', () => {
   const scrollPosition = window.scrollY;
-  parallaxLayer2.style.transform = `translateY(${scrollPosition * 0.3}px)`;
-  parallaxLayer3.style.transform = `translateY(-${scrollPosition * 0.7}px)`;
+  parallaxLayer2.style.transform = `translateY(${scrollPosition * 0.2}px)`;
+  parallaxLayer3.style.transform = `translateY(${scrollPosition * 0.3}px)`;
 });
 
 // pour le modal de mes 2

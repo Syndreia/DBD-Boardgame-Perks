@@ -132,22 +132,22 @@ header h1 {
 }
 
 #parallax-layer1 {
-  background-image: url('img/background.jpg');
+  background-image: url('img/background v2.png');
   z-index: -3;
 }
 
 #parallax-layer2 {
-  background-image: url('img/DBD_Killers_mid.png');
+  background-image: url('img/killers v2.png');
   z-index: -2;
-  background-size: 75%; /* Adjust this to your preference */
+  background-size: 100%; /* Adjust this to your preference */
   background-repeat: no-repeat;
   background-position: bottom; /* Align the image at the bottom */
 }
 
 #parallax-layer3 {
-  background-image: url('img/survivors.png');
+  background-image: url('img/survivors v2.png');
   z-index: -1;
-  background-size: 60%; /* Adjust this to your preference */
+  background-size: 100%; /* Adjust this to your preference */
   background-repeat: no-repeat;
   background-position: bottom; /* Align the image at the bottom */
 }
