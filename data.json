@@ -4,7 +4,7 @@
     "name": "Sanctuaire monstrueux",
     "cost": 0,
     "description": "Après avoir sacrifié un Survivant, s’il n’y a pas d’autre Survivant dans le lieu que vous occupez, gagnez 2 Points de Sang.",
-    "imagePath": "img/adrenaline.png", 
+    "imagePath": "img/monstrousshrine.jpg", 
  	"type": "Tueur"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Espion de l’ombre",
     "cost": 0,
     "description": "Lorsqu’un Corbeau est révélé, gagnez 1 Point de Sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/spiesfromshadow.jpg", 
  	"type": "Tueur"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Euphorie de la chasse",
     "cost": 2,
     "description": "Lorsqu’un Survivant quitte le lieu que vous occupez, déplacez-vous dans le même lieu que lui",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/thrillofthehunt.jpg", 
  	"type": "Tueur"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Murmure amer",
     "cost": 1,
     "description": "Après que vous vous êtes déplacé en suivant un chemin à sens unique ou à travers un Mur destructible, déplacez-vous à nouveau en suivant le chemin praticable de votre choix avant d’interagir",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/bittermurmur.jpg", 
  	"type": "Tueur"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Pisteur",
     "cost": 2,
     "description": "Lorsqu’un Survivant quitte le lieu que vous occupez, il jette le dé de Danger. En cas d’échec, il ne se déplace pas et ne peut pas interagir ce tour.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/deerstalker.jpg", 
  	"type": "Tueur"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Insidieux",
     "cost": 2,
     "description": "Lorsque vous attaquez un Survivant valide, si vous ne vous êtes pas déplacé durant ce tour, ramassez ce Survivant au lieu de l’attaquer.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/insidious.jpg", 
  	"type": "Tueur"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Personne n’échappe à la mort",
     "cost": 0,
     "description": "A la fin de votre tour, si les Portes de sorties sont alimentées, jouez un Tour Bonus de Tueur. (1/manche max)",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/noed.jpg", 
  	"type": "Tueur"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Murmures",
     "cost": 1,
     "description": "Au début de la  de Planification, choisissez un Survivant. Ce Survivant choisit soit de dépenser 1 Point de Sang, soit de révéler la carte Déplacement devant lui.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/whispers.jpg", 
  	"type": "Tueur"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Boucher Sadique",
     "cost": 1,
     "description": "Lorsqu’un Survivant essaie de Soigner, il jette 1 dé de danger au lieu de 1 dé d’Habileté.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/sloppybutcher.jpg", 
  	"type": "Tueur"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Implacable",
     "cost": 2,
     "description": "Après avoir intéragi avec un Survivant présent dans le lieu que vous occupez, intéragissez à nouveau avec un autre Survivant présent dans le lieu que vous occupez.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/relentless.jpg", 
  	"type": "Tueur"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Inquiétant",
     "cost": 2,
     "description": "Après qu’un Survivant est entré dans un lieu contenant un Casier libre, il interagit avec un Casier libre.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/distressing.jpg", 
  	"type": "Tueur"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Poigne de fer",
     "cost": 1,
     "description": "Après qu’un Survivant a jeté les dés pour un Sacrifice, il relance tous les dés d’Habileté.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/irongrasp.jpg", 
  	"type": "Tueur"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Surcharge",
     "cost": 2,
     "description": "Après avoir endommagé un Générateur, choisissez 1 Survivant présent dans le lieu que vous occupez ou dans un lieu relié. Ce Survivant devient Blessé.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/overcharge.jpg", 
  	"type": "Tueur"
   },
   {
@@ -108,7 +108,7 @@
     "name": "Présence écrasante",
     "cost": 1,
     "description": "Lorsqu’un Survivant présent dans le lieu que vous occupez ou dans un lieu relié utilise un Objet, il jette le dé de Danger. En cas d’échec, l’objet est défaussé sans avoir d’effet.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/overwhelmingpresence.jpg", 
  	"type": "Tueur"
   },
   {
@@ -116,7 +116,7 @@
     "name": "Mangeur d’espoir",
     "cost": 2,
     "description": "Au début de la  Nettoyage, si un Générateur a été activé durant cette Manche, jouez un Tour Bonus de Tueur. (1/manche max)",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/devourhope.jpg", 
  	"type": "Tueur"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Ruine",
     "cost": 1,
     "description": "Au début de la Planification, retirez 1 jeton Progrès du Générateur de votre choix qui se situe dans un lieu sans survivant.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/ruin.jpg", 
  	"type": "Tueur"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Tenace",
     "cost": 2,
     "description": "Lorsque vous devez vous déplacer sur un chemin comportant une Palette, détruisez cette Palette et jouez votre tour normalement.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/enduring.jpg", 
  	"type": "Tueur"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Réparateur",
     "cost": 0,
     "description": "Lorsqu’un Générateur est activé, reprenez en main 1 des cartes Déplacement placées devant vous et remplacez-la.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/tinkerer.jpg", 
  	"type": "Tueur"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Vocation de l’infirmière",
     "cost": 0,
     "description": "Après qu’un Survivant redevient Valide, gagnez 2 Points de Sang",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/nursecalling.jpg", 
  	"type": "Tueur"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Thanatophobie",
     "cost": 1,
     "description": "Lorsqu’un Survivant Blessé fait un Test d’Habileté, il jette 1 dé de Danger à la place",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/thanatophobia.jpg", 
  	"type": "Tueur"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Agitation",
     "cost": 1,
     "description": "Après avoir attaqué un Survivant Valide, déplacez-vous sur le chemin praticable de votre choix.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/agitation.jpg", 
  	"type": "Tueur"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Présence perturbante",
     "cost": 1,
     "description": "Lorsqu’un Survivant présent dans le lieu que vous occupez ou dans un lieu relié effectue un Test d’Habileté, il jette 1 dé de Danger à la place",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/unnervingpresence.jpg", 
  	"type": "Tueur"
   },
   {
@@ -180,7 +180,7 @@
     "name": "Limier",
     "cost": 0,
     "description": "Après avoir Sacrifié un Survivant, ce Survivant perd 1 Point de Sang et vous gagnez 1 Point de Sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/bloodhound.jpg", 
  	"type": "Tueur"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Prédateur",
     "cost": 2,
     "description": "A la fin de la Planification, choisissez 1 Survivant. Il défausse la carte Déplacement devant lui et la remplace par une autre de sa main.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/predator.jpg", 
  	"type": "Tueur"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Prise du Dragon",
     "cost": 1,
     "description": "Lorsque vous endommagez un Générateur, défaussez jusqu’à 2 cartes Déplacement. Chaque Survivant dans un lieu relié à celui comportant ce générateur par un chemin indiqué par ces cartes choisit soit de dépenser 1 Point de Sang, soit de devenir blessé",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/dragonsgrip.jpg", 
  	"type": "Tueur"
   },
   {
@@ -204,7 +204,7 @@
     "name": "Immortel",
     "cost": 1,
     "description": "En tant qu’interaction, défaussez 1 carte Déplacement autre que Attendre pour interagir avec un Accessoire dans un lieu relié à celui que vous occupez (même chemin que la carte défaussée)",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/immortal.jpg", 
  	"type": "Tueur"
   },
   {
@@ -212,7 +212,7 @@
     "name": "Le tour est joué",
     "cost": 0,
     "description": "Après avoir blessé ou sacrifié un Survivant, retirez d’un lieu relié à celui que vous occupez 1 des éléments suivants : Corbeau/Casier libre/Coffre",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/popgoestheweasel.jpg", 
  	"type": "Tueur"
   },
   {
@@ -220,7 +220,7 @@
     "name": "Déboussoler",
     "cost": 1,
     "description": "Au début de la Planification, placez le jeton Entité sur le chemin de votre choix. Chaque joueur le considère comme un Mur destructible.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/bamboozle.jpg", 
  	"type": "Tueur"
   },
   {
@@ -228,7 +228,7 @@
     "name": "Dispositif de l’homme mort",
     "cost": 1,
     "description": "Après que vous avez sacrifié un Survivant, choisissez 1 Générateur ou 1 Porte de sortie qui perd 1 jeton progrès",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/deadmanswitch.jpg", 
  	"type": "Tueur"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Châtiment",
     "cost": 0,
     "description": "Lorsqu’un Survivant interagit avec un Totem, il jette 1 dé de Danger à la place. En cas de réussite, gagner 2 Points de Sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/retribution.jpg", 
  	"type": "Tueur"
   },
   {
@@ -244,7 +244,7 @@
     "name": "Prédation",
     "cost": 1,
     "description": "Au début de la Planification, déplacez-vous sur le chemin praticable de votre choix",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/beastofprey.jpg", 
  	"type": "Tueur"
   },
   {
@@ -252,7 +252,7 @@
     "name": "Instinct territorial",
     "cost": 2,
     "description": "Après avoir interagi, utilisez votre pouvoir de Tueur. (1/manche)",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/territorialimperative.jpg", 
  	"type": "Tueur"
   },
   {
@@ -260,7 +260,7 @@
     "name": "Discordance",
     "cost": 0,
     "description": "Lorsqu’un Survivant entre dans un lieu occupé par au moins 1 autre Survivant, gagnez 1Point de Sang par Survivant et Tueur présent dans ce lieu",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/discordance.jpg", 
  	"type": "Tueur"
   },
   {
@@ -268,7 +268,7 @@
     "name": "Vierge de fer",
     "cost": 2,
     "description": "Avant d’interagir, échangez n’importe où sur le Plateau les positions de 1 Casier libre et 1 Crochet libre",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/ironmaiden.jpg", 
  	"type": "Tueur"
   },
   {
@@ -276,7 +276,7 @@
     "name": "Ennemi juré",
     "cost": 2,
     "description": "Après qu’un Survivant a interagi avec une Palette ou un Casier dans le lieu que vous occupez ou relié, retirez du plateau cet accessoire.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/nemesis.jpg", 
  	"type": "Tueur"
   },
   {
@@ -284,7 +284,7 @@
     "name": "Tactiques de Zanshin",
     "cost": 2,
     "description": "Au début de votre tour, défaussez 1 des cartes Déplacement devant vous et remplacez-la par une autre de votre main.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/zanshintactics.jpg", 
  	"type": "Tueur"
   },
   {
@@ -292,7 +292,7 @@
     "name": "Peur contagieuse",
     "cost": 1,
     "description": "Après avoir attaqué un Survivant Valide, déplacez 1 Survivant présent dans un lieu relié à celui que vous occupez vers un autre lieu (praticable)",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/infectiousfright.jpg", 
  	"type": "Tueur"
   },
   {
@@ -300,7 +300,7 @@
     "name": "Intervention impure",
     "cost": 1,
     "description": "Au début de la Planification, placez le jeton Entité sur un Générateur révélé dans le lieu de votre choix.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/corruptintervention.jpg", 
  	"type": "Tueur"
   },
   {
@@ -308,7 +308,7 @@
     "name": "Terrain hanté",
     "cost": 1,
     "description": "Après qu’un Survivant a révélé un Accessoire, échangez le avec un autre accessoire révélé de même catégorie. Un générateur comportant un progrès, un crochet/casier occupé ne peuvent pas être échangés.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/hauntedground.jpg", 
  	"type": "Tueur"
   },
   {
@@ -316,7 +316,7 @@
     "name": "Fureur de l’esprit",
     "cost": 0,
     "description": "Après que vous avez retiré une Palette, gagnez 2 Points de Sang",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/spiritfury.jpg", 
  	"type": "Tueur"
   },
   {
@@ -324,7 +324,7 @@
     "name": "Contrôle des foules",
     "cost": 1,
     "description": "Au début de la Planification, choisissez 1 Survivant. Les Survivants peuvent dépenser 2 Points de Sang collectivement. Sinon, choisissez quelle carte Déplacement le Survivant pose devant lui ce tour.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/crowdcontrol.jpg", 
  	"type": "Tueur"
   },
   {
@@ -332,7 +332,7 @@
     "name": "Fascination",
     "cost": 2,
     "description": "Lorsque vous allez ramasser un Survivant, déplacez-vous sur le chemin praticable de votre choix et ramassez un autre Survivant à la place, même si non blessé",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/starstruck.jpg", 
  	"type": "Tueur"
   },
   {
@@ -340,7 +340,7 @@
     "name": "Oppression",
     "cost": 2,
     "description": "Lorsque vous endommagez un Générateur, retirez 1 jeton Progrès de jusqu’à 2 autres Générateurs dans n’importe quel lieu",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/oppression.jpg", 
  	"type": "Tueur"
   },
   {
@@ -348,7 +348,7 @@
     "name": "Amasseur",
     "cost": 0,
     "description": "En tant qu’interaction, interagissez avec un Coffre pour le retirer et gagner 2 Points de Sang",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/hoarder.jpg", 
  	"type": "Tueur"
   },
   {
@@ -356,7 +356,7 @@
     "name": "Technicien",
     "cost": 0,
     "description": "Lorsque vous obtenez un échec en interagissant avec un Générateur, interagissez à nouveau. La 2e interaction doit cibler un autre accessoire ou un Survivant.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/technician.jpg", 
  	"type": "Survivant"
   },
   {
@@ -364,7 +364,7 @@
     "name": "Petit Gibier",
     "cost": 1,
     "description": "Après que vous avez réussi à purifier un Totem ensorcelé, le Tueur perd 2 Points de Sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/smallgame.jpg", 
  	"type": "Survivant"
   },
   {
@@ -372,7 +372,7 @@
     "name": "Saboteur",
     "cost": 0,
     "description": "Après avoir saboté un Crochet, gagnez 1 Point de Sang, OU dépensez 2 Points de Sang pour jouer un Tour Bonus de Survivant.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/saboteur.jpg", 
  	"type": "Survivant"
   },
   {
@@ -380,7 +380,7 @@
     "name": "Esprit Calme",
     "cost": 0,
     "description": "En tant qu'interaction, déplacez 1 Corbeau présent dans le lieu que vous occupez vers le lieu de votre choix.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/calmspirit.jpg", 
  	"type": "Survivant"
   },
   {
@@ -388,7 +388,7 @@
     "name": "Meneur",
     "cost": 1,
     "description": "Lorsqu'un autre SUrvivant présant dans le lieu que vous occupez se déplace, déplacez-vous dans le même lieu que lui. OU Lorsque vous vous déplacez, un autre Survivant présant dans le lieu que vous occupez se déplace dans le même lieu que vous.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/leader.jpg", 
  	"type": "Survivant"
   },
   {
@@ -396,7 +396,7 @@
     "name": "Lien",
     "cost": 1,
     "description": "Lorsqu'un autre Survivant présent dans le lieu que vous occupez ou dans un lieu relié fait un Test d'Habileté, il jette 2 dés d'Habileté au lieu de 1 et garde le résultat de son choix.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/bond.jpg", 
  	"type": "Survivant"
   },
   {
@@ -404,7 +404,7 @@
     "name": "Auto-traitement",
     "cost": 1,
     "description": "Au début de votre tour, jetez 1 dé de Danger. EN cas de réussite, vous devenez valide.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/selfcare.jpg", 
  	"type": "Survivant"
   },
   {
@@ -412,7 +412,7 @@
     "name": "Par tous les moyens",
     "cost": 0,
     "description": "A la fin de votre tour, si vous êtes Valide, devenez Blessé et jouez un Tour Bonus de Survivant.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/anymeans.jpg", 
  	"type": "Survivant"
   },
   {
@@ -420,7 +420,7 @@
     "name": "Nous y arriverons",
     "cost": 2,
     "description": "Lorsque vous soignez un autre Survivant avec succès, ce Survivant joue un Tour Bonus de Survivant.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/wellmakeit.jpg", 
  	"type": "Survivant"
   },
   {
@@ -428,7 +428,7 @@
     "name": "Ce n'est pas en train d'arriver",
     "cost": 1,
     "description": "Lorsque vous effectuez un Test d'Habileté, jetez le dé de Danger à la place.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/thisisnothappening.jpg", 
  	"type": "Survivant"
   },
   {
@@ -436,7 +436,7 @@
     "name": "Rapide et silencieux",
     "cost": 1,
     "description": "Lorsque le Tueur entre dans le lieu que vous occupez (avant qu'il n'interagisse), interagissez avec un Casier dans ce lieu.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/quickandquiet.jpg", 
  	"type": "Survivant"
   },
   {
@@ -444,7 +444,7 @@
     "name": "Augmenter la mise",
     "cost": 2,
     "description": "A la fin de votre tour, jouez 1 Tour Bonus de Survivant. Le Tueur gagne 2 Points de Sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/uptheante.jpg", 
  	"type": "Survivant"
   },
   {
@@ -452,7 +452,7 @@
     "name": "Atout dans la manche",
     "cost": 1,
     "description": "Avant d'interagir, échangez 1 Accessoire présent dans le lieu que vous occupez avec un autre de la même catégorie présent dans un lieu relié. Un Générateur comportant au moins 1 jeton Progrès, un Casier occupé, ou un Crochet occupé ne peuvent pas être échangés.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/emptyhanded.jpg", 
  	"type": "Survivant"
   },
   {
@@ -460,7 +460,7 @@
     "name": "Viande glissante",
     "cost": 4,
     "description": "Au début de la Phase Planification, si vous êtes Sacrifié, sabotez le Crochet sur lequel vous êtes, vous ne vous déplacez pas et n'interagissez pas après cela. (Vous pouvez quand même placer une carte Déplacement devant vous et jouer un tour normal.)",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/slipperymeat.jpg", 
  	"type": "Survivant"
   },
   {
@@ -468,7 +468,7 @@
     "name": "Résistance",
     "cost": 2,
     "description": "Au début de la Phase Nettoyage, si vous avez été Blessé durant cette Manche, jouez un Tour Bonus de Survivant.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/resilience.jpg", 
  	"type": "Survivant"
   },
   {
@@ -476,7 +476,7 @@
     "name": "De Front",
     "cost": 1,
     "description": "Lorsque le Tueur entre dans le lieu que vous occupez, retirez 1 Casier présent dans ce lieu pour empêcher le Tueur d'interagir durant ce tour.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/headon.jpg", 
  	"type": "Survivant"
   },
   {
@@ -484,7 +484,7 @@
     "name": "Solidarité",
     "cost": 1,
     "description": "En tant qu'interaction, vous pouvez interagir avec un autre Survivant présent dans un lieu relié à celui que vous occupez pour utiliser l'interaction Soigner sur lui.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/solidarity.jpg", 
  	"type": "Survivant"
   },
   {
@@ -492,7 +492,7 @@
     "name": "Adrénaline",
     "cost": 2,
     "description": "Au début de la Phase Nettoyage, si au moins 1 Générateur a été activé durant cette Manche, jouez 1 Tour Bonus de Survivant.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/adrenaline.jpg", 
  	"type": "Survivant"
   },
   {
@@ -500,7 +500,7 @@
     "name": "Effusion",
     "cost": 2,
     "description": "Lorsque vous ou un autre Survivant présent dans le lieu que vous occupez êtes ramassés, après que le Tueur a décidé du nombre de dés à jeter, le Survivant ramassé peut jeter 4 dés d'Habileté au lieu du nombre choisi par le Tueur.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/boilover.jpg", 
  	"type": "Survivant"
   },
   {
@@ -508,7 +508,7 @@
     "name": "Estimation",
     "cost": 2,
     "description": "Lorsqu'un autre Survivant devrait défausser une carte Objet, vous la prenez à la place. Si vous possédez plus de 1 carte Objet, défaussez-en pour n'en avoir plus que 1.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/appraisal.jpg", 
  	"type": "Survivant"
   },
   {
@@ -516,7 +516,7 @@
     "name": "On n'abandonne personne",
     "cost": 1,
     "description": "En tant qu'interaction, interagissez avec une Porte de Sortie (même si elle n'est pas alimentée) pour permettre au Survivant de votre choix de se déplacer sur le chemin praticable de son choix.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/nooneleftbehind.jpg", 
  	"type": "Survivant"
   },
   {
@@ -524,7 +524,7 @@
     "name": "Supercherie",
     "cost": 0,
     "description": "Durant votre tour, lorsque vous devriez vous déplacer, restez dans le lieu que vous occupez à la place. Vous ne pouvez pas interagir durant ce tour. Gagnez 1 Point de Sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/deception.jpg", 
  	"type": "Survivant"
   },
   {
@@ -532,7 +532,7 @@
     "name": "Conçu pour durer",
     "cost": 2,
     "description": "Lorsque vous devriez défausser une carte Objet après l'avoir utilisée, conservez-la à la place. Vous ne pouvez pas utiliser à nouveau cette carte objet durant ce tour.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/builttolast.jpg", 
  	"type": "Survivant"
   },
   {
@@ -540,7 +540,7 @@
     "name": "Frisson",
     "cost": 1,
     "description": "Lorsque le Tueur entre dans le lieu que vous occupez, jetez 1 dé de Danger. En cas de réussite, déplacez-vous sur le chemin praticable de votre choix.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/spinechill.jpg", 
  	"type": "Survivant"
   },
   {
@@ -548,7 +548,7 @@
     "name": "Distorsion",
     "cost": 1,
     "description": "Durant votre tour, si vous entrez dans le lieu occupé par le Tueur, déplacez-vous à nouveau sur un autre chemin praticable de votre choix avant d'interagir.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/distorsion.jpg", 
  	"type": "Survivant"
   },
   {
@@ -556,7 +556,7 @@
     "name": "Sentiment obscur",
     "cost": 1,
     "description": "Durant votre Tour, lorsque vous entrez dans un lieu qui ne contient aucun Accessoire, déplacez-vous sur le chemin praticable de votre choix avant d'interagir (si vous souhaitez interagir).",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/darksenses.jpg", 
  	"type": "Survivant"
   },
   {
@@ -564,7 +564,7 @@
     "name": "Vigilant",
     "cost": 1,
     "description": "Lorsque le Tueur retire une Palette, qu'il se déplace à travers un Mur destructible, ou qu'il endommage un Générateur, déplacez-vous à nouveau sur un chemin praticable de votre choix.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/alert.jpg", 
  	"type": "Survivant"
   },
   {
@@ -572,7 +572,7 @@
     "name": "Suivi des soins",
     "cost": 0,
     "description": "Après que vous ou un autre Survivant êtes redevenus Valides, sabotez 1 Crochet libre n'importe où sur le Plateau.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/aftercare.jpg", 
  	"type": "Survivant"
   },
   {
@@ -580,7 +580,7 @@
     "name": "Danse avec moi",
     "cost": 0,
     "description": "Après vous être déplacé, si vous occupiez un Casier au début de ce tour, déplacez-vous à nouveau sur un autre chemin praticable de votre choix avant d'interagir.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/dancewithme.jpg", 
  	"type": "Survivant"
   },
   {
@@ -588,7 +588,7 @@
     "name": "Autodidacte",
     "cost": 2,
     "description": "Lorsque vous ou un autre Survivant présent dans le lieu que vous occupez ou dans un lieu relié obtenez une réussite, changez ce résultat en réussite critique à la place.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/autodidact.jpg", 
  	"type": "Survivant"
   },
   {
@@ -596,7 +596,7 @@
     "name": "Libération",
     "cost": 1,
     "description": "Après que vous avez saboté un Crochet occupé ou que le crochet que vous occupez a été saboté par un autre Survivant, choisissez lequel de vous deux devient Valide.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/deliverance.jpg", 
  	"type": "Survivant"
   },
   {
@@ -604,7 +604,7 @@
     "name": "Dur à cuire",
     "cost": 2,
     "description": "Lorsqu'un autre Survivant dans le lieu que vous occupez devrait être sacrifié, jetez 1 dé de Danger. En cas de réussite, ce Survivant se déplace sur le chemin praticable de son choix au lieu de devenir Sacrifié.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/deadhard.jpg", 
  	"type": "Survivant"
   },
   {
@@ -612,7 +612,7 @@
     "name": "Nous vivrons éternellement",
     "cost": 1,
     "description": "Lorsque le Tueur devrait quitter le lieu que vous occupez, annulez ce déplacement. Le Tueur peut tout de même interagir dans ce lieu.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/wegonnaliveforever.jpg", 
  	"type": "Survivant"
   },
   {
@@ -620,7 +620,7 @@
     "name": "Empathie",
     "cost": 0,
     "description": "Au début de votre tour, vous pouvez prendre 1 Point de Sang à un Survivant qui accepte, OU vous pouvez donner 1 Point de Sang à une Survivant qui accepte.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/empathy.jpg", 
  	"type": "Survivant"
   },
   {
@@ -628,7 +628,7 @@
     "name": "Coup de Chance",
     "cost": 2,
     "description": "Après que n'importe quel Survivant a obtenu une réussite critique, vous redevenez Valide.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/luckybreak.jpg", 
  	"type": "Survivant"
   },
   {
@@ -636,7 +636,7 @@
     "name": "Instinct de Survie",
     "cost": 1,
     "description": "Après un tour où un autre Survivant a été Blessé ou Sacrifié, interagissez avec un Casier dans le lieu que vous occupez.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/selfpreservation.jpg", 
  	"type": "Survivant"
   },
   {
@@ -644,7 +644,7 @@
     "name": "Pour le Peuple",
     "cost": 1,
     "description": "Après être entré dans un lieu, si vous n'êtes pas Blessé, devenez Blessé pour qu'un autre Survivant présent dans ce lieu redevienne Valide, ou pour ajouter 1 jeton Progrès à un Générateur n'importe où sur le Plateau (vous pouvez interagir durant ce tour).",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/forthepeople.jpg", 
  	"type": "Survivant"
   },
   {
@@ -652,7 +652,7 @@
     "name": "Confidentiel",
     "cost": 0,
     "description": "Lorsque vous ou un autre Survivant présent dans le lieu que vous occupez ou dans un lieu relié obtenez un échec, c'est vous qui gagnez 1 Point de Sang à la place du Tueur.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/offtherecord.jpg", 
  	"type": "Survivant"
   },
   {
@@ -660,7 +660,7 @@
     "name": "Succès écrasant",
     "cost": 0,
     "description": "Lorsque le Tueur retire une Palette du Plateau, se déplace à travers un Mur destructible, ou endommage un Générateur, gagnez 1 Point de Sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/smashhit.jpg", 
  	"type": "Survivant"
   },
   {
@@ -668,7 +668,7 @@
     "name": "Débrouillardise",
     "cost": 1,
     "description": "Après avoir interagi avec un Coffre, ce Coffre n'est pas retiré du Plateau.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/streetwise.jpg", 
  	"type": "Survivant"
   },
   {
@@ -676,7 +676,7 @@
     "name": "Évasion urbaine",
     "cost": 1,
     "description": "Au début du tour de n'importe quel Survivant, retirez du Plateau 1 Mur destructible. Replacez-le sur le même chemin à la fin du tour de ce Survivant.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/urbanevasion.jpg", 
  	"type": "Survivant"
   },
   {
@@ -684,7 +684,7 @@
     "name": "Espoir",
     "cost": 0,
     "description": "Lorsqu'un Générateur est activé, gagnez 1 Point de Sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/hope.jpg", 
  	"type": "Survivant"
   },
   {
@@ -692,7 +692,7 @@
     "name": "Parenté",
     "cost": 0,
     "description": "Après que vous avez saboté un Crochet occupé ou que le Crochet que vous occupez a été saboté par un autre Survivant, vous et l'autre Survivant (s'il y en a un) gagnez 1 Point de sang.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/kindred.jpg", 
  	"type": "Survivant"
   },
   {
@@ -700,7 +700,7 @@
     "name": "Poids plume",
     "cost": 1,
     "description": "A la fin de la Phase Planification, défaussez 1 carte Déplacement de votre main et déplacez-vous sur le chemin indiqué par cette carte.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/lightfeather.jpg", 
  	"type": "Survivant"
   },
   {
@@ -708,7 +708,7 @@
     "name": "Instinct de pillard",
     "cost": 1,
     "description": "Lorsque vous devriez piocher une carte Objet, piochez-en 3. Gardez celle de votre choix et défaussez les 2 autres.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/plundererinstinct.jpg", 
  	"type": "Survivant"
   },
   {
@@ -716,7 +716,7 @@
     "name": "Prémonition",
     "cost": 1,
     "description": "Lorsque le Tueur entre dans le lieu que vous occupez, avant qu'il n'interagisse, interagissez avec 1 Corbeau présent dans ce lieu.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/premonition.jpg", 
  	"type": "Survivant"
   },
   {
@@ -724,7 +724,7 @@
     "name": "Visionnaire",
     "cost": 0,
     "description": "Lorsque vous devriez révéler un Accessoire, révélez 1 Accessoire de votre choix dans un lieu relié à celui que vous occupez à la place.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/visionnary.jpg", 
  	"type": "Survivant"
   },
   {
@@ -732,7 +732,7 @@
     "name": "Déjà-vu",
     "cost": 2,
     "description": "Lorsque le Tueur endommage un Générateur présent dans un autre lieu que celui que vous occupez, interagissez avec un Générateur présent dans le lieu que vous occupez.",
-    "imagePath": "img/aftercare.png", 
+    "imagePath": "img/dejavu.jpg", 
  	"type": "Survivant"
   }
 ]
