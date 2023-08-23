@@ -3,8 +3,8 @@ const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
 const filterTueurButton = document.getElementById('filterTueur');
 const filterSurvivantButton = document.getElementById('filterSurvivant');
-const parallaxLayer2 = document.getElementById('parallax-layer2');
-const parallaxLayer3 = document.getElementById('parallax-layer3');
+//const parallaxLayer2 = document.getElementById('parallax-layer2');
+//const parallaxLayer3 = document.getElementById('parallax-layer3'); // à implémenter + tard
 
 // pour le modal qui m'aura cassé les couilles un bon moment
 const modal = document.getElementById('imageModal');
@@ -72,12 +72,13 @@ function filterByType(type) {
 }
 
 
-
+/* parallax cool pour + tard
 window.addEventListener('scroll', () => {
   const scrollPosition = window.scrollY;
   parallaxLayer2.style.transform = `translateY(${scrollPosition * 0.2}px)`;
   parallaxLayer3.style.transform = `translateY(${scrollPosition * 0.3}px)`;
 });
+*/
 
 // pour le modal de mes 2
 function openModal(image) {

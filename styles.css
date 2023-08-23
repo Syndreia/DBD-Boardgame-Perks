@@ -116,6 +116,7 @@ header h1 {
   margin: 0 auto;
 }
 
+/* parallax cool mais à implémenter + tard pour un résultat pas merdique comme ça
 .parallax-section {
   position: relative;
   height: 100vh;
@@ -139,18 +140,19 @@ header h1 {
 #parallax-layer2 {
   background-image: url('img/killers v2.png');
   z-index: -2;
-  background-size: 100%; /* Adjust this to your preference */
+  background-size: 100%; 
   background-repeat: no-repeat;
-  background-position: bottom; /* Align the image at the bottom */
+  background-position: bottom; 
 }
 
 #parallax-layer3 {
   background-image: url('img/survivors v2.png');
   z-index: -1;
-  background-size: 100%; /* Adjust this to your preference */
+  background-size: 100%; 
   background-repeat: no-repeat;
-  background-position: bottom; /* Align the image at the bottom */
+  background-position: bottom; 
 }
+*/
 
 /* Modal */
 .modal-open {
