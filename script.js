@@ -71,15 +71,6 @@ function filterByType(type) {
   displayImages(filteredData);
 }
 
-
-/* parallax cool pour + tard
-window.addEventListener('scroll', () => {
-  const scrollPosition = window.scrollY;
-  parallaxLayer2.style.transform = `translateY(${scrollPosition * 0.2}px)`;
-  parallaxLayer3.style.transform = `translateY(${scrollPosition * 0.3}px)`;
-});
-*/
-
 // pour le modal de mes 2
 function openModal(image) {
   modal.style.display = 'block';
@@ -101,3 +92,11 @@ function outsideClick(event) {
     closeModal();
   }
 }
+
+/* parallax cool pour + tard
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY;
+  parallaxLayer2.style.transform = `translateY(${scrollPosition * 0.2}px)`;
+  parallaxLayer3.style.transform = `translateY(${scrollPosition * 0.3}px)`;
+});
+*/
