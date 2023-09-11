@@ -14,12 +14,18 @@
     <div class="parallax-layer" id="parallax-layer3"></div>
   </section>
 -->
+  <div class="language-switch">
+  <select id="languageSelect">
+    <option value="en">English</option>
+    <option value="pl">Polish</option>
+  </select>
+  </div>
   <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Recherche nom/description">
+    <input type="text" id="searchInput" placeholder="Recherche nom/description" class="translate" data-translation="searchPlaceholder">
     <button id="searchButton">Search</button>
 	<br>
-	<button id="filterTueur">Perks de Tueur</button>
-	<button id="filterSurvivant">Perks de Survivant</button>
+	<button id="filterTueur" class="translate" data-translation="KillerPerks">Perks de Tueur</button>
+	<button id="filterSurvivant" class="translate" data-translation="SurvivorPerks">Perks de Survivant</button>
   </div>
   
 	<div class="modal-open" id="imageModal">
@@ -28,6 +34,19 @@
 	</div>
 
   <div class="image-container">
+    <label>
+      <input type="checkbox" id="sortCheckbox">
+      <span class="translate" data-translation="sortLabel">Tri par coût (Croissant)</span>
+      
+    </label>
+    <label>
+      <input type="checkbox" id="killerCheckbox">
+      <span class="translate" data-translation="killerLabel">Tueur uniquement</span>
+    </label>
+    <label>
+      <input type="checkbox" id="survivorCheckbox">
+      <span class="translate" data-translation="survivorLabel">Survivant uniquement</span>
+    </label>
     <!-- Images and details will be displayed here -->
   </div>
   <script src="script.js"></script>

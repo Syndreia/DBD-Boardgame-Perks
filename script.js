@@ -12,6 +12,15 @@ const modalImage = document.getElementById('modalImage');
 const modalClose = document.getElementById('modalClose');
 // pour le modal
 
+//début options de filtres
+const sortCheckbox = document.getElementById('sortCheckbox');
+const killerCheckbox = document.getElementById('killerCheckbox');
+const survivorCheckbox = document.getElementById('survivorCheckbox');
+
+//langues
+const languageSelect = document.getElementById('languageSelect');
+const contentElements = document.querySelectorAll('.translate');
+
 function displayImages(images) {
   imageContainer.innerHTML = '';
 
@@ -92,6 +101,67 @@ function outsideClick(event) {
     closeModal();
   }
 }
+// fin modal
+
+// début filtre
+sortCheckbox.addEventListener('change', () => {
+  if (sortCheckbox.checked) {
+    // Sort images by cost (low to high)
+    data.sort((a, b) => a.cost - b.cost);
+    displayImages(data);
+  } else {
+    // Display images in their original order
+    displayImages(data);
+  }
+});
+
+killerCheckbox.addEventListener('change', filterImages);
+survivorCheckbox.addEventListener('change', filterImages);
+
+function filterImages() {
+  const showKiller = killerCheckbox.checked;
+  const showSurvivor = survivorCheckbox.checked;
+  const searchTerm = searchInput.value.toLowerCase(); // Get the search input value
+
+  // Filter images based on the checkbox selections and search input
+  const filteredData = data.filter(image => {
+    const matchesType = (showKiller && image.type === 'Tueur') || (showSurvivor && image.type === 'Survivant');
+    const matchesSearch = image.name.toLowerCase().includes(searchTerm) || image.description.toLowerCase().includes(searchTerm);
+    
+    return matchesType && matchesSearch;
+  });
+
+  // Display the filtered images
+  displayImages(filteredData);
+}
+
+//pour lancer recherche en permanence (à tester !)
+searchInput.addEventListener('input', filterImages);
+
+// Create a function to load language content
+function loadLanguage(languageCode) {
+  fetch(`${languageCode}.json`)
+    .then(response => response.json())
+    .then(data => {
+      // Update content based on language file
+      contentElements.forEach(element => {
+        const key = element.dataset.translation;
+        if (key && data[key]) {
+          element.textContent = data[key];
+        }
+      });
+    })
+    .catch(error => console.error('Error loading language:', error));
+}
+
+// Attach event listener to the language select element
+languageSelect.addEventListener('change', () => {
+  const selectedLanguage = languageSelect.value;
+  loadLanguage(selectedLanguage);
+});
+
+// Load the default language (e.g., English) on page load
+loadLanguage(languageSelect.value);
 
 /* parallax cool pour + tard
 window.addEventListener('scroll', () => {
