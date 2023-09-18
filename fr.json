@@ -1,0 +1,10 @@
+[
+    {
+        "searchPlaceholder": "Chercher par nom/description",
+        "killerLabel": "Tueur",
+        "survivorLabel": "Survivant",
+        "sortLabel": "Croissant",
+        "survivorLabel": "Survivant seulement",
+        "killerLabel": "Tueur seulement"
+    }
+]

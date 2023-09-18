@@ -1,11 +1,12 @@
-
 [
     {
-    "searchPlaceholder": "Search by name or description",
-    "killerLabel": "Killer",
-    "survivorLabel": "Survivor",
-    "sortLabel": "Lowest to highest",
-    "survivorLabel": "Survivor only",
-    "killerLabel": "Killer only"
+        "searchPlaceholder": "Search by name or description",
+        "killerLabel": "Killer",
+        "survivorLabel": "Survivor",
+        "sortLabel": "Lowest to highest",
+        "survivorLabel": "Survivor only",
+        "killerLabel": "Killer only",
+        "KillerPerks": "Killer perks",
+        "SurvivorPerks": "Survivor perks"
     }
 ]

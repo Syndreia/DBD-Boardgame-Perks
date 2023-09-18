@@ -103,7 +103,7 @@ function outsideClick(event) {
 }
 // fin modal
 
-// début filtre
+// début filtre à travailler + tard
 sortCheckbox.addEventListener('change', () => {
   if (sortCheckbox.checked) {
     // Sort images by cost (low to high)
