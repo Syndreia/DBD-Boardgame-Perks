@@ -103,11 +103,11 @@ function outsideClick(event) {
 }
 // fin modal
 
-// début filtre à travailler + tard
+// début filtre (WIP)
 sortCheckbox.addEventListener('change', () => {
   if (sortCheckbox.checked) {
     // Sort images by cost (low to high)
-    data.sort((a, b) => a.cost - b.cost);
+    data.sort((a, b) => a.cost - b.cost); //peut-être problème sur data ici aussi ?
     displayImages(data);
   } else {
     // Display images in their original order
@@ -135,8 +135,8 @@ function filterImages() {
   displayImages(filteredData);
 }
 
-//pour lancer recherche en permanence (à tester !)
-searchInput.addEventListener('input', filterImages);
+//pour lancer recherche en permanence (OK)
+searchInput.addEventListener('input', performSearch);
 
 // Create a function to load language content
 function loadLanguage(languageCode) {
@@ -146,6 +146,7 @@ function loadLanguage(languageCode) {
       // Update content based on language file
       contentElements.forEach(element => {
         const key = element.dataset.translation;
+        console.log(data[key]); // pb sur data[key] undefined
         if (key && data[key]) {
           element.textContent = data[key];
         }
