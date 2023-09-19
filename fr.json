@@ -1,10 +1,8 @@
-[
     {
-        "searchPlaceholder": "Chercher par nom/description",
-        "killerLabel": "Tueur",
-        "survivorLabel": "Survivant",
+        "searchPlaceholder": "Recherche nom/description",
+        "KillerPerks": "Perks de Tueur",
+        "SurvivorPerks": "Perks de Survivant",
         "sortLabel": "Croissant",
         "survivorLabel": "Survivant seulement",
         "killerLabel": "Tueur seulement"
     }
-]

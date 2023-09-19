@@ -138,15 +138,18 @@ function filterImages() {
 //pour lancer recherche en permanence (OK)
 searchInput.addEventListener('input', performSearch);
 
+/*   PARTIE
+     TRADUCTION */
+
 // Create a function to load language content
 function loadLanguage(languageCode) {
   fetch(`${languageCode}.json`)
     .then(response => response.json())
     .then(data => {
       // Update content based on language file
+      document.getElementById('searchInput').placeholder = data['searchPlaceholder'];
       contentElements.forEach(element => {
-        const key = element.dataset.translation;
-        console.log(data[key]); // pb sur data[key] undefined
+        const key = element.dataset.translation; 
         if (key && data[key]) {
           element.textContent = data[key];
         }
@@ -163,6 +166,10 @@ languageSelect.addEventListener('change', () => {
 
 // Load the default language (e.g., English) on page load
 loadLanguage(languageSelect.value);
+/*  FIN 
+    PARTIE
+     TRADUCTION */
+
 
 /* parallax cool pour + tard
 window.addEventListener('scroll', () => {

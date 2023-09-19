@@ -1,10 +1,8 @@
-[
     {
         "searchPlaceholder": "Szukaj po nazwie lub opisie",
-        "killerLabel": "Zabójca",
-        "survivorLabel": "Ocalały",
+        "killerPerks": "Zabójca",
+        "survivorPerks": "Ocalały",
         "sortLabel": "Lowest to highest",
         "survivorLabel": "Survivor only",
         "killerLabel": "Killer only"
     }
-]

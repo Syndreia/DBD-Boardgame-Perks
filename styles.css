@@ -148,6 +148,10 @@ header h1 {
   overflow: hidden;
 }
 
+.language-switch select {
+  margin-left: 1%; /* Adjust the margin value as needed */
+}
+
 /* parallax cool mais à implémenter + tard pour un résultat pas merdique comme ça
 .parallax-section {
   position: relative;
