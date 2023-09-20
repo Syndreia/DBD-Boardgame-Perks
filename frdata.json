@@ -387,7 +387,7 @@
     "id": 50,
     "name": "Meneur",
     "cost": 1,
-    "description": "Lorsqu'un autre SUrvivant présant dans le lieu que vous occupez se déplace, déplacez-vous dans le même lieu que lui. OU Lorsque vous vous déplacez, un autre Survivant présant dans le lieu que vous occupez se déplace dans le même lieu que vous.",
+    "description": "Lorsqu'un autre Survivant présant dans le lieu que vous occupez se déplace, déplacez-vous dans le même lieu que lui. OU Lorsque vous vous déplacez, un autre Survivant présant dans le lieu que vous occupez se déplace dans le même lieu que vous.",
     "imagePath": "img/leader.jpg", 
  	"type": "Survivant"
   },
@@ -403,7 +403,7 @@
     "id": 52,
     "name": "Auto-traitement",
     "cost": 1,
-    "description": "Au début de votre tour, jetez 1 dé de Danger. EN cas de réussite, vous devenez valide.",
+    "description": "Au début de votre tour, jetez 1 dé de Danger. En cas de réussite, vous devenez valide.",
     "imagePath": "img/selfcare.jpg", 
  	"type": "Survivant"
   },

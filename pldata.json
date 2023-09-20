@@ -97,65 +97,65 @@
     },
     {
       "id": 14,
-      "name": "Surcharge",
+      "name": "Overcharge ",
       "cost": 2,
-      "description": "Après avoir endommagé un Générateur, choisissez 1 Survivant présent dans le lieu que vous occupez ou dans un lieu relié. Ce Survivant devient Blessé.",
+      "description": "Kiedy Ocalały na twoim lub na połączonym polu korzysta z Przedmiotu, musi rzucić kością Niebezpieczeństwa. W przypadku porażki, Przedmiot zostaje odrzucony bez rozpatrywania jego efektu.",
       "imagePath": "img/overcharge.jpg", 
        "type": "Tueur"
     },
     {
       "id": 15,
-      "name": "Présence écrasante",
+      "name": "Overwhelming Presence ",
       "cost": 1,
-      "description": "Lorsqu’un Survivant présent dans le lieu que vous occupez ou dans un lieu relié utilise un Objet, il jette le dé de Danger. En cas d’échec, l’objet est défaussé sans avoir d’effet.",
+      "description": "Kiedy Ocalały na twoim lub na połączonym polu korzysta z Przedmiotu, musi rzucić kością Niebezpieczeństwa. W przypadku porażki, Przedmiot zostaje odrzucony bez rozpatrywania jego efektu.",
       "imagePath": "img/overwhelmingpresence.jpg", 
        "type": "Tueur"
     },
     {
       "id": 16,
-      "name": "Mangeur d’espoir",
+      "name": "Devour Hope",
       "cost": 2,
-      "description": "Au début de la  Nettoyage, si un Générateur a été activé durant cette Manche, jouez un Tour Bonus de Tueur. (1/manche max)",
+      "description": "Na początku fazy Planowania odrzuć kartę Ruchu. Podczas tej tury kopie tej karty Ruchu używane przez Ocalałych nie powodują poruszania się. (Jeśli się nie poruszają, nie mogą wchodzić w interakcje).",
       "imagePath": "img/devourhope.jpg", 
        "type": "Tueur"
     },
     {
       "id": 17,
-      "name": "Ruine",
+      "name": "Ruin",
       "cost": 1,
-      "description": "Au début de la Planification, retirez 1 jeton Progrès du Générateur de votre choix qui se situe dans un lieu sans survivant.",
+      "description": "Na początku fazy Planowania usuń z Generatora znaczniki Naprawy Generatora, o ile na polu Generatora nie ma żadnych Ocalałych.",
       "imagePath": "img/ruin.jpg", 
        "type": "Tueur"
     },
     {
       "id": 18,
-      "name": "Tenace",
+      "name": "Enduring",
       "cost": 2,
-      "description": "Lorsque vous devez vous déplacer sur un chemin comportant une Palette, détruisez cette Palette et jouez votre tour normalement.",
+      "description": "Kiedy będziesz poruszał się po ścieżce z Paletą, zniszcz Paletę i dokończ swoją turę jak zwykle. W tej turze nadal możesz wejść w interakcję.",
       "imagePath": "img/enduring.jpg", 
        "type": "Tueur"
     },
     {
       "id": 19,
-      "name": "Réparateur",
+      "name": "Tinkerer",
       "cost": 0,
-      "description": "Lorsqu’un Générateur est activé, reprenez en main 1 des cartes Déplacement placées devant vous et remplacez-la.",
+      "description": "Kiedy naprawa Generatora zostanie ukończona, podnieś i zastąp jedną ze swoich przygotowanych kart Ruchu inną kartą z ręki.",
       "imagePath": "img/tinkerer.jpg", 
        "type": "Tueur"
     },
     {
       "id": 20,
-      "name": "Vocation de l’infirmière",
+      "name": "Nurse’s Calling",
       "cost": 0,
-      "description": "Après qu’un Survivant redevient Valide, gagnez 2 Points de Sang",
+      "description": "Po tym, jak Ocalały stanie się zdrowy otrzymujesz 2 Punkty Krwi",
       "imagePath": "img/nursecalling.jpg", 
        "type": "Tueur"
     },
     {
       "id": 21,
-      "name": "Thanatophobie",
+      "name": "Thanatophobia",
       "cost": 1,
-      "description": "Lorsqu’un Survivant Blessé fait un Test d’Habileté, il jette 1 dé de Danger à la place",
+      "description": "Kiedy ranny Ocalały miałby wykonać Test Umiejętności, zamiast tego rzuca kością Niebezpieczeństwa.",
       "imagePath": "img/thanatophobia.jpg", 
        "type": "Tueur"
     },
@@ -163,95 +163,95 @@
       "id": 22,
       "name": "Agitation",
       "cost": 1,
-      "description": "Après avoir attaqué un Survivant Valide, déplacez-vous sur le chemin praticable de votre choix.",
+      "description": "Po zaatakowaniu zdrowego Ocalałego porusz się dowolną ścieżką.",
       "imagePath": "img/agitation.jpg", 
        "type": "Tueur"
     },
     {
       "id": 23,
-      "name": "Présence perturbante",
+      "name": "Unnerving Presence",
       "cost": 1,
-      "description": "Lorsqu’un Survivant présent dans le lieu que vous occupez ou dans un lieu relié effectue un Test d’Habileté, il jette 1 dé de Danger à la place",
+      "description": "Kiedy Ocalały z twojego lub połączonego pola ma wykonać Test Umiejętności, zamiast tego rzuca kością Niebezpieczeństwa.",
       "imagePath": "img/unnervingpresence.jpg", 
        "type": "Tueur"
     },
     {
       "id": 24,
-      "name": "Limier",
+      "name": "Bloodhound",
       "cost": 0,
-      "description": "Après avoir Sacrifié un Survivant, ce Survivant perd 1 Point de Sang et vous gagnez 1 Point de Sang.",
+      "description": "Po Poświęceniu Ocalałego traci on 1 Punkty Krwi, a ty zyskujesz 1 Punkty Krwi. (Nadal zyskujesz Punkty Krwi, nawet jeśli Ocalały nie ma już żadnych do stracenia).",
       "imagePath": "img/bloodhound.jpg", 
        "type": "Tueur"
     },
     {
       "id": 25,
-      "name": "Prédateur",
+      "name": "Predator",
       "cost": 2,
-      "description": "A la fin de la Planification, choisissez 1 Survivant. Il défausse la carte Déplacement devant lui et la remplace par une autre de sa main.",
+      "description": "Na koniec fazy Planowania wybierz Ocalałego. Odrzuca on swoją przygotowaną kartę Ruchu, a następnie zastępuje ją nową.",
       "imagePath": "img/predator.jpg", 
        "type": "Tueur"
     },
     {
       "id": 26,
-      "name": "Prise du Dragon",
+      "name": "Dragon's grip",
       "cost": 1,
-      "description": "Lorsque vous endommagez un Générateur, défaussez jusqu’à 2 cartes Déplacement. Chaque Survivant dans un lieu relié à celui comportant ce générateur par un chemin indiqué par ces cartes choisit soit de dépenser 1 Point de Sang, soit de devenir blessé",
+      "description": "Gdy uszkodzisz Generator, odrzuć do dwóch kart Ruchu ze swojej ręki. Każdy Ocalały na polu połączonym każdą z tych kart zostaje ranny, chyba że wyda 1 Punkty Krwi.",
       "imagePath": "img/dragonsgrip.jpg", 
        "type": "Tueur"
     },
     {
       "id": 27,
-      "name": "Immortel",
+      "name": "Undying",
       "cost": 1,
-      "description": "En tant qu’interaction, défaussez 1 carte Déplacement autre que Attendre pour interagir avec un Accessoire dans un lieu relié à celui que vous occupez (même chemin que la carte défaussée)",
+      "description": "Zamiast interakcji, odrzuć kartę Ruchu z wyjątkiem „Czekaj”, by wejść w interakcję z Elementem na polu połączonym ścieżką zgodną z tą kartą.",
       "imagePath": "img/immortal.jpg", 
        "type": "Tueur"
     },
     {
       "id": 28,
-      "name": "Le tour est joué",
+      "name": "Pop Goes The Weasel",
       "cost": 0,
-      "description": "Après avoir blessé ou sacrifié un Survivant, retirez d’un lieu relié à celui que vous occupez 1 des éléments suivants : Corbeau/Casier libre/Coffre",
+      "description": "Po zranieniu lub poświęceniu Ocalałego, usuń Wronę, pustą Szafkę lub Skrzynkę na połączonym polu",
       "imagePath": "img/popgoestheweasel.jpg", 
        "type": "Tueur"
     },
     {
       "id": 29,
-      "name": "Déboussoler",
+      "name": "Bamboozle",
       "cost": 1,
-      "description": "Au début de la Planification, placez le jeton Entité sur le chemin de votre choix. Chaque joueur le considère comme un Mur destructible.",
+      "description": "Na początku fazy Planowania, umieść znacznik Byt na ścieżce. Jest on traktowany jak Nadkruszona Ściana (możesz przez niego przejść).",
       "imagePath": "img/bamboozle.jpg", 
        "type": "Tueur"
     },
     {
       "id": 30,
-      "name": "Dispositif de l’homme mort",
+      "name": "Dead Man's Switch",
       "cost": 1,
-      "description": "Après que vous avez sacrifié un Survivant, choisissez 1 Générateur ou 1 Porte de sortie qui perd 1 jeton progrès",
+      "description": "Gdy poświęcisz Ocalałego, wybrany przez ciebie Generator lub Brama Wyjściowa traci jeden znacznik Naprawy.",
       "imagePath": "img/deadmanswitch.jpg", 
        "type": "Tueur"
     },
     {
       "id": 31,
-      "name": "Châtiment",
+      "name": "Retribution",
       "cost": 0,
-      "description": "Lorsqu’un Survivant interagit avec un Totem, il jette 1 dé de Danger à la place. En cas de réussite, gagner 2 Points de Sang.",
+      "description": "Gdy Ocalały wejdzie w interakcję z Totemem Klątwy, rzuca kością Niebezpieczeństwa. Gdy odniesie sukces, zdobądź 2 Punkty Krwi.",
       "imagePath": "img/retribution.jpg", 
        "type": "Tueur"
     },
     {
       "id": 32,
-      "name": "Prédation",
+      "name": "Beast of Prey",
       "cost": 1,
-      "description": "Au début de la Planification, déplacez-vous sur le chemin praticable de votre choix",
+      "description": "Na początku fazy Planowania porusz się dowolną ścieżką.",
       "imagePath": "img/beastofprey.jpg", 
        "type": "Tueur"
     },
     {
       "id": 33,
-      "name": "Instinct territorial",
+      "name": "Territorial Imperative",
       "cost": 2,
-      "description": "Après avoir interagi, utilisez votre pouvoir de Tueur. (1/manche)",
+      "description": "Po Interakcji, użyj swojej Mocy. (Możesz użyć swojej Mocy tylko raz na rundę).",
       "imagePath": "img/territorialimperative.jpg", 
        "type": "Tueur"
     },
@@ -259,79 +259,79 @@
       "id": 34,
       "name": "Discordance",
       "cost": 0,
-      "description": "Lorsqu’un Survivant entre dans un lieu occupé par au moins 1 autre Survivant, gagnez 1Point de Sang par Survivant et Tueur présent dans ce lieu",
+      "description": "Gdy Ocalały wejdzie na pole, na którym jest już inny Ocalały, zdobądź tyle 1 Punkty Krwi ile postaci znajduje się na tym polu (łącznie z Zabójcą).",
       "imagePath": "img/discordance.jpg", 
        "type": "Tueur"
     },
     {
       "id": 35,
-      "name": "Vierge de fer",
+      "name": "Iron Maiden",
       "cost": 2,
-      "description": "Avant d’interagir, échangez n’importe où sur le Plateau les positions de 1 Casier libre et 1 Crochet libre",
+      "description": "Przed interakcją, zamień miejscem wolną Szafkę z wolnym Hakiem w dowolnych miejscach na planszy.",
       "imagePath": "img/ironmaiden.jpg", 
        "type": "Tueur"
     },
     {
       "id": 36,
-      "name": "Ennemi juré",
+      "name": "Nemesis",
       "cost": 2,
-      "description": "Après qu’un Survivant a interagi avec une Palette ou un Casier dans le lieu que vous occupez ou relié, retirez du plateau cet accessoire.",
+      "description": "Gdy Ocalały wejdzie w interakcję z Paletą lub Szafką na twoim lub połączonym polu, usuń tę Paletę lub Szafkę z planszy.",
       "imagePath": "img/nemesis.jpg", 
        "type": "Tueur"
     },
     {
       "id": 37,
-      "name": "Tactiques de Zanshin",
+      "name": "Zanshin Tactics",
       "cost": 2,
-      "description": "Au début de votre tour, défaussez 1 des cartes Déplacement devant vous et remplacez-la par une autre de votre main.",
+      "description": "Na początku swojej tury, odrzuć zagraną kartę Ruchu i zastąp ją inną.",
       "imagePath": "img/zanshintactics.jpg", 
        "type": "Tueur"
     },
     {
       "id": 38,
-      "name": "Peur contagieuse",
+      "name": "Infectious Fright",
       "cost": 1,
-      "description": "Après avoir attaqué un Survivant Valide, déplacez 1 Survivant présent dans un lieu relié à celui que vous occupez vers un autre lieu (praticable)",
+      "description": "Gdy zaatakujesz zdrowego Ocalałego, porusz dowolną ścieżką Ocalałego na połączonym polu.",
       "imagePath": "img/infectiousfright.jpg", 
        "type": "Tueur"
     },
     {
       "id": 39,
-      "name": "Intervention impure",
+      "name": "Corrupt Intervention",
       "cost": 1,
-      "description": "Au début de la Planification, placez le jeton Entité sur un Générateur révélé dans le lieu de votre choix.",
+      "description": "Na początku fazy Planowania, umieść znacznik Bytu na odkrytym Generatorze na dowolnym polu. Z tym generatorem nie można wchodzić w interakcję.",
       "imagePath": "img/corruptintervention.jpg", 
        "type": "Tueur"
     },
     {
       "id": 40,
-      "name": "Terrain hanté",
+      "name": "Haunted Ground",
       "cost": 1,
-      "description": "Après qu’un Survivant a révélé un Accessoire, échangez le avec un autre accessoire révélé de même catégorie. Un générateur comportant un progrès, un crochet/casier occupé ne peuvent pas être échangés.",
+      "description": "Gdy Ocalały odkrywa Element, zamień ten Element z innym odkrytym Elementem tej samej kategorii. Generatory z postępem, Palety na ścieżkach, zajęte Szafki oraz zajęte Haki nie mogą zostać zamienione.",
       "imagePath": "img/hauntedground.jpg", 
        "type": "Tueur"
     },
     {
       "id": 41,
-      "name": "Fureur de l’esprit",
+      "name": "Spirit Fury",
       "cost": 0,
-      "description": "Après que vous avez retiré une Palette, gagnez 2 Points de Sang",
+      "description": "Gdy zniszczysz paletę, zdobądź 2 Punkty Krwi.",
       "imagePath": "img/spiritfury.jpg", 
        "type": "Tueur"
     },
     {
       "id": 42,
-      "name": "Contrôle des foules",
+      "name": "Crowd Control",
       "cost": 1,
-      "description": "Au début de la Planification, choisissez 1 Survivant. Les Survivants peuvent dépenser 2 Points de Sang collectivement. Sinon, choisissez quelle carte Déplacement le Survivant pose devant lui ce tour.",
+      "description": "Na początku fazy Planowania wybierz Ocalałego. Ocalali (jako grupa) mogą wydać w sumie 2 Punkty Krwi. Jeśli tego nie zrobią, wybierz kartę Ruchu którą wybrany Ocalały musi zagrać w tej rundzie.",
       "imagePath": "img/crowdcontrol.jpg", 
        "type": "Tueur"
     },
     {
       "id": 43,
-      "name": "Fascination",
+      "name": "Starstruck",
       "cost": 2,
-      "description": "Lorsque vous allez ramasser un Survivant, déplacez-vous sur le chemin praticable de votre choix et ramassez un autre Survivant à la place, même si non blessé",
+      "description": "Gdybyś miał podnieść Ocalałego, porusz się dowolną ścieżką i podnieś innego Ocalałego (nie musi być ranny).",
       "imagePath": "img/starstruck.jpg", 
        "type": "Tueur"
     },
@@ -339,23 +339,23 @@
       "id": 44,
       "name": "Oppression",
       "cost": 2,
-      "description": "Lorsque vous endommagez un Générateur, retirez 1 jeton Progrès de jusqu’à 2 autres Générateurs dans n’importe quel lieu",
+      "description": "Gdy uszkodzisz Generator, usuń jeden znacznik Naprawy z maksymalnie dwóch Generatorów na dowolnych polach na planszy.",
       "imagePath": "img/oppression.jpg", 
        "type": "Tueur"
     },
     {
       "id": 45,
-      "name": "Amasseur",
+      "name": "Hoarder",
       "cost": 0,
-      "description": "En tant qu’interaction, interagissez avec un Coffre pour le retirer et gagner 2 Points de Sang",
+      "description": "Jako interakcja, usuń Skrzynkę ze swojego pola i zdobądź 2 Punkty Krwi.",
       "imagePath": "img/hoarder.jpg", 
        "type": "Tueur"
     },
     {
       "id": 46,
-      "name": "Technicien",
+      "name": "Technician",
       "cost": 0,
-      "description": "Lorsque vous obtenez un échec en interagissant avec un Générateur, interagissez à nouveau. La 2e interaction doit cibler un autre accessoire ou un Survivant.",
+      "description": "Kiedy wyrzucisz porażkę podczas interakcji z Generatorem, wejdź w interakcję ponownie. Druga interakcja musi być skierowana na inny Element lub Ocalałego.",
       "imagePath": "img/technician.jpg", 
        "type": "Survivant"
     },
@@ -371,47 +371,47 @@
       "id": 48,
       "name": "Saboteur",
       "cost": 0,
-      "description": "Après avoir saboté un Crochet, gagnez 1 Point de Sang, OU dépensez 2 Points de Sang pour jouer un Tour Bonus de Survivant.",
+      "description": "Po rozbrojeniu Haka zyskaj 1 Punkty Krwi albo wydaj 2 Punkty Krwi, aby rozegrać dodatkową turę Ocalałego.",
       "imagePath": "img/saboteur.jpg", 
        "type": "Survivant"
     },
     {
       "id": 49,
-      "name": "Esprit Calme",
+      "name": "Calm Spirit",
       "cost": 0,
-      "description": "En tant qu'interaction, déplacez 1 Corbeau présent dans le lieu que vous occupez vers le lieu de votre choix.",
+      "description": "W ramach interakcji przesuń Wronę ze swojego pola na dowolne pole na planszy.",
       "imagePath": "img/calmspirit.jpg", 
        "type": "Survivant"
     },
     {
       "id": 50,
-      "name": "Meneur",
+      "name": "Leader",
       "cost": 1,
-      "description": "Lorsqu'un autre SUrvivant présant dans le lieu que vous occupez se déplace, déplacez-vous dans le même lieu que lui. OU Lorsque vous vous déplacez, un autre Survivant présant dans le lieu que vous occupez se déplace dans le même lieu que vous.",
+      "description": "Kiedy inny Ocalały na twoim polu poruszy się, porusz się razem z nim ALBO kiedy się poruszasz, inny Ocalały na twoim polu porusza się razem z tobą.",
       "imagePath": "img/leader.jpg", 
        "type": "Survivant"
     },
     {
       "id": 51,
-      "name": "Lien",
+      "name": "Bond",
       "cost": 1,
-      "description": "Lorsqu'un autre Survivant présent dans le lieu que vous occupez ou dans un lieu relié fait un Test d'Habileté, il jette 2 dés d'Habileté au lieu de 1 et garde le résultat de son choix.",
+      "description": "Kiedy inny Ocalały na twoim lub połączonym polu ma wykonać Test Umiejętności, rzuć dwiema kośćmi Testu Umiejętności i zachowaj wybrany wynik.",
       "imagePath": "img/bond.jpg", 
        "type": "Survivant"
     },
     {
       "id": 52,
-      "name": "Auto-traitement",
+      "name": "Self-Care",
       "cost": 1,
-      "description": "Au début de votre tour, jetez 1 dé de Danger. EN cas de réussite, vous devenez valide.",
+      "description": "Na początku swojej tury rzuć kością Niebezpieczeństwa. W przypadku sukcesu stajesz się zdrowy.",
       "imagePath": "img/selfcare.jpg", 
        "type": "Survivant"
     },
     {
       "id": 53,
-      "name": "Par tous les moyens",
+      "name": "Any means necessary",
       "cost": 0,
-      "description": "A la fin de votre tour, si vous êtes Valide, devenez Blessé et jouez un Tour Bonus de Survivant.",
+      "description": "Na końcu swojej tury, jeśli jesteś zdrowy, zrań się, aby natychmiast rozegrać dodatkową turę Ocalałego.",
       "imagePath": "img/anymeans.jpg", 
        "type": "Survivant"
     },
@@ -433,25 +433,25 @@
     },
     {
       "id": 56,
-      "name": "Rapide et silencieux",
+      "name": "Quick and quiet",
       "cost": 1,
-      "description": "Lorsque le Tueur entre dans le lieu que vous occupez (avant qu'il n'interagisse), interagissez avec un Casier dans ce lieu.",
+      "description": "Kiedy Zabójca poruszy się na twoje pole (zanim wejdzie w interakcję), wejdź w interakcję z Szafką na twoim polu.",
       "imagePath": "img/quickandquiet.jpg", 
        "type": "Survivant"
     },
     {
       "id": 57,
-      "name": "Augmenter la mise",
+      "name": "Up the ante",
       "cost": 2,
-      "description": "A la fin de votre tour, jouez 1 Tour Bonus de Survivant. Le Tueur gagne 2 Points de Sang.",
+      "description": "Na koniec swojej tury rozegraj dodatkową turę Ocalałego. Zabójca otrzymuje 2 Punkty Krwi.",
       "imagePath": "img/uptheante.jpg", 
        "type": "Survivant"
     },
     {
       "id": 58,
-      "name": "Atout dans la manche",
+      "name": "Ace in the hole",
       "cost": 1,
-      "description": "Avant d'interagir, échangez 1 Accessoire présent dans le lieu que vous occupez avec un autre de la même catégorie présent dans un lieu relié. Un Générateur comportant au moins 1 jeton Progrès, un Casier occupé, ou un Crochet occupé ne peuvent pas être échangés.",
+      "description": "Zanim wejdziesz w interakcję, zamień miejscami Element na swoim polu z innym z tej samej kategorii z połączonego pola. Generatory ze znacznikami Naprawy Generatora, zajęte Szafki i zajęte Haki nie mogą być zamienione.",
       "imagePath": "img/emptyhanded.jpg", 
        "type": "Survivant"
     },
@@ -473,41 +473,41 @@
     },
     {
       "id": 61,
-      "name": "De Front",
+      "name": "Head On (Determinacja)",
       "cost": 1,
-      "description": "Lorsque le Tueur entre dans le lieu que vous occupez, retirez 1 Casier présent dans ce lieu pour empêcher le Tueur d'interagir durant ce tour.",
+      "description": "Gdy Zabójca wejdzie na twoje pole, usuń Szafkę z tego pola, aby powstrzymać Zabójcę od wejścia w interakcję.",
       "imagePath": "img/headon.jpg", 
        "type": "Survivant"
     },
     {
       "id": 62,
-      "name": "Solidarité",
+      "name": "Solidarity (Solidarność)",
       "cost": 1,
-      "description": "En tant qu'interaction, vous pouvez interagir avec un autre Survivant présent dans un lieu relié à celui que vous occupez pour utiliser l'interaction Soigner sur lui.",
+      "description": "Wejdź w interakcję z Ocalałym na połączonym polu, żeby spróbować go wyleczyć.",
       "imagePath": "img/solidarity.jpg", 
        "type": "Survivant"
     },
     {
       "id": 63,
-      "name": "Adrénaline",
+      "name": "Adrenaline (Adrenalina)",
       "cost": 2,
-      "description": "Au début de la Phase Nettoyage, si au moins 1 Générateur a été activé durant cette Manche, jouez 1 Tour Bonus de Survivant.",
+      "description": "Jeśli naprawa Generatora została ukończona w tej rundzie, na początku fazy Porządkowania rozegraj dodatkową turę Ocalałego.",
       "imagePath": "img/adrenaline.jpg", 
        "type": "Survivant"
     },
     {
       "id": 64,
-      "name": "Effusion",
+      "name": "Boil Over (Do Utraty Tchu)",
       "cost": 2,
-      "description": "Lorsque vous ou un autre Survivant présent dans le lieu que vous occupez êtes ramassés, après que le Tueur a décidé du nombre de dés à jeter, le Survivant ramassé peut jeter 4 dés d'Habileté au lieu du nombre choisi par le Tueur.",
+      "description": "Gdy ty lub inny Ocalały na twoim polu zostajecie podniesieni, po tym, gdy Zabójca określi ilość kości do rzutu na ucieczkę, podniesiony Ocalały może zamiast tego rzucić wszystkimi czterema kośćmi.",
       "imagePath": "img/boilover.jpg", 
        "type": "Survivant"
     },
     {
       "id": 65,
-      "name": "Estimation",
+      "name": "Appraisal (Ocena Sytuacji)",
       "cost": 2,
-      "description": "Lorsqu'un autre Survivant devrait défausser une carte Objet, vous la prenez à la place. Si vous possédez plus de 1 carte Objet, défaussez-en pour n'en avoir plus que 1.",
+      "description": "Gdy inny Ocalały odrzuca Przedmiot, natychmiast uzyskaj ten Przedmiot.",
       "imagePath": "img/appraisal.jpg", 
        "type": "Survivant"
     },
@@ -521,17 +521,17 @@
     },
     {
       "id": 67,
-      "name": "Supercherie",
+      "name": "Deception (Oszustwo)",
       "cost": 0,
-      "description": "Durant votre tour, lorsque vous devriez vous déplacer, restez dans le lieu que vous occupez à la place. Vous ne pouvez pas interagir durant ce tour. Gagnez 1 Point de Sang.",
+      "description": "Zamiast poruszania się przy użyciu zagranej karty Ruchu, pozostań na swoim polu. Nie możesz wejść w interakcję w tej turze. Uzyskaj 1 Punkty Krwi.",
       "imagePath": "img/deception.jpg", 
        "type": "Survivant"
     },
     {
       "id": 68,
-      "name": "Conçu pour durer",
+      "name": "Built To Last (Trwałość Przede Wszystkim)",
       "cost": 2,
-      "description": "Lorsque vous devriez défausser une carte Objet après l'avoir utilisée, conservez-la à la place. Vous ne pouvez pas utiliser à nouveau cette carte objet durant ce tour.",
+      "description": "Po użyciu Przedmiotu, nie odrzucaj go. Nie możesz użyć tego Przedmiotu ponownie w tej turze.",
       "imagePath": "img/builttolast.jpg", 
        "type": "Survivant"
     },
@@ -545,9 +545,9 @@
     },
     {
       "id": 70,
-      "name": "Distorsion",
+      "name": "Distortion (Zakłócenie)",
       "cost": 1,
-      "description": "Durant votre tour, si vous entrez dans le lieu occupé par le Tueur, déplacez-vous à nouveau sur un autre chemin praticable de votre choix avant d'interagir.",
+      "description": "Jeśli w trakcie swojej tury wejdziesz na pole, na którym znajduje się Zabójca, porusz się ponownie dowolną inną ścieżką zanim wejdziesz w interakcję.",
       "imagePath": "img/distorsion.jpg", 
        "type": "Survivant"
     },
@@ -561,121 +561,121 @@
     },
     {
       "id": 72,
-      "name": "Vigilant",
+      "name": "Alert (Czujność)",
       "cost": 1,
-      "description": "Lorsque le Tueur retire une Palette, qu'il se déplace à travers un Mur destructible, ou qu'il endommage un Générateur, déplacez-vous à nouveau sur un chemin praticable de votre choix.",
+      "description": "Kiedy Zabójca zniszczy Paletę, Nadkruszoną Ścianę lub uszkodzi Generator, porusz się po dowolnej ścieżce.",
       "imagePath": "img/alert.jpg", 
        "type": "Survivant"
     },
     {
       "id": 73,
-      "name": "Suivi des soins",
+      "name": "Aftercare (Druga Pomoc)",
       "cost": 0,
-      "description": "Après que vous ou un autre Survivant êtes redevenus Valides, sabotez 1 Crochet libre n'importe où sur le Plateau.",
+      "description": "Gdy ty lub inny Ocalały zostanie wyleczony, rozbrój wolny Hak na dowolnym polu na planszy.",
       "imagePath": "img/aftercare.jpg", 
        "type": "Survivant"
     },
     {
       "id": 74,
-      "name": "Danse avec moi",
+      "name": "Dance With Me (Zatańcz ze Mną)",
       "cost": 0,
-      "description": "Après vous être déplacé, si vous occupiez un Casier au début de ce tour, déplacez-vous à nouveau sur un autre chemin praticable de votre choix avant d'interagir.",
+      "description": "Po wykonaniu ruchu, jeśli na początku swojej tury znajdowałeś się w Szafce, porusz się jeszcze raz po dowolnej innej ścieżce zanim wejdziesz w interakcję.",
       "imagePath": "img/dancewithme.jpg", 
        "type": "Survivant"
     },
     {
       "id": 75,
-      "name": "Autodidacte",
+      "name": "Autodidact (Samouk)",
       "cost": 2,
-      "description": "Lorsque vous ou un autre Survivant présent dans le lieu que vous occupez ou dans un lieu relié obtenez une réussite, changez ce résultat en réussite critique à la place.",
+      "description": "Gdy ty lub inny Ocalały na twoim lub połączonym polu uzyska sukces w rzucie kością, zamień ten wynik na wielki sukces.",
       "imagePath": "img/autodidact.jpg", 
        "type": "Survivant"
     },
     {
       "id": 76,
-      "name": "Libération",
+      "name": "Deliverance (Wybawienie)",
       "cost": 1,
-      "description": "Après que vous avez saboté un Crochet occupé ou que le crochet que vous occupez a été saboté par un autre Survivant, choisissez lequel de vous deux devient Valide.",
+      "description": "Gdy rozbroisz zajęty Hak lub gdy inny ocalały rozbroi Hak, na którym wisisz, ratujący lub ratowany zostaje natychmiast wyleczony.",
       "imagePath": "img/deliverance.jpg", 
        "type": "Survivant"
     },
     {
       "id": 77,
-      "name": "Dur à cuire",
+      "name": "Dead Hard (Twarda Sztuka)",
       "cost": 2,
-      "description": "Lorsqu'un autre Survivant dans le lieu que vous occupez devrait être sacrifié, jetez 1 dé de Danger. En cas de réussite, ce Survivant se déplace sur le chemin praticable de son choix au lieu de devenir Sacrifié.",
+      "description": "Gdy inny Ocalały na twoim polu ma zostać poświęcony, rzuć kością Niebezpieczeństwa. W przypadku sukcesu, ten Ocalały porusza się dowolną ścieżką zamiast zostać poświęcony.",
       "imagePath": "img/deadhard.jpg", 
        "type": "Survivant"
     },
     {
       "id": 78,
-      "name": "Nous vivrons éternellement",
+      "name": "We’re Gonna Live Forever (Będziemy Żyć Wiecznie)",
       "cost": 1,
-      "description": "Lorsque le Tueur devrait quitter le lieu que vous occupez, annulez ce déplacement. Le Tueur peut tout de même interagir dans ce lieu.",
+      "description": "Gdyby Zabójca spróbuje opuścić twoje pole, zatrzymaj go. Zabójca wciąż może wejść w interakcję na tym polu.",
       "imagePath": "img/wegonnaliveforever.jpg", 
        "type": "Survivant"
     },
     {
       "id": 79,
-      "name": "Empathie",
+      "name": "Empathy (Empatia)",
       "cost": 0,
-      "description": "Au début de votre tour, vous pouvez prendre 1 Point de Sang à un Survivant qui accepte, OU vous pouvez donner 1 Point de Sang à une Survivant qui accepte.",
+      "description": "Na początku swojej tury możesz wziąć 1 Punkty Krwi od Ocalałego, który jest chętny ci go ofiarować ALBO możesz dać 1 Punkty Krwi Ocalałemu chętnemu go przyjąć.",
       "imagePath": "img/empathy.jpg", 
        "type": "Survivant"
     },
     {
       "id": 80,
-      "name": "Coup de Chance",
+      "name": "Lucky Break (Łut Szczęścia)",
       "cost": 2,
-      "description": "Après que n'importe quel Survivant a obtenu une réussite critique, vous redevenez Valide.",
+      "description": "Gdy dowolny ocalały uzyska wielki sukces w wyniku rzutu kością, zostajesz wyleczony.",
       "imagePath": "img/luckybreak.jpg", 
        "type": "Survivant"
     },
     {
       "id": 81,
-      "name": "Instinct de Survie",
+      "name": "Self-preservation (Instynkt Samozachowawczy)",
       "cost": 1,
-      "description": "Après un tour où un autre Survivant a été Blessé ou Sacrifié, interagissez avec un Casier dans le lieu que vous occupez.",
+      "description": "Natychmiast po turze, w której inny Ocalały został zraniony lub poświęcony, wejdź w interakcję z Szafką na twoim polu.",
       "imagePath": "img/selfpreservation.jpg", 
        "type": "Survivant"
     },
     {
       "id": 82,
-      "name": "Pour le Peuple",
+      "name": "For The People (Za Ludzi)",
       "cost": 1,
-      "description": "Après être entré dans un lieu, si vous n'êtes pas Blessé, devenez Blessé pour qu'un autre Survivant présent dans ce lieu redevienne Valide, ou pour ajouter 1 jeton Progrès à un Générateur n'importe où sur le Plateau (vous pouvez interagir durant ce tour).",
+      "description": "Po wykonaniu ruchu, jeśli nie jesteś ranny, zrań się, aby inny Ocalały na twoim polu natychmiast został wyleczony lub aby dodać jeden znacznik Naprawy do Generatora na tym polu. Możesz wciąż wejść w interakcję w tej turze.",
       "imagePath": "img/forthepeople.jpg", 
        "type": "Survivant"
     },
     {
       "id": 83,
-      "name": "Confidentiel",
+      "name": "Off The Record (Nieoficjalnie)",
       "cost": 0,
-      "description": "Lorsque vous ou un autre Survivant présent dans le lieu que vous occupez ou dans un lieu relié obtenez un échec, c'est vous qui gagnez 1 Point de Sang à la place du Tueur.",
+      "description": "Gdy ty lub inny Ocalały na twoim lub połączonym polu uzyska porażkę w wyniku rzutu kością, ty zdobywasz 1 Punkty Krwi zamiast Zabójcy.",
       "imagePath": "img/offtherecord.jpg", 
        "type": "Survivant"
     },
     {
       "id": 84,
-      "name": "Succès écrasant",
+      "name": "Smash Hit (Przebój)",
       "cost": 0,
-      "description": "Lorsque le Tueur retire une Palette du Plateau, se déplace à travers un Mur destructible, ou endommage un Générateur, gagnez 1 Point de Sang.",
+      "description": "Gdy Zabójca zniszczy Paletę, przejdzie przez Nadkruszoną Ścianę lub uszkodzi Generator, uzyskaj 1 Punkty Krwi.",
       "imagePath": "img/smashhit.jpg", 
        "type": "Survivant"
     },
     {
       "id": 85,
-      "name": "Débrouillardise",
+      "name": "Streetwise (Wiedza Uliczna)",
       "cost": 1,
-      "description": "Après avoir interagi avec un Coffre, ce Coffre n'est pas retiré du Plateau.",
+      "description": "Skrzynia nie jest usuwana po tym, jak wejdziesz z nią w interakcję.",
       "imagePath": "img/streetwise.jpg", 
        "type": "Survivant"
     },
     {
       "id": 86,
-      "name": "Évasion urbaine",
+      "name": "Urban Evasion (Skrytość)",
       "cost": 1,
-      "description": "Au début du tour de n'importe quel Survivant, retirez du Plateau 1 Mur destructible. Replacez-le sur le même chemin à la fin du tour de ce Survivant.",
+      "description": "Na początku tury dowolnego Ocalałego usuń z gry Nadkruszoną Ścianę. Umieść ją ponownie na tej samej ścieżce na koniec tury tego Ocalałego.",
       "imagePath": "img/urbanevasion.jpg", 
        "type": "Survivant"
     },
@@ -721,9 +721,9 @@
     },
     {
       "id": 92,
-      "name": "Visionnaire",
+      "name": "Visionary (Wizjoner)",
       "cost": 0,
-      "description": "Lorsque vous devriez révéler un Accessoire, révélez 1 Accessoire de votre choix dans un lieu relié à celui que vous occupez à la place.",
+      "description": "Po wejściu na pole, odkryj Element na połączonym polu, zamiast na twoim polu.",
       "imagePath": "img/visionnary.jpg", 
        "type": "Survivant"
     },
