@@ -58,7 +58,7 @@ fetch('data.json')
 */
 
 function initialisationLanguage() {
-  fetch(languageSelect+'data.json')
+  fetch(languageSelect.value+'data.json')
     .then(response => response.json())
     .then(data => {
       // Assign fetched data to the variable
@@ -135,7 +135,7 @@ sortCheckbox.addEventListener('change', () => {
 killerCheckbox.addEventListener('change', filterImages);
 survivorCheckbox.addEventListener('change', filterImages);
 
-// OK mais plus d'affichage si décoche, à considérer
+// OK
 function filterImages() {
   const showKiller = killerCheckbox.checked;
   const showSurvivor = survivorCheckbox.checked;
@@ -151,6 +151,9 @@ function filterImages() {
 
   // Display the filtered images
   displayImages(filteredData);
+  if(!showKiller && !showSurvivor) {
+    initialisationLanguage();
+  }
 }
 
 //pour lancer recherche en permanence (OK)
@@ -180,6 +183,7 @@ function loadLanguage(languageCode) {
 languageSelect.addEventListener('change', () => {
   const selectedLanguage = languageSelect.value;
   loadLanguage(selectedLanguage);
+  initialisationLanguage();
 });
 
 // Load the default language (e.g., English) on page load
