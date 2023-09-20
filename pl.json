@@ -2,7 +2,7 @@
         "searchPlaceholder": "Szukaj po nazwie lub opisie",
         "killerPerks": "Zabójca",
         "survivorPerks": "Ocalały",
-        "sortLabel": "Lowest to highest",
-        "survivorLabel": "Survivor only",
-        "killerLabel": "Killer only"
+        "sortLabel": "Półksiężyc",
+        "survivorLabel": "Tylko ocalały",
+        "killerLabel": "Tylko zabójca"
     }

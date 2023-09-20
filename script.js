@@ -45,6 +45,8 @@ function displayImages(images) {
   });
 }
 
+/*
+// démarrage ici, récupération des éléments fr -> doit être transformé en fonction qui fait pareil mais avec le bon json
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
@@ -53,7 +55,22 @@ fetch('data.json')
     displayImages(data);
   })
   .catch(error => console.error('Error fetching data:', error));
+*/
 
+function initialisationLanguage() {
+  fetch(languageSelect+'data.json')
+    .then(response => response.json())
+    .then(data => {
+      // Assign fetched data to the variable
+      dataLog = data;
+      displayImages(data);
+    })
+  .catch(error => console.error('Error fetching data:', error));
+}
+
+initialisationLanguage();
+
+// éléments pour la recherche
 searchButton.addEventListener('click', performSearch);
 searchInput.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
@@ -62,7 +79,7 @@ searchInput.addEventListener('keydown', (event) => {
   }
 });
 
-// Attach event listeners to the filter buttons
+// Attach event listeners to the filter buttons (les 2 boutons de base)
 filterTueurButton.addEventListener('click', () => filterByType('Tueur'));
 filterSurvivantButton.addEventListener('click', () => filterByType('Survivant'));
 
@@ -103,28 +120,29 @@ function outsideClick(event) {
 }
 // fin modal
 
-// début filtre (WIP)
+// début filtre (OK ? Probable)
 sortCheckbox.addEventListener('change', () => {
   if (sortCheckbox.checked) {
     // Sort images by cost (low to high)
-    data.sort((a, b) => a.cost - b.cost); //peut-être problème sur data ici aussi ?
-    displayImages(data);
+    dataLog.sort((a, b) => a.cost - b.cost);
+    displayImages(dataLog);
   } else {
     // Display images in their original order
-    displayImages(data);
+    displayImages(dataLog);
   }
 });
 
 killerCheckbox.addEventListener('change', filterImages);
 survivorCheckbox.addEventListener('change', filterImages);
 
+// OK mais plus d'affichage si décoche, à considérer
 function filterImages() {
   const showKiller = killerCheckbox.checked;
   const showSurvivor = survivorCheckbox.checked;
   const searchTerm = searchInput.value.toLowerCase(); // Get the search input value
 
   // Filter images based on the checkbox selections and search input
-  const filteredData = data.filter(image => {
+  const filteredData = dataLog.filter(image => {
     const matchesType = (showKiller && image.type === 'Tueur') || (showSurvivor && image.type === 'Survivant');
     const matchesSearch = image.name.toLowerCase().includes(searchTerm) || image.description.toLowerCase().includes(searchTerm);
     
