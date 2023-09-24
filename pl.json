@@ -3,6 +3,7 @@
         "searchPlaceholder": "Szukaj po nazwie lub opisie",
         "KillerPerks": "Zabójca",
         "SurvivorPerks": "Ocalały",
+        "filterOptions": "Opcje sortowania :",
         "sortLabel": "Półksiężyc",
         "survivorLabel": "Tylko ocalały",
         "killerLabel": "Tylko zabójca"

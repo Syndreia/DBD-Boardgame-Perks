@@ -1,474 +1,474 @@
 [
-    {
-      "id": 1,
-      "name": "Sanctuaire monstrueux",
-      "cost": 0,
-      "description": "Après avoir sacrifié un Survivant, s’il n’y a pas d’autre Survivant dans le lieu que vous occupez, gagnez 2 Points de Sang.",
-      "imagePath": "img/monstrousshrine.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 2,
-      "name": "Espion de l’ombre",
-      "cost": 0,
-      "description": "Lorsqu’un Corbeau est révélé, gagnez 1 Point de Sang.",
-      "imagePath": "img/spiesfromshadow.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 3,
-      "name": "Euphorie de la chasse",
-      "cost": 2,
-      "description": "Lorsqu’un Survivant quitte le lieu que vous occupez, déplacez-vous dans le même lieu que lui",
-      "imagePath": "img/thrillofthehunt.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 4,
-      "name": "Murmure amer",
-      "cost": 1,
-      "description": "Après que vous vous êtes déplacé en suivant un chemin à sens unique ou à travers un Mur destructible, déplacez-vous à nouveau en suivant le chemin praticable de votre choix avant d’interagir",
-      "imagePath": "img/bittermurmur.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 5,
-      "name": "Pisteur",
-      "cost": 2,
-      "description": "Lorsqu’un Survivant quitte le lieu que vous occupez, il jette le dé de Danger. En cas d’échec, il ne se déplace pas et ne peut pas interagir ce tour.",
-      "imagePath": "img/deerstalker.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 6,
-      "name": "Insidieux",
-      "cost": 2,
-      "description": "Lorsque vous attaquez un Survivant valide, si vous ne vous êtes pas déplacé durant ce tour, ramassez ce Survivant au lieu de l’attaquer.",
-      "imagePath": "img/insidious.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 8,
-      "name": "Personne n’échappe à la mort",
-      "cost": 0,
-      "description": "A la fin de votre tour, si les Portes de sorties sont alimentées, jouez un Tour Bonus de Tueur. (1/manche max)",
-      "imagePath": "img/noed.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 9,
-      "name": "Murmures",
-      "cost": 1,
-      "description": "Au début de la  de Planification, choisissez un Survivant. Ce Survivant choisit soit de dépenser 1 Point de Sang, soit de révéler la carte Déplacement devant lui.",
-      "imagePath": "img/whispers.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 10,
-      "name": "Boucher Sadique",
-      "cost": 1,
-      "description": "Lorsqu’un Survivant essaie de Soigner, il jette 1 dé de danger au lieu de 1 dé d’Habileté.",
-      "imagePath": "img/sloppybutcher.jpg", 
-       "type": "Tueur"
-    },
-    {
-      "id": 11,
-      "name": "Implacable",
-      "cost": 2,
-      "description": "Après avoir intéragi avec un Survivant présent dans le lieu que vous occupez, intéragissez à nouveau avec un autre Survivant présent dans le lieu que vous occupez.",
-      "imagePath": "img/relentless.jpg", 
-       "type": "Tueur"
-    },
+  {
+    "id": 1,
+    "name": "Monstrous Shrine",
+    "cost": 0,
+    "description": "After sacrificing a Survivor, if there are no other Survivors in your space, gain 2 Blood Points.",
+    "imagePath": "img/en/monstrousshrine.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 2,
+    "name": "Spies from the Shadow",
+    "cost": 0,
+    "description": "When a crow is revealed, gain a Blood Point.",
+    "imagePath": "img/en/spiesfromshadows.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 3,
+    "name": "Thrill of the Hunt",
+    "cost": 2,
+    "description": "When a Survivor leaves your space, move with them.",
+    "imagePath": "img/en/thrillofthehunt.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 4,
+    "name": "Bitter Murmur",
+    "cost": 1,
+    "description": "After you move along a one-way path or breakable wall, move again along any path before interacting.",
+    "imagePath": "img/en/bittermurmur.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 5,
+    "name": "Deerstalker",
+    "cost": 2,
+    "description": "When a wounded Survivor leaves your space, they roll the danger die. On a failure, they remain in place and cannot interact this turn.",
+    "imagePath": "img/en/deerstalker.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 6,
+    "name": "Insidious",
+    "cost": 2,
+    "description": "When you would attack a healthy Survivor, if you have not moved this turn, pick them up instead.",
+    "imagePath": "img/en/insidious.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 8,
+    "name": "No One Escapes Death",
+    "cost": 0,
+    "description": "At the end of your turn, if the exit gates are powered up, take a Killer bonus turn (1/round max).",
+    "imagePath": "img/en/noed.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 9,
+    "name": "Whispers",
+    "cost": 1,
+    "description": "At the start of the planning phase, choose a Survivor. That Survivor either chooses to spend a Blood Point, or place their movement card face up.",
+    "imagePath": "img/en/whispers.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 10,
+    "name": "Sloppy Butcher",
+    "cost": 1,
+    "description": "When a Survivor attempts to heal, they roll the danger die instead.",
+    "imagePath": "img/en/sloppybutcher.png", 
+     "type": "Tueur"
+  },
+  {
+    "id": 11,
+    "name": "Unrelenting",
+    "cost": 2,
+    "description": "After interacting with a Survivor in your space, interact with a different Survivor in your space.",
+    "imagePath": "img/en/unrelenting.png", 
+     "type": "Tueur"
+  },
     {
       "id": 12,
-      "name": "Inquiétant",
+      "name": "Distressing",
       "cost": 2,
-      "description": "Après qu’un Survivant est entré dans un lieu contenant un Casier libre, il interagit avec un Casier libre.",
-      "imagePath": "img/distressing.jpg", 
+      "description": "After a Survivor moves into a space with a locker, they interact with that locker.",
+      "imagePath": "img/en/distressing.png", 
        "type": "Tueur"
     },
     {
       "id": 13,
-      "name": "Poigne de fer",
+      "name": "Iron Grasp",
       "cost": 1,
-      "description": "Après qu’un Survivant a jeté les dés pour un Sacrifice, il relance tous les dés d’Habileté.",
-      "imagePath": "img/irongrasp.jpg", 
+      "description": "After a Survivor rolls the dice during a sacrifice attempt, they re-roll all skill check dice.",
+      "imagePath": "img/en/irongrasp.png", 
        "type": "Tueur"
     },
     {
       "id": 14,
-      "name": "Overcharge ",
+      "name": "Overcharge (Umiejętność)",
       "cost": 2,
       "description": "Kiedy Ocalały na twoim lub na połączonym polu korzysta z Przedmiotu, musi rzucić kością Niebezpieczeństwa. W przypadku porażki, Przedmiot zostaje odrzucony bez rozpatrywania jego efektu.",
-      "imagePath": "img/overcharge.jpg", 
+      "imagePath": "img/en/overcharge.png", 
        "type": "Tueur"
     },
     {
       "id": 15,
-      "name": "Overwhelming Presence ",
+      "name": "Overwhelming Presence (Umiejętność)",
       "cost": 1,
       "description": "Kiedy Ocalały na twoim lub na połączonym polu korzysta z Przedmiotu, musi rzucić kością Niebezpieczeństwa. W przypadku porażki, Przedmiot zostaje odrzucony bez rozpatrywania jego efektu.",
-      "imagePath": "img/overwhelmingpresence.jpg", 
+      "imagePath": "img/en/overwhelmingpresence.png", 
        "type": "Tueur"
     },
     {
       "id": 16,
-      "name": "Devour Hope",
+      "name": "Devour Hope (Pożeracz Nadziei)",
       "cost": 2,
       "description": "Na początku fazy Planowania odrzuć kartę Ruchu. Podczas tej tury kopie tej karty Ruchu używane przez Ocalałych nie powodują poruszania się. (Jeśli się nie poruszają, nie mogą wchodzić w interakcje).",
-      "imagePath": "img/devourhope.jpg", 
+      "imagePath": "img/en/devourhope.png", 
        "type": "Tueur"
     },
     {
       "id": 17,
-      "name": "Ruin",
+      "name": "Ruin (Ruina)",
       "cost": 1,
       "description": "Na początku fazy Planowania usuń z Generatora znaczniki Naprawy Generatora, o ile na polu Generatora nie ma żadnych Ocalałych.",
-      "imagePath": "img/ruin.jpg", 
+      "imagePath": "img/en/ruin.png", 
        "type": "Tueur"
     },
     {
       "id": 18,
-      "name": "Enduring",
+      "name": "Enduring (Wytrzymały)",
       "cost": 2,
       "description": "Kiedy będziesz poruszał się po ścieżce z Paletą, zniszcz Paletę i dokończ swoją turę jak zwykle. W tej turze nadal możesz wejść w interakcję.",
-      "imagePath": "img/enduring.jpg", 
+      "imagePath": "img/en/enduring.png", 
        "type": "Tueur"
     },
     {
       "id": 19,
-      "name": "Tinkerer",
+      "name": "Tinkerer (Majsterkowicz)",
       "cost": 0,
       "description": "Kiedy naprawa Generatora zostanie ukończona, podnieś i zastąp jedną ze swoich przygotowanych kart Ruchu inną kartą z ręki.",
-      "imagePath": "img/tinkerer.jpg", 
+      "imagePath": "img/en/tinkerer.png", 
        "type": "Tueur"
     },
     {
       "id": 20,
-      "name": "Nurse’s Calling",
+      "name": "Nurse’s Calling (Wezwanie Pielęgniarki)",
       "cost": 0,
       "description": "Po tym, jak Ocalały stanie się zdrowy otrzymujesz 2 Punkty Krwi",
-      "imagePath": "img/nursecalling.jpg", 
+      "imagePath": "img/en/nursescalling.png", 
        "type": "Tueur"
     },
     {
       "id": 21,
-      "name": "Thanatophobia",
+      "name": "Thanatophobia (Tanatofobia)",
       "cost": 1,
       "description": "Kiedy ranny Ocalały miałby wykonać Test Umiejętności, zamiast tego rzuca kością Niebezpieczeństwa.",
-      "imagePath": "img/thanatophobia.jpg", 
+      "imagePath": "img/en/thanatophobia.png", 
        "type": "Tueur"
     },
     {
       "id": 22,
-      "name": "Agitation",
+      "name": "Agitation (Ekscytacja)",
       "cost": 1,
       "description": "Po zaatakowaniu zdrowego Ocalałego porusz się dowolną ścieżką.",
-      "imagePath": "img/agitation.jpg", 
+      "imagePath": "img/en/agitation.png", 
        "type": "Tueur"
     },
     {
       "id": 23,
-      "name": "Unnerving Presence",
+      "name": "Unnerving Presence (Niepokojąca Obecność)",
       "cost": 1,
       "description": "Kiedy Ocalały z twojego lub połączonego pola ma wykonać Test Umiejętności, zamiast tego rzuca kością Niebezpieczeństwa.",
-      "imagePath": "img/unnervingpresence.jpg", 
+      "imagePath": "img/en/unnervingpresence.png", 
        "type": "Tueur"
     },
     {
       "id": 24,
-      "name": "Bloodhound",
+      "name": "Bloodhound (Pies Gończy)",
       "cost": 0,
       "description": "Po Poświęceniu Ocalałego traci on 1 Punkty Krwi, a ty zyskujesz 1 Punkty Krwi. (Nadal zyskujesz Punkty Krwi, nawet jeśli Ocalały nie ma już żadnych do stracenia).",
-      "imagePath": "img/bloodhound.jpg", 
+      "imagePath": "img/en/bloodhound.png", 
        "type": "Tueur"
     },
     {
       "id": 25,
-      "name": "Predator",
+      "name": "Predator (Drapieżnik)",
       "cost": 2,
       "description": "Na koniec fazy Planowania wybierz Ocalałego. Odrzuca on swoją przygotowaną kartę Ruchu, a następnie zastępuje ją nową.",
-      "imagePath": "img/predator.jpg", 
+      "imagePath": "img/en/predator.png", 
        "type": "Tueur"
     },
     {
       "id": 26,
-      "name": "Dragon's grip",
+      "name": "Dragon's grip (Uścisk Smoka)",
       "cost": 1,
       "description": "Gdy uszkodzisz Generator, odrzuć do dwóch kart Ruchu ze swojej ręki. Każdy Ocalały na polu połączonym każdą z tych kart zostaje ranny, chyba że wyda 1 Punkty Krwi.",
-      "imagePath": "img/dragonsgrip.jpg", 
+      "imagePath": "img/en/dragonsgrip.png", 
        "type": "Tueur"
     },
     {
       "id": 27,
-      "name": "Undying",
+      "name": "Undying (Nieumarły)",
       "cost": 1,
       "description": "Zamiast interakcji, odrzuć kartę Ruchu z wyjątkiem „Czekaj”, by wejść w interakcję z Elementem na polu połączonym ścieżką zgodną z tą kartą.",
-      "imagePath": "img/immortal.jpg", 
+      "imagePath": "img/en/undying.png", 
        "type": "Tueur"
     },
     {
       "id": 28,
-      "name": "Pop Goes The Weasel",
+      "name": "Pop Goes The Weasel (Entliczek-Pentliczek)",
       "cost": 0,
       "description": "Po zranieniu lub poświęceniu Ocalałego, usuń Wronę, pustą Szafkę lub Skrzynkę na połączonym polu",
-      "imagePath": "img/popgoestheweasel.jpg", 
+      "imagePath": "img/en/popgoestheweasel.png", 
        "type": "Tueur"
     },
     {
       "id": 29,
-      "name": "Bamboozle",
+      "name": "Bamboozle (Kpina)",
       "cost": 1,
       "description": "Na początku fazy Planowania, umieść znacznik Byt na ścieżce. Jest on traktowany jak Nadkruszona Ściana (możesz przez niego przejść).",
-      "imagePath": "img/bamboozle.jpg", 
+      "imagePath": "img/en/bamboozle.png", 
        "type": "Tueur"
     },
     {
       "id": 30,
-      "name": "Dead Man's Switch",
+      "name": "Dead Man's Switch (Czuwak)",
       "cost": 1,
       "description": "Gdy poświęcisz Ocalałego, wybrany przez ciebie Generator lub Brama Wyjściowa traci jeden znacznik Naprawy.",
-      "imagePath": "img/deadmanswitch.jpg", 
+      "imagePath": "img/en/deadmansswitch.png", 
        "type": "Tueur"
     },
     {
       "id": 31,
-      "name": "Retribution",
+      "name": "Retribution (Odwet)",
       "cost": 0,
       "description": "Gdy Ocalały wejdzie w interakcję z Totemem Klątwy, rzuca kością Niebezpieczeństwa. Gdy odniesie sukces, zdobądź 2 Punkty Krwi.",
-      "imagePath": "img/retribution.jpg", 
+      "imagePath": "img/en/retribution.png", 
        "type": "Tueur"
     },
     {
       "id": 32,
-      "name": "Beast of Prey",
+      "name": "Beast of Prey (Drapieżna Bestia)",
       "cost": 1,
       "description": "Na początku fazy Planowania porusz się dowolną ścieżką.",
-      "imagePath": "img/beastofprey.jpg", 
+      "imagePath": "img/en/beastofprey.png", 
        "type": "Tueur"
     },
     {
       "id": 33,
-      "name": "Territorial Imperative",
+      "name": "Territorial Imperative (Zwierzę Terytorialne)",
       "cost": 2,
       "description": "Po Interakcji, użyj swojej Mocy. (Możesz użyć swojej Mocy tylko raz na rundę).",
-      "imagePath": "img/territorialimperative.jpg", 
+      "imagePath": "img/en/territorialimperative.png", 
        "type": "Tueur"
     },
     {
       "id": 34,
-      "name": "Discordance",
+      "name": "Discordance (Dysonans)",
       "cost": 0,
       "description": "Gdy Ocalały wejdzie na pole, na którym jest już inny Ocalały, zdobądź tyle 1 Punkty Krwi ile postaci znajduje się na tym polu (łącznie z Zabójcą).",
-      "imagePath": "img/discordance.jpg", 
+      "imagePath": "img/en/discordance.png", 
        "type": "Tueur"
     },
     {
       "id": 35,
-      "name": "Iron Maiden",
+      "name": "Iron Maiden (Żelazna Dziewica)",
       "cost": 2,
       "description": "Przed interakcją, zamień miejscem wolną Szafkę z wolnym Hakiem w dowolnych miejscach na planszy.",
-      "imagePath": "img/ironmaiden.jpg", 
+      "imagePath": "img/en/ironmaiden.png", 
        "type": "Tueur"
     },
     {
       "id": 36,
-      "name": "Nemesis",
+      "name": "Nemesis (Nemezis)",
       "cost": 2,
       "description": "Gdy Ocalały wejdzie w interakcję z Paletą lub Szafką na twoim lub połączonym polu, usuń tę Paletę lub Szafkę z planszy.",
-      "imagePath": "img/nemesis.jpg", 
+      "imagePath": "img/en/nemesis.png", 
        "type": "Tueur"
     },
     {
       "id": 37,
-      "name": "Zanshin Tactics",
+      "name": "Zanshin Tactics (Taktyka Zanshin)",
       "cost": 2,
       "description": "Na początku swojej tury, odrzuć zagraną kartę Ruchu i zastąp ją inną.",
-      "imagePath": "img/zanshintactics.jpg", 
+      "imagePath": "img/en/zanshintactics.png", 
        "type": "Tueur"
     },
     {
       "id": 38,
-      "name": "Infectious Fright",
+      "name": "Infectious Fright (Zaraźliwy Strach)",
       "cost": 1,
       "description": "Gdy zaatakujesz zdrowego Ocalałego, porusz dowolną ścieżką Ocalałego na połączonym polu.",
-      "imagePath": "img/infectiousfright.jpg", 
+      "imagePath": "img/en/infectiousfright.png", 
        "type": "Tueur"
     },
     {
       "id": 39,
-      "name": "Corrupt Intervention",
+      "name": "Corrupt Intervention (Skażona Interwencja)",
       "cost": 1,
       "description": "Na początku fazy Planowania, umieść znacznik Bytu na odkrytym Generatorze na dowolnym polu. Z tym generatorem nie można wchodzić w interakcję.",
-      "imagePath": "img/corruptintervention.jpg", 
+      "imagePath": "img/en/corruptintervention.png", 
        "type": "Tueur"
     },
     {
       "id": 40,
-      "name": "Haunted Ground",
+      "name": "Haunted Ground (Nawiedzona Ziemia)",
       "cost": 1,
       "description": "Gdy Ocalały odkrywa Element, zamień ten Element z innym odkrytym Elementem tej samej kategorii. Generatory z postępem, Palety na ścieżkach, zajęte Szafki oraz zajęte Haki nie mogą zostać zamienione.",
-      "imagePath": "img/hauntedground.jpg", 
+      "imagePath": "img/en/hauntedground.png", 
        "type": "Tueur"
     },
     {
       "id": 41,
-      "name": "Spirit Fury",
+      "name": "Spirit Fury (Duchowa Furia)",
       "cost": 0,
       "description": "Gdy zniszczysz paletę, zdobądź 2 Punkty Krwi.",
-      "imagePath": "img/spiritfury.jpg", 
+      "imagePath": "img/en/spiritfury.png", 
        "type": "Tueur"
     },
     {
       "id": 42,
-      "name": "Crowd Control",
+      "name": "Crowd Control (Panowanie nad Tłumem)",
       "cost": 1,
       "description": "Na początku fazy Planowania wybierz Ocalałego. Ocalali (jako grupa) mogą wydać w sumie 2 Punkty Krwi. Jeśli tego nie zrobią, wybierz kartę Ruchu którą wybrany Ocalały musi zagrać w tej rundzie.",
-      "imagePath": "img/crowdcontrol.jpg", 
+      "imagePath": "img/en/crowdcontrol.png", 
        "type": "Tueur"
     },
     {
       "id": 43,
-      "name": "Starstruck",
+      "name": "Starstruck (Oczarowanie)",
       "cost": 2,
       "description": "Gdybyś miał podnieść Ocalałego, porusz się dowolną ścieżką i podnieś innego Ocalałego (nie musi być ranny).",
-      "imagePath": "img/starstruck.jpg", 
+      "imagePath": "img/en/starstruck.png", 
        "type": "Tueur"
     },
     {
       "id": 44,
-      "name": "Oppression",
+      "name": "Oppression (Opresja)",
       "cost": 2,
       "description": "Gdy uszkodzisz Generator, usuń jeden znacznik Naprawy z maksymalnie dwóch Generatorów na dowolnych polach na planszy.",
-      "imagePath": "img/oppression.jpg", 
+      "imagePath": "img/en/oppression.png", 
        "type": "Tueur"
     },
     {
       "id": 45,
-      "name": "Hoarder",
+      "name": "Hoarder (Zbieracz)",
       "cost": 0,
       "description": "Jako interakcja, usuń Skrzynkę ze swojego pola i zdobądź 2 Punkty Krwi.",
-      "imagePath": "img/hoarder.jpg", 
+      "imagePath": "img/en/hoarder.png", 
        "type": "Tueur"
     },
     {
       "id": 46,
-      "name": "Technician",
+      "name": "Technician (Technik)",
       "cost": 0,
       "description": "Kiedy wyrzucisz porażkę podczas interakcji z Generatorem, wejdź w interakcję ponownie. Druga interakcja musi być skierowana na inny Element lub Ocalałego.",
-      "imagePath": "img/technician.jpg", 
+      "imagePath": "img/en/technician.png", 
        "type": "Survivant"
     },
     {
       "id": 47,
-      "name": "Petit Gibier",
+      "name": "Small Game",
       "cost": 1,
-      "description": "Après que vous avez réussi à purifier un Totem ensorcelé, le Tueur perd 2 Points de Sang.",
-      "imagePath": "img/smallgame.jpg", 
+      "description": "After you successfully cleanse a Hex Totem, the Killer loses 2 Blood Points.",
+      "imagePath": "img/en/smallgame.png", 
        "type": "Survivant"
     },
     {
       "id": 48,
-      "name": "Saboteur",
+      "name": "Saboteur (Sabotażysta)",
       "cost": 0,
       "description": "Po rozbrojeniu Haka zyskaj 1 Punkty Krwi albo wydaj 2 Punkty Krwi, aby rozegrać dodatkową turę Ocalałego.",
-      "imagePath": "img/saboteur.jpg", 
+      "imagePath": "img/en/saboteur.png", 
        "type": "Survivant"
     },
     {
       "id": 49,
-      "name": "Calm Spirit",
+      "name": "Calm Spirit (Spokojny Duch)",
       "cost": 0,
       "description": "W ramach interakcji przesuń Wronę ze swojego pola na dowolne pole na planszy.",
-      "imagePath": "img/calmspirit.jpg", 
+      "imagePath": "img/en/calmspirit.png", 
        "type": "Survivant"
     },
     {
       "id": 50,
-      "name": "Leader",
+      "name": "Leader (Lider)",
       "cost": 1,
       "description": "Kiedy inny Ocalały na twoim polu poruszy się, porusz się razem z nim ALBO kiedy się poruszasz, inny Ocalały na twoim polu porusza się razem z tobą.",
-      "imagePath": "img/leader.jpg", 
+      "imagePath": "img/en/leader.png", 
        "type": "Survivant"
     },
     {
       "id": 51,
-      "name": "Bond",
+      "name": "Bond (Więź)",
       "cost": 1,
       "description": "Kiedy inny Ocalały na twoim lub połączonym polu ma wykonać Test Umiejętności, rzuć dwiema kośćmi Testu Umiejętności i zachowaj wybrany wynik.",
-      "imagePath": "img/bond.jpg", 
+      "imagePath": "img/en/bond.png", 
        "type": "Survivant"
     },
     {
       "id": 52,
-      "name": "Self-Care",
+      "name": "Self-Care (Samoopatrywanie)",
       "cost": 1,
       "description": "Na początku swojej tury rzuć kością Niebezpieczeństwa. W przypadku sukcesu stajesz się zdrowy.",
-      "imagePath": "img/selfcare.jpg", 
+      "imagePath": "img/en/selfcare.png", 
        "type": "Survivant"
     },
     {
       "id": 53,
-      "name": "Any means necessary",
+      "name": "Any means necessary (Po Trupach do Celu)",
       "cost": 0,
       "description": "Na końcu swojej tury, jeśli jesteś zdrowy, zrań się, aby natychmiast rozegrać dodatkową turę Ocalałego.",
-      "imagePath": "img/anymeans.jpg", 
+      "imagePath": "img/en/anymeans.png", 
        "type": "Survivant"
     },
     {
       "id": 54,
-      "name": "Nous y arriverons",
+      "name": "We'll Make it",
       "cost": 2,
-      "description": "Lorsque vous soignez un autre Survivant avec succès, ce Survivant joue un Tour Bonus de Survivant.",
-      "imagePath": "img/wellmakeit.jpg", 
+      "description": "After you successfully heal another Survivor, that Survivor takes a Survivor bonus turn.",
+      "imagePath": "img/en/wellmakeit.png", 
        "type": "Survivant"
     },
     {
       "id": 55,
-      "name": "Ce n'est pas en train d'arriver",
+      "name": "This is not happening",
       "cost": 1,
-      "description": "Lorsque vous effectuez un Test d'Habileté, jetez le dé de Danger à la place.",
-      "imagePath": "img/thisisnothappening.jpg", 
+      "description": "When performing a skill check, roll the danger die instead.",
+      "imagePath": "img/en/thisisnothappening.png", 
        "type": "Survivant"
     },
     {
       "id": 56,
-      "name": "Quick and quiet",
+      "name": "Quick and quiet (Szybko i Cicho)",
       "cost": 1,
       "description": "Kiedy Zabójca poruszy się na twoje pole (zanim wejdzie w interakcję), wejdź w interakcję z Szafką na twoim polu.",
-      "imagePath": "img/quickandquiet.jpg", 
+      "imagePath": "img/en/quickandquiet.png", 
        "type": "Survivant"
     },
     {
       "id": 57,
-      "name": "Up the ante",
+      "name": "Up the ante (Podnieść Stawkę)",
       "cost": 2,
       "description": "Na koniec swojej tury rozegraj dodatkową turę Ocalałego. Zabójca otrzymuje 2 Punkty Krwi.",
-      "imagePath": "img/uptheante.jpg", 
+      "imagePath": "img/en/uptheante.png", 
        "type": "Survivant"
     },
     {
       "id": 58,
-      "name": "Ace in the hole",
+      "name": "Ace in the hole (As w Rękawie)",
       "cost": 1,
       "description": "Zanim wejdziesz w interakcję, zamień miejscami Element na swoim polu z innym z tej samej kategorii z połączonego pola. Generatory ze znacznikami Naprawy Generatora, zajęte Szafki i zajęte Haki nie mogą być zamienione.",
-      "imagePath": "img/emptyhanded.jpg", 
+      "imagePath": "img/en/aceinthehole.png", 
        "type": "Survivant"
     },
     {
       "id": 59,
-      "name": "Viande glissante",
+      "name": "Slippery Meat",
       "cost": 4,
-      "description": "Au début de la Phase Planification, si vous êtes Sacrifié, sabotez le Crochet sur lequel vous êtes, vous ne vous déplacez pas et n'interagissez pas après cela. (Vous pouvez quand même placer une carte Déplacement devant vous et jouer un tour normal.)",
-      "imagePath": "img/slipperymeat.jpg", 
+      "description": "At the start of the planning phase, if you are sacrificed, sabotage the hook you are on. You do not move or interact after this. (You can still set a card and take a normal turn after.)",
+      "imagePath": "img/en/slipperymeat.png", 
        "type": "Survivant"
     },
     {
       "id": 60,
-      "name": "Résistance",
+      "name": "Resilience",
       "cost": 2,
-      "description": "Au début de la Phase Nettoyage, si vous avez été Blessé durant cette Manche, jouez un Tour Bonus de Survivant.",
-      "imagePath": "img/resilience.jpg", 
+      "description": "At the start of cleanup, if you were wounded this round, take a Survivor bonus turn.",
+      "imagePath": "img/en/resilience.png", 
        "type": "Survivant"
     },
     {
@@ -476,7 +476,7 @@
       "name": "Head On (Determinacja)",
       "cost": 1,
       "description": "Gdy Zabójca wejdzie na twoje pole, usuń Szafkę z tego pola, aby powstrzymać Zabójcę od wejścia w interakcję.",
-      "imagePath": "img/headon.jpg", 
+      "imagePath": "img/en/headon.png", 
        "type": "Survivant"
     },
     {
@@ -484,7 +484,7 @@
       "name": "Solidarity (Solidarność)",
       "cost": 1,
       "description": "Wejdź w interakcję z Ocalałym na połączonym polu, żeby spróbować go wyleczyć.",
-      "imagePath": "img/solidarity.jpg", 
+      "imagePath": "img/en/solidarity.png", 
        "type": "Survivant"
     },
     {
@@ -492,7 +492,7 @@
       "name": "Adrenaline (Adrenalina)",
       "cost": 2,
       "description": "Jeśli naprawa Generatora została ukończona w tej rundzie, na początku fazy Porządkowania rozegraj dodatkową turę Ocalałego.",
-      "imagePath": "img/adrenaline.jpg", 
+      "imagePath": "img/en/adrenaline.png", 
        "type": "Survivant"
     },
     {
@@ -500,7 +500,7 @@
       "name": "Boil Over (Do Utraty Tchu)",
       "cost": 2,
       "description": "Gdy ty lub inny Ocalały na twoim polu zostajecie podniesieni, po tym, gdy Zabójca określi ilość kości do rzutu na ucieczkę, podniesiony Ocalały może zamiast tego rzucić wszystkimi czterema kośćmi.",
-      "imagePath": "img/boilover.jpg", 
+      "imagePath": "img/en/boilover.png", 
        "type": "Survivant"
     },
     {
@@ -508,15 +508,15 @@
       "name": "Appraisal (Ocena Sytuacji)",
       "cost": 2,
       "description": "Gdy inny Ocalały odrzuca Przedmiot, natychmiast uzyskaj ten Przedmiot.",
-      "imagePath": "img/appraisal.jpg", 
+      "imagePath": "img/en/appraisal.png", 
        "type": "Survivant"
     },
     {
       "id": 66,
-      "name": "On n'abandonne personne",
+      "name": "No one Left Behind",
       "cost": 1,
-      "description": "En tant qu'interaction, interagissez avec une Porte de Sortie (même si elle n'est pas alimentée) pour permettre au Survivant de votre choix de se déplacer sur le chemin praticable de son choix.",
-      "imagePath": "img/nooneleftbehind.jpg", 
+      "description": "As an interaction, interact with an exit gate (even if it's not powered up) to allow any Survivor to move along any path.",
+      "imagePath": "img/en/nooneleftbehind.png", 
        "type": "Survivant"
     },
     {
@@ -524,7 +524,7 @@
       "name": "Deception (Oszustwo)",
       "cost": 0,
       "description": "Zamiast poruszania się przy użyciu zagranej karty Ruchu, pozostań na swoim polu. Nie możesz wejść w interakcję w tej turze. Uzyskaj 1 Punkty Krwi.",
-      "imagePath": "img/deception.jpg", 
+      "imagePath": "img/en/deception.png", 
        "type": "Survivant"
     },
     {
@@ -532,15 +532,15 @@
       "name": "Built To Last (Trwałość Przede Wszystkim)",
       "cost": 2,
       "description": "Po użyciu Przedmiotu, nie odrzucaj go. Nie możesz użyć tego Przedmiotu ponownie w tej turze.",
-      "imagePath": "img/builttolast.jpg", 
+      "imagePath": "img/en/builttolast.png", 
        "type": "Survivant"
     },
     {
       "id": 69,
-      "name": "Frisson",
+      "name": "Spine Chill",
       "cost": 1,
-      "description": "Lorsque le Tueur entre dans le lieu que vous occupez, jetez 1 dé de Danger. En cas de réussite, déplacez-vous sur le chemin praticable de votre choix.",
-      "imagePath": "img/spinechill.jpg", 
+      "description": "When the Killer enters your space, roll the danger die. On a success, move along any path.",
+      "imagePath": "img/en/spinechill.png", 
        "type": "Survivant"
     },
     {
@@ -548,15 +548,15 @@
       "name": "Distortion (Zakłócenie)",
       "cost": 1,
       "description": "Jeśli w trakcie swojej tury wejdziesz na pole, na którym znajduje się Zabójca, porusz się ponownie dowolną inną ścieżką zanim wejdziesz w interakcję.",
-      "imagePath": "img/distorsion.jpg", 
+      "imagePath": "img/en/distortion.png", 
        "type": "Survivant"
     },
     {
       "id": 71,
-      "name": "Sentiment obscur",
+      "name": "Dark Sense",
       "cost": 1,
-      "description": "Durant votre Tour, lorsque vous entrez dans un lieu qui ne contient aucun Accessoire, déplacez-vous sur le chemin praticable de votre choix avant d'interagir (si vous souhaitez interagir).",
-      "imagePath": "img/darksenses.jpg", 
+      "description": "When you enter a space with no props during your turn, move again along any other path before interact (if you would interact).",
+      "imagePath": "img/en/darksenses.png", 
        "type": "Survivant"
     },
     {
@@ -564,7 +564,7 @@
       "name": "Alert (Czujność)",
       "cost": 1,
       "description": "Kiedy Zabójca zniszczy Paletę, Nadkruszoną Ścianę lub uszkodzi Generator, porusz się po dowolnej ścieżce.",
-      "imagePath": "img/alert.jpg", 
+      "imagePath": "img/en/alert.png", 
        "type": "Survivant"
     },
     {
@@ -572,7 +572,7 @@
       "name": "Aftercare (Druga Pomoc)",
       "cost": 0,
       "description": "Gdy ty lub inny Ocalały zostanie wyleczony, rozbrój wolny Hak na dowolnym polu na planszy.",
-      "imagePath": "img/aftercare.jpg", 
+      "imagePath": "img/en/aftercare.png", 
        "type": "Survivant"
     },
     {
@@ -580,7 +580,7 @@
       "name": "Dance With Me (Zatańcz ze Mną)",
       "cost": 0,
       "description": "Po wykonaniu ruchu, jeśli na początku swojej tury znajdowałeś się w Szafce, porusz się jeszcze raz po dowolnej innej ścieżce zanim wejdziesz w interakcję.",
-      "imagePath": "img/dancewithme.jpg", 
+      "imagePath": "img/en/dancewithme.png", 
        "type": "Survivant"
     },
     {
@@ -588,7 +588,7 @@
       "name": "Autodidact (Samouk)",
       "cost": 2,
       "description": "Gdy ty lub inny Ocalały na twoim lub połączonym polu uzyska sukces w rzucie kością, zamień ten wynik na wielki sukces.",
-      "imagePath": "img/autodidact.jpg", 
+      "imagePath": "img/en/autodidact.png", 
        "type": "Survivant"
     },
     {
@@ -596,7 +596,7 @@
       "name": "Deliverance (Wybawienie)",
       "cost": 1,
       "description": "Gdy rozbroisz zajęty Hak lub gdy inny ocalały rozbroi Hak, na którym wisisz, ratujący lub ratowany zostaje natychmiast wyleczony.",
-      "imagePath": "img/deliverance.jpg", 
+      "imagePath": "img/en/deliverance.png", 
        "type": "Survivant"
     },
     {
@@ -604,7 +604,7 @@
       "name": "Dead Hard (Twarda Sztuka)",
       "cost": 2,
       "description": "Gdy inny Ocalały na twoim polu ma zostać poświęcony, rzuć kością Niebezpieczeństwa. W przypadku sukcesu, ten Ocalały porusza się dowolną ścieżką zamiast zostać poświęcony.",
-      "imagePath": "img/deadhard.jpg", 
+      "imagePath": "img/en/deadhard.png", 
        "type": "Survivant"
     },
     {
@@ -612,7 +612,7 @@
       "name": "We’re Gonna Live Forever (Będziemy Żyć Wiecznie)",
       "cost": 1,
       "description": "Gdyby Zabójca spróbuje opuścić twoje pole, zatrzymaj go. Zabójca wciąż może wejść w interakcję na tym polu.",
-      "imagePath": "img/wegonnaliveforever.jpg", 
+      "imagePath": "img/en/wegonnaliveforever.png", 
        "type": "Survivant"
     },
     {
@@ -620,7 +620,7 @@
       "name": "Empathy (Empatia)",
       "cost": 0,
       "description": "Na początku swojej tury możesz wziąć 1 Punkty Krwi od Ocalałego, który jest chętny ci go ofiarować ALBO możesz dać 1 Punkty Krwi Ocalałemu chętnemu go przyjąć.",
-      "imagePath": "img/empathy.jpg", 
+      "imagePath": "img/en/empathy.png", 
        "type": "Survivant"
     },
     {
@@ -628,7 +628,7 @@
       "name": "Lucky Break (Łut Szczęścia)",
       "cost": 2,
       "description": "Gdy dowolny ocalały uzyska wielki sukces w wyniku rzutu kością, zostajesz wyleczony.",
-      "imagePath": "img/luckybreak.jpg", 
+      "imagePath": "img/en/luckybreak.png", 
        "type": "Survivant"
     },
     {
@@ -636,7 +636,7 @@
       "name": "Self-preservation (Instynkt Samozachowawczy)",
       "cost": 1,
       "description": "Natychmiast po turze, w której inny Ocalały został zraniony lub poświęcony, wejdź w interakcję z Szafką na twoim polu.",
-      "imagePath": "img/selfpreservation.jpg", 
+      "imagePath": "img/en/selfpreservation.png", 
        "type": "Survivant"
     },
     {
@@ -644,7 +644,7 @@
       "name": "For The People (Za Ludzi)",
       "cost": 1,
       "description": "Po wykonaniu ruchu, jeśli nie jesteś ranny, zrań się, aby inny Ocalały na twoim polu natychmiast został wyleczony lub aby dodać jeden znacznik Naprawy do Generatora na tym polu. Możesz wciąż wejść w interakcję w tej turze.",
-      "imagePath": "img/forthepeople.jpg", 
+      "imagePath": "img/en/forthepeople.png", 
        "type": "Survivant"
     },
     {
@@ -652,7 +652,7 @@
       "name": "Off The Record (Nieoficjalnie)",
       "cost": 0,
       "description": "Gdy ty lub inny Ocalały na twoim lub połączonym polu uzyska porażkę w wyniku rzutu kością, ty zdobywasz 1 Punkty Krwi zamiast Zabójcy.",
-      "imagePath": "img/offtherecord.jpg", 
+      "imagePath": "img/en/offtherecord.png", 
        "type": "Survivant"
     },
     {
@@ -660,7 +660,7 @@
       "name": "Smash Hit (Przebój)",
       "cost": 0,
       "description": "Gdy Zabójca zniszczy Paletę, przejdzie przez Nadkruszoną Ścianę lub uszkodzi Generator, uzyskaj 1 Punkty Krwi.",
-      "imagePath": "img/smashhit.jpg", 
+      "imagePath": "img/en/smashhit.png", 
        "type": "Survivant"
     },
     {
@@ -668,7 +668,7 @@
       "name": "Streetwise (Wiedza Uliczna)",
       "cost": 1,
       "description": "Skrzynia nie jest usuwana po tym, jak wejdziesz z nią w interakcję.",
-      "imagePath": "img/streetwise.jpg", 
+      "imagePath": "img/en/streetwise.png", 
        "type": "Survivant"
     },
     {
@@ -676,47 +676,47 @@
       "name": "Urban Evasion (Skrytość)",
       "cost": 1,
       "description": "Na początku tury dowolnego Ocalałego usuń z gry Nadkruszoną Ścianę. Umieść ją ponownie na tej samej ścieżce na koniec tury tego Ocalałego.",
-      "imagePath": "img/urbanevasion.jpg", 
+      "imagePath": "img/en/urbanevasion.png", 
        "type": "Survivant"
     },
     {
       "id": 87,
-      "name": "Espoir",
+      "name": "Hope",
       "cost": 0,
-      "description": "Lorsqu'un Générateur est activé, gagnez 1 Point de Sang.",
-      "imagePath": "img/hope.jpg", 
+      "description": "When a generator is completed, gain a Blood Point.",
+      "imagePath": "img/en/hope.png", 
        "type": "Survivant"
     },
     {
       "id": 88,
-      "name": "Parenté",
+      "name": "Kindred",
       "cost": 0,
-      "description": "Après que vous avez saboté un Crochet occupé ou que le Crochet que vous occupez a été saboté par un autre Survivant, vous et l'autre Survivant (s'il y en a un) gagnez 1 Point de sang.",
-      "imagePath": "img/kindred.jpg", 
+      "description": "After you sabotage a hook or the hook you are on is sabotaged by another Survivor, both you and the Survivor (if there is one) gain a Blood Point.",
+      "imagePath": "img/en/kindred.png", 
        "type": "Survivant"
     },
     {
       "id": 89,
-      "name": "Poids plume",
+      "name": "Lightweight",
       "cost": 1,
-      "description": "A la fin de la Phase Planification, défaussez 1 carte Déplacement de votre main et déplacez-vous sur le chemin indiqué par cette carte.",
-      "imagePath": "img/lightfeather.jpg", 
+      "description": "At the end of the planning phase, discard a movement card and move along that card's path.",
+      "imagePath": "img/en/lightweight.png", 
        "type": "Survivant"
     },
     {
       "id": 90,
-      "name": "Instinct de pillard",
+      "name": "Plunderer's Instinct",
       "cost": 1,
-      "description": "Lorsque vous devriez piocher une carte Objet, piochez-en 3. Gardez celle de votre choix et défaussez les 2 autres.",
-      "imagePath": "img/plundererinstinct.jpg", 
+      "description": "When you would draw on item, draw three. Keep one and discard the other two.",
+      "imagePath": "img/en/plundererinstinct.png", 
        "type": "Survivant"
     },
     {
       "id": 91,
-      "name": "Prémonition",
+      "name": "Premonition",
       "cost": 1,
-      "description": "Lorsque le Tueur entre dans le lieu que vous occupez, avant qu'il n'interagisse, interagissez avec 1 Corbeau présent dans ce lieu.",
-      "imagePath": "img/premonition.jpg", 
+      "description": "When the Killer enters your space, before they interact, interact with a crow in your space.",
+      "imagePath": "img/en/premonition.png", 
        "type": "Survivant"
     },
     {
@@ -724,15 +724,15 @@
       "name": "Visionary (Wizjoner)",
       "cost": 0,
       "description": "Po wejściu na pole, odkryj Element na połączonym polu, zamiast na twoim polu.",
-      "imagePath": "img/visionnary.jpg", 
+      "imagePath": "img/en/visionary.png", 
        "type": "Survivant"
     },
     {
       "id": 93,
-      "name": "Déjà-vu",
+      "name": "Deja-vu",
       "cost": 2,
-      "description": "Lorsque le Tueur endommage un Générateur présent dans un autre lieu que celui que vous occupez, interagissez avec un Générateur présent dans le lieu que vous occupez.",
-      "imagePath": "img/dejavu.jpg", 
+      "description": "When the Killer damages a generator in another space, interact with a generator in your space.",
+      "imagePath": "img/en/dejavu.png", 
        "type": "Survivant"
     }
   ]
