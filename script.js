@@ -35,7 +35,7 @@ function displayImages(images) {
       logoSrc = 'img/tueur-logo.png';
     } else if (image.type === 'Survivant') {
       logoSrc = 'img/survivant-logo.png';
-    } else if (image.type === 'Item') {
+    } else if (image.type === 'item') {
       logoSrc = 'img/item-logo.png';
     }
 
