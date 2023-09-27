@@ -1,8 +1,10 @@
     {
         "searchButton": "Rechercher",
         "searchPlaceholder": "Recherche nom/description",
-        "KillerPerks": "Perks de Tueur",
-        "SurvivorPerks": "Perks de Survivant",
+        "nofilter": "Voir tout",
+        "lockedPerks": "Perks exclusives de personnages",
+        "ItemButton": "Objets uniquement",
+        "filterOptions": "Options de tri :",
         "sortLabel": "Croissant",
         "survivorLabel": "Survivant seulement",
         "killerLabel": "Tueur seulement"

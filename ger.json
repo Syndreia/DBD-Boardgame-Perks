@@ -1,0 +1,11 @@
+{
+    "searchButton": "Suchen",
+    "searchPlaceholder": "Suche nach Name/Beschreibung",
+    "nofilter": "Alle anzeigen",
+    "lockedPerks": "Charakter-exklusive Perks",
+    "ItemButton": "Nur Artikel",
+    "filterOptions": "Filteroptionen :",
+    "sortLabel": "Niedrigste bis höchste",
+    "survivorLabel": "Nur Überlebende",
+    "killerLabel": "Nur Killer"
+}

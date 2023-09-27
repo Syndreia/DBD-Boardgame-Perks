@@ -90,7 +90,7 @@ header h1 {
   height: 15%;
 }
 
-#filterTueur, #filterSurvivant {
+#filterLockedPerks, #noFilter, #filterItem {
   margin-top: 2%;
   margin-right: 10px;
   padding: 5px 10px;
@@ -100,7 +100,7 @@ header h1 {
   cursor: pointer;
 }
 
-#filterTueur:hover, #filterSurvivant:hover {
+#filterLockedPerks:hover, #noFilter:hover, #filterItem:hover {
   background-color: #ff3d00;
 }
 

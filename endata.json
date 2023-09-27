@@ -5,7 +5,8 @@
       "cost": 0,
       "description": "After sacrificing a Survivor, if there are no other Survivors in your space, gain 2 Blood Points.",
       "imagePath": "img/en/monstrousshrine.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 2,
@@ -13,7 +14,8 @@
       "cost": 0,
       "description": "When a crow is revealed, gain a Blood Point.",
       "imagePath": "img/en/spiesfromshadows.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 3,
@@ -21,7 +23,8 @@
       "cost": 2,
       "description": "When a Survivor leaves your space, move with them.",
       "imagePath": "img/en/thrillofthehunt.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 4,
@@ -29,7 +32,8 @@
       "cost": 1,
       "description": "After you move along a one-way path or breakable wall, move again along any path before interacting.",
       "imagePath": "img/en/bittermurmur.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 5,
@@ -37,7 +41,8 @@
       "cost": 2,
       "description": "When a wounded Survivor leaves your space, they roll the danger die. On a failure, they remain in place and cannot interact this turn.",
       "imagePath": "img/en/deerstalker.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 6,
@@ -45,7 +50,8 @@
       "cost": 2,
       "description": "When you would attack a healthy Survivor, if you have not moved this turn, pick them up instead.",
       "imagePath": "img/en/insidious.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 8,
@@ -53,7 +59,8 @@
       "cost": 0,
       "description": "At the end of your turn, if the exit gates are powered up, take a Killer bonus turn (1/round max).",
       "imagePath": "img/en/noed.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 9,
@@ -61,7 +68,8 @@
       "cost": 1,
       "description": "At the start of the planning phase, choose a Survivor. That Survivor either chooses to spend a Blood Point, or place their movement card face up.",
       "imagePath": "img/en/whispers.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 10,
@@ -69,7 +77,8 @@
       "cost": 1,
       "description": "When a Survivor attempts to heal, they roll the danger die instead.",
       "imagePath": "img/en/sloppybutcher.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 11,
@@ -77,7 +86,8 @@
       "cost": 2,
       "description": "After interacting with a Survivor in your space, interact with a different Survivor in your space.",
       "imagePath": "img/en/unrelenting.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 12,
@@ -85,7 +95,8 @@
       "cost": 2,
       "description": "After a Survivor moves into a space with a locker, they interact with that locker.",
       "imagePath": "img/en/distressing.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 13,
@@ -93,7 +104,8 @@
       "cost": 1,
       "description": "After a Survivor rolls the dice during a sacrifice attempt, they re-roll all skill check dice.",
       "imagePath": "img/en/irongrasp.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 14,
@@ -101,7 +113,8 @@
       "cost": 2,
       "description": "After you damage a generator, a Survivor in your or a connected space becomes wounded.",
       "imagePath": "img/en/overcharge.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 15,
@@ -109,7 +122,8 @@
       "cost": 1,
       "description": "When a Survivor in your space or a connected space uses an item, they roll the danger die. On a failure, the item is discarded with no effect.",
       "imagePath": "img/en/overwhelmingpresence.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 16,
@@ -117,7 +131,8 @@
       "cost": 2,
       "description": "At the start of cleanup, if a generator was completed this round, take a Killer bonus turn (1/round max).",
       "imagePath": "img/en/devourhope.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 17,
@@ -125,7 +140,8 @@
       "cost": 1,
       "description": "At the start of the planning phase, remove a progress from a generator, as long as there are no Survivors in that generator's space.",
       "imagePath": "img/en/ruin.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 18,
@@ -133,7 +149,8 @@
       "cost": 2,
       "description": "When you would move along a path with a pallet, destroy the pallet and complete your turn as normal. You can still interact this turn.",
       "imagePath": "img/en/enduring.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 19,
@@ -141,7 +158,8 @@
       "cost": 0,
       "description": "When a generator is completed, pick up and replace one of your set movement cards with a different card from your hand.",
       "imagePath": "img/en/tinkerer.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 20,
@@ -149,7 +167,8 @@
       "cost": 0,
       "description": "After a Survivor becomes healthy, gain 2 Blood Points.",
       "imagePath": "img/en/nursescalling.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 21,
@@ -157,7 +176,8 @@
       "cost": 1,
       "description": "When a wounded survivor would perform a skill check, they roll the danger die instead.",
       "imagePath": "img/en/thanatophobia.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 22,
@@ -165,7 +185,8 @@
       "cost": 1,
       "description": "After you attack a healthy Survivor, move along any path.",
       "imagePath": "img/en/agitation.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 23,
@@ -173,7 +194,8 @@
       "cost": 1,
       "description": "When a Survivor in your space or a connected space would perform a skill check, they roll the danger die instead.",
       "imagePath": "img/en/unnervingpresence.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 24,
@@ -181,7 +203,8 @@
       "cost": 0,
       "description": "After you sacrifice a Survivor, they lose a Blood Point and you gain a Blood Point (even if they do not have any to lose).",
       "imagePath": "img/en/bloodhound.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 25,
@@ -189,7 +212,8 @@
       "cost": 2,
       "description": "At the end of the planning phase, choose a Survivor. They discard their set movement card, then replace it with a new one.",
       "imagePath": "img/en/predator.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 26,
@@ -197,7 +221,8 @@
       "cost": 1,
       "description": "When you damage a generator, discard up to 2 movement cards. Each Survivor in a space connected to that generator by either card's path either spends a Blood Point or becomes wounded.",
       "imagePath": "img/en/dragonsgrip.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 27,
@@ -205,7 +230,8 @@
       "cost": 1,
       "description": "At an interaction, discard a movement card except 'Wait' to interact with a prop in a space connected to that card's path.",
       "imagePath": "img/en/undying.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 28,
@@ -213,7 +239,8 @@
       "cost": 0,
       "description": "After wounding or sacrificing a Survivor, remove a crow, an unoccupied locker, or a chest in a connected space.",
       "imagePath": "img/en/popgoestheweasel.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 29,
@@ -221,7 +248,8 @@
       "cost": 1,
       "description": "At the start of the planning phase, place the Entity on a path. Players treat it as a breakable wall (you may pass through it freely).",
       "imagePath": "img/en/bamboozle.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 30,
@@ -229,7 +257,8 @@
       "cost": 1,
       "description": "After you sacrifice a Survivor, a generator or exit gate of your choice loses a progress.",
       "imagePath": "img/en/deadmansswitch.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 31,
@@ -237,7 +266,8 @@
       "cost": 0,
       "description": "When a Survivor attempts to cleanse a Hex Totem, they roll the danger die instead. On a success, you gain 2 Blood Points.",
       "imagePath": "img/en/retribution.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 32,
@@ -245,7 +275,8 @@
       "cost": 1,
       "description": "At the start of the planning phase, move along any path.",
       "imagePath": "img/en/beastofprey.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 33,
@@ -253,7 +284,8 @@
       "cost": 2,
       "description": "After interacting, use your Killer power (you can only use your Killer power once per round).",
       "imagePath": "img/en/territorialimperative.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 34,
@@ -261,7 +293,8 @@
       "cost": 0,
       "description": "When a Survivor enters the same space as another Survivor, gain a Blood Point for each Survivor and Killer in that space.",
       "imagePath": "img/en/discordance.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 35,
@@ -269,7 +302,8 @@
       "cost": 2,
       "description": "Before interacting, swap the positions of an unoccupied locker and an unoccupied hook anywhere on the game board.",
       "imagePath": "img/en/ironmaiden.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 36,
@@ -277,7 +311,8 @@
       "cost": 2,
       "description": "After a Survivor interacts with a pallet or locker in your space or a connected space, remove the pallet or locker.",
       "imagePath": "img/en/nemesis.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 37,
@@ -285,7 +320,8 @@
       "cost": 2,
       "description": "At the start of your turn, discard a set movement card and replace it with a new one.",
       "imagePath": "img/en/zanshintactics.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 38,
@@ -293,7 +329,8 @@
       "cost": 1,
       "description": "After you attack a healthy Survivor, move a Survivor in a connected space along any path.",
       "imagePath": "img/en/infectiousfright.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 39,
@@ -301,7 +338,8 @@
       "cost": 1,
       "description": "At the start of the planning phase, place the Entity on a revealed generator in any space. It cannot be interacted with.",
       "imagePath": "img/en/corruptintervention.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 40,
@@ -309,7 +347,8 @@
       "cost": 1,
       "description": "After a Survivor reveals a prop, swap that prop with another revealed prop from the same category. Generators with progress, pallets on paths, occupied lockers, and occupied hooks can't be swapped.",
       "imagePath": "img/en/hauntedground.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 41,
@@ -317,7 +356,8 @@
       "cost": 0,
       "description": "After you break a pallet, gain 2 Blood Points.",
       "imagePath": "img/en/spiritfury.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 42,
@@ -325,7 +365,8 @@
       "cost": 1,
       "description": "At the start of the planning phase, choose a survivor. The Survivors may collectively spend 2 Blood Points. Otherwise, you select what movement card the chosen Survivor will set from their hand for the turn.",
       "imagePath": "img/en/crowdcontrol.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 43,
@@ -333,7 +374,8 @@
       "cost": 2,
       "description": "When you would pick up a Survivor, move along any path and then pick up a different survivor instead (they do not need to be wounded).",
       "imagePath": "img/en/starstruck.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 44,
@@ -341,7 +383,8 @@
       "cost": 2,
       "description": "When you damage a generator, remove a progress from up to 2 other generators anywhere on the game board.",
       "imagePath": "img/en/oppression.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 45,
@@ -349,7 +392,8 @@
       "cost": 0,
       "description": "As an interaction, interact with a chest to remove it and gain 2 Blood Points.",
       "imagePath": "img/en/hoarder.png", 
-       "type": "Tueur"
+         "type": "Tueur",
+    "lock": false
     },
     {
       "id": 46,
@@ -357,7 +401,8 @@
       "cost": 0,
       "description": "When you roll a failure while interacting with a generator, interact again. The second interaction must target a different prop or Survivor.",
       "imagePath": "img/en/technician.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 47,
@@ -365,7 +410,8 @@
       "cost": 1,
       "description": "After you successfully cleanse a Hex Totem, the Killer loses 2 Blood Points.",
       "imagePath": "img/en/smallgame.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 48,
@@ -373,7 +419,8 @@
       "cost": 0,
       "description": "After you sabotage a hook either gain a Blood Point, or spend 2 Blood points to take a Survivor bonus turn.",
       "imagePath": "img/en/saboteur.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 49,
@@ -381,7 +428,8 @@
       "cost": 0,
       "description": "As an interaction, move a crow in your space to any space on the game board.",
       "imagePath": "img/en/calmspirit.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 50,
@@ -389,7 +437,8 @@
       "cost": 1,
       "description": "When another Survivor in your space moves, move with them, OR; when you move, another Survivor in your space moves with you.",
       "imagePath": "img/en/leader.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 51,
@@ -397,7 +446,8 @@
       "cost": 1,
       "description": "When another Survivor in your space or a connected space would make a skill check, roll two skill check dice and keep either result instead.",
       "imagePath": "img/en/bond.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 52,
@@ -405,7 +455,8 @@
       "cost": 1,
       "description": "At the start of your turn, roll the danger die. On a success, you become healthy.",
       "imagePath": "img/en/selfcare.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 53,
@@ -413,7 +464,8 @@
       "cost": 0,
       "description": "At the end of your turn, if you are healthy, become wounded to take a Survivor bonus turn.",
       "imagePath": "img/en/anymeans.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 54,
@@ -421,7 +473,8 @@
       "cost": 2,
       "description": "After you successfully heal another Survivor, that Survivor takes a Survivor bonus turn.",
       "imagePath": "img/en/wellmakeit.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 55,
@@ -429,7 +482,8 @@
       "cost": 1,
       "description": "When performing a skill check, roll the danger die instead.",
       "imagePath": "img/en/thisisnothappening.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 56,
@@ -437,7 +491,8 @@
       "cost": 1,
       "description": "When the Killer enters your space (before they interact), interact with a locker in your space.",
       "imagePath": "img/en/quickandquiet.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 57,
@@ -445,7 +500,8 @@
       "cost": 2,
       "description": "At the end of your turn, take a Survivor bonus turn. The killer gains 2 Blood Points.",
       "imagePath": "img/en/uptheante.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 58,
@@ -453,7 +509,8 @@
       "cost": 1,
       "description": "Before you interact, swap a prop in your space with another from the same category in a connected space. Generators with progress, occupied lockers, and occupied hooks can't be swapped.",
       "imagePath": "img/en/aceinthehole.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 59,
@@ -461,7 +518,8 @@
       "cost": 4,
       "description": "At the start of the planning phase, if you are sacrificed, sabotage the hook you are on. You do not move or interact after this. (You can still set a card and take a normal turn after.)",
       "imagePath": "img/en/slipperymeat.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 60,
@@ -469,7 +527,8 @@
       "cost": 2,
       "description": "At the start of cleanup, if you were wounded this round, take a Survivor bonus turn.",
       "imagePath": "img/en/resilience.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 61,
@@ -477,7 +536,8 @@
       "cost": 1,
       "description": "After the Killer enters your space, remove a locker in your space to prevent the Killer from interacting this turn.",
       "imagePath": "img/en/headon.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 62,
@@ -485,7 +545,8 @@
       "cost": 1,
       "description": "As an interaction, you may interact with another Surivvor in a connected space to use the 'heal' interaction on them.",
       "imagePath": "img/en/solidarity.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 63,
@@ -493,7 +554,8 @@
       "cost": 2,
       "description": "At the start of cleanup, if a generator was completed this round, take a Survivor bonus turn.",
       "imagePath": "img/en/adrenaline.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 64,
@@ -501,7 +563,8 @@
       "cost": 2,
       "description": "When you or another Survivor in your space is picked up, after the Killer decides how many dice to roll, the Survivor who was picked up may roll 4 skill check dice instead of the number the Killer chose.",
       "imagePath": "img/en/boilover.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 65,
@@ -509,7 +572,8 @@
       "cost": 2,
       "description": "When another Survivor would discard an item, you gain it instead. If you have more than one item, discard until you only have one.",
       "imagePath": "img/en/appraisal.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 66,
@@ -517,7 +581,8 @@
       "cost": 1,
       "description": "As an interaction, interact with an exit gate (even if it's not powered up) to allow any Survivor to move along any path.",
       "imagePath": "img/en/nooneleftbehind.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 67,
@@ -525,7 +590,8 @@
       "cost": 0,
       "description": "When you would move during your turn, remain in your space instead. You cannot interact this turn. Gain a Blood Point.",
       "imagePath": "img/en/deception.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 68,
@@ -533,7 +599,8 @@
       "cost": 2,
       "description": "When you would discard an item after using it, keep it instead. You cannot use it again during this turn.",
       "imagePath": "img/en/builttolast.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 69,
@@ -541,7 +608,8 @@
       "cost": 1,
       "description": "When the Killer enters your space, roll the danger die. On a success, move along any path.",
       "imagePath": "img/en/spinechill.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 70,
@@ -549,7 +617,8 @@
       "cost": 1,
       "description": "After you move into the Killer's space during your turn, move again along any other path before interacting.",
       "imagePath": "img/en/distortion.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 71,
@@ -557,7 +626,8 @@
       "cost": 1,
       "description": "When you enter a space with no props during your turn, move again along any other path before interact (if you would interact).",
       "imagePath": "img/en/darksenses.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 72,
@@ -565,7 +635,8 @@
       "cost": 1,
       "description": "When the Killer breaks a pallet, moves through a breakable wall, or damages a generator, move along any path.",
       "imagePath": "img/en/alert.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 73,
@@ -573,7 +644,8 @@
       "cost": 0,
       "description": "After you or another Survivor becomes healthy, sabotage an unoccupied hook anywhere on the game board.",
       "imagePath": "img/en/aftercare.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 74,
@@ -581,7 +653,8 @@
       "cost": 0,
       "description": "After you move, if you occupied a locker at the start of the turn, move again along any other path before interacting.",
       "imagePath": "img/en/dancewithme.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 75,
@@ -589,7 +662,8 @@
       "cost": 2,
       "description": "When you or another Survivor in your space or a connected space rolls a success, change the result to a great success instead.",
       "imagePath": "img/en/autodidact.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 76,
@@ -597,7 +671,8 @@
       "cost": 1,
       "description": "After you sabotage an occupied hook or the hook you are on is sabotaged by another Survivor, either you or the other Survivor becomes healthy (your choice).",
       "imagePath": "img/en/deliverance.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 77,
@@ -605,15 +680,17 @@
       "cost": 2,
       "description": "When another Survivor in your space would be sacrificed, roll the danger die. On a success, that Survivor moves along any path instead of being sacrificed.",
       "imagePath": "img/en/deadhard.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 78,
-      "name": "W're Gonna Live Forever",
+      "name": "We're Gonna Live Forever",
       "cost": 1,
       "description": "When the Killer would leave your space, prevent that move. The Killer can still interact in your space.",
       "imagePath": "img/en/wegonnaliveforever.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 79,
@@ -621,7 +698,8 @@
       "cost": 0,
       "description": "At the start of your turn, you may take a Blood Point from a willing Survivor, OR; you may give a Blood Point to a willing Survivor.",
       "imagePath": "img/en/empathy.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 80,
@@ -629,7 +707,8 @@
       "cost": 2,
       "description": "After any Survivor rolls a great success, you become healthy.",
       "imagePath": "img/en/luckybreak.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 81,
@@ -637,7 +716,8 @@
       "cost": 1,
       "description": "After the turn when another Survivor is wounded or sacrificed, interact with a locker in your space.",
       "imagePath": "img/en/selfpreservation.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 82,
@@ -645,7 +725,8 @@
       "cost": 1,
       "description": "After you enter a space, if you are not wounded, become wounded to have another Survivor in your space become healthy or to add a progress to a generator (you can still interact this turn).",
       "imagePath": "img/en/forthepeople.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 83,
@@ -653,7 +734,8 @@
       "cost": 0,
       "description": "When you or another Survivor in your space or a connected space rolls a failure, you gain a Blood Point instead of the Killer.",
       "imagePath": "img/en/offtherecord.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 84,
@@ -661,7 +743,8 @@
       "cost": 0,
       "description": "When the Killer breaks a pallet, moves thourhgh a breakable wall, or damages a generator, gain a Blood Point.",
       "imagePath": "img/en/smashhit.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 85,
@@ -669,7 +752,8 @@
       "cost": 1,
       "description": "After you interact with a chest, the chest is not removed.",
       "imagePath": "img/en/streetwise.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 86,
@@ -677,7 +761,8 @@
       "cost": 1,
       "description": "At the start of any Survivor turn, remove a breakable wall from play. Return it to play in the same path at the end of that Survivor turn.",
       "imagePath": "img/en/urbanevasion.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 87,
@@ -685,7 +770,8 @@
       "cost": 0,
       "description": "When a generator is completed, gain a Blood Point.",
       "imagePath": "img/en/hope.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 88,
@@ -693,7 +779,8 @@
       "cost": 0,
       "description": "After you sabotage a hook or the hook you are on is sabotaged by another Survivor, both you and the Survivor (if there is one) gain a Blood Point.",
       "imagePath": "img/en/kindred.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 89,
@@ -701,7 +788,8 @@
       "cost": 1,
       "description": "At the end of the planning phase, discard a movement card and move along that card's path.",
       "imagePath": "img/en/lightweight.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 90,
@@ -709,7 +797,8 @@
       "cost": 1,
       "description": "When you would draw on item, draw three. Keep one and discard the other two.",
       "imagePath": "img/en/plundererinstinct.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 91,
@@ -717,7 +806,8 @@
       "cost": 1,
       "description": "When the Killer enters your space, before they interact, interact with a crow in your space.",
       "imagePath": "img/en/premonition.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 92,
@@ -725,7 +815,8 @@
       "cost": 0,
       "description": "When you would reveal a prop, reveal any prop in a connected space instead.",
       "imagePath": "img/en/visionary.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
     },
     {
       "id": 93,
@@ -733,6 +824,88 @@
       "cost": 2,
       "description": "When the Killer damages a generator in another space, interact with a generator in your space.",
       "imagePath": "img/en/dejavu.png", 
-       "type": "Survivant"
+       "type": "Survivant",
+    "lock": false
+    },
+    {
+      "id": 94,
+      "name": "First-aid Kit",
+      "cost": 0,
+      "description": "Discard this during any Survivor turn to have yourself or another Survivor in your space become healthy.",
+      "imagePath": "img/en/firstaidkit.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 95,
+      "name": "Flashlight",
+      "cost": 0,
+      "description": "Discard this during the Killer's turn to prevent the Killer in your space from interacting.",
+      "imagePath": "img/en/flashlight.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 96,
+      "name": "Broken Key",
+      "cost": 0,
+      "description": "Discard this at any time to allow any Survivor to re-roll any die or gain a Blood Point.",
+      "imagePath": "img/en/brokenkey.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 97,
+      "name": "Commodious Toolbox",
+      "cost": 0,
+      "description": "Discard this during any Survivor's turn to add a progress to a generator in your space, then draw an item.",
+      "imagePath": "img/en/commodioustoolbox.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 98,
+      "name": "Dull Key",
+      "cost": 0,
+      "description": "Discard this at any time to allow any Survivor to re-roll any die or gain 2 Blood Points.",
+      "imagePath": "img/en/dullkey.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 99,
+      "name": "Firecracker",
+      "cost": 0,
+      "description": "Discard this at any time to remove a breakable wall in a connected space, or to prevent the Killer from moving into your space.",
+      "imagePath": "img/en/firecracker.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 100,
+      "name": "Map",
+      "cost": 0,
+      "description": "Discard this during any Survivor's turn to reveal up to 3 props anywhere on the game board, or to draw another item.",
+      "imagePath": "img/en/map.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 101,
+      "name": "Rainbow Map",
+      "cost": 0,
+      "description": "Discard this during any Survivor's turn to reveal up to 3 props anywhere on the game board, or to reveal all of the Killer's movement cards.",
+      "imagePath": "img/en/rainbowmap.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 102,
+      "name": "Skeleton Key",
+      "cost": 0,
+      "description": "Discard this at any time to allow any Survivor to re-roll any die or gain 3 Blood Points.",
+      "imagePath": "img/en/skeletonkey.png", 
+       "type": "item",
+    "lock": false
     }
   ]

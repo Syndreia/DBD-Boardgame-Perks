@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,17 +16,19 @@
 -->
   <div class="language-switch">
   <select id="languageSelect">
-    <option value="fr">French</option>
-    <option value="pl">Polish</option>
+    <option value="fr">Français</option>
+    <option value="pl">Polski</option>
     <option value="en">English</option>
+    <option value="ger">Deutsch</option>
   </select>
   </div>
   <div class="search-container">
     <input type="text" id="searchInput" placeholder="Recherche nom/description">
-    <button id="searchButton" class="translate" data-translation="SearchButton">Search</button>
+    <button id="searchButton" class="translate" data-translation="SearchButton">Recherche</button>
 	<br>
-	<button id="filterTueur" class="translate" data-translation="KillerPerks">Perks de Tueur</button>
-	<button id="filterSurvivant" class="translate" data-translation="SurvivorPerks">Perks de Survivant</button>
+	<button id="noFilter" class="translate" data-translation="nofilter">Voir tout</button>
+	<button id="filterLockedPerks" class="translate" data-translation="lockedPerks">Perks de personnages</button>
+  <button id="filterItem" class="translate" data-translation="ItemButton">Objets</button>
   </div>
   
 	<div class="modal-open" id="imageModal">

@@ -28,7 +28,16 @@ function displayImages(images) {
     const imageElement = document.createElement('div');
     imageElement.classList.add('image-item');
 
-    const logoSrc = image.type === 'Tueur' ? 'img/tueur-logo.png' : 'img/survivant-logo.png';
+//    const logoSrc = image.type === 'Tueur' ? 'img/tueur-logo.png' : 'img/survivant-logo.png';
+    // Set the logo source based on the "statut" value
+    let logoSrc = '';
+    if (image.type === 'Tueur') {
+      logoSrc = 'img/tueur-logo.png';
+    } else if (image.type === 'Survivant') {
+      logoSrc = 'img/survivant-logo.png';
+    } else if (image.type === 'Item') {
+      logoSrc = 'img/item-logo.png';
+    }
 
     imageElement.innerHTML = `
       <img src="${image.imagePath}" alt="${image.name}">
@@ -45,17 +54,6 @@ function displayImages(images) {
   });
 }
 
-/*
-// démarrage ici, récupération des éléments fr -> doit être transformé en fonction qui fait pareil mais avec le bon json
-fetch('data.json')
-  .then(response => response.json())
-  .then(data => {
-    // Assign fetched data to the variable
-    dataLog = data;
-    displayImages(data);
-  })
-  .catch(error => console.error('Error fetching data:', error));
-*/
 
 function initialisationLanguage() {
   fetch(languageSelect.value+'data.json')
@@ -68,7 +66,34 @@ function initialisationLanguage() {
   .catch(error => console.error('Error fetching data:', error));
 }
 
+// fonction pour avoir les perks excluses uniquement
+function showLockedPerks() {
+  fetch(languageSelect.value+'data.json')
+    .then(response => response.json())
+    .then(data => {
+      // Assign fetched data to the variable
+      dataLog = data.filter(item => item.lock === true);
+      displayImages(dataLog);
+    })
+  .catch(error => console.error('Error fetching data:', error));
+}
+
+// fonction pour les items uniquement
+function showItemsOnly() {
+  fetch(languageSelect.value+'data.json')
+    .then(response => response.json())
+    .then(data => {
+      // Assign fetched data to the variable
+      dataLog = data.filter(item => item.type === "item");
+      displayImages(dataLog);
+    })
+  .catch(error => console.error('Error fetching data:', error));
+}
+
+//setup initial
 initialisationLanguage();
+
+
 
 // éléments pour la recherche
 searchButton.addEventListener('click', performSearch);
@@ -79,9 +104,16 @@ searchInput.addEventListener('keydown', (event) => {
   }
 });
 
+
+//REMPLACE LES ANCIENS BOUTONS CI-DESSOUS
+noFilter.addEventListener('click', initialisationLanguage);
+filterLockedPerks.addEventListener('click', showLockedPerks);
+filterItem.addEventListener('click', showItemsOnly);
+/*
 // Attach event listeners to the filter buttons (les 2 boutons de base)
 filterTueurButton.addEventListener('click', () => filterByType('Tueur'));
 filterSurvivantButton.addEventListener('click', () => filterByType('Survivant'));
+*/
 
 function performSearch() {
   const searchTerm = searchInput.value.toLowerCase();
@@ -135,7 +167,7 @@ sortCheckbox.addEventListener('change', () => {
 killerCheckbox.addEventListener('change', filterImages);
 survivorCheckbox.addEventListener('change', filterImages);
 
-// OK
+// OK (à améliorer pour réafficher l'origine)
 function filterImages() {
   const showKiller = killerCheckbox.checked;
   const showSurvivor = survivorCheckbox.checked;
