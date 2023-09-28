@@ -105,23 +105,42 @@ searchInput.addEventListener('keydown', (event) => {
 });
 
 
-//REMPLACE LES ANCIENS BOUTONS CI-DESSOUS
+//REMPLACE LES ANCIENS BOUTONS
 noFilter.addEventListener('click', initialisationLanguage);
 filterLockedPerks.addEventListener('click', showLockedPerks);
 filterItem.addEventListener('click', showItemsOnly);
-/*
-// Attach event listeners to the filter buttons (les 2 boutons de base)
-filterTueurButton.addEventListener('click', () => filterByType('Tueur'));
-filterSurvivantButton.addEventListener('click', () => filterByType('Survivant'));
-*/
+
 
 function performSearch() {
+  const showKiller = killerCheckbox.checked;
+  const showSurvivor = survivorCheckbox.checked;
+  const showAll = characterCheckbox.checked;
   const searchTerm = searchInput.value.toLowerCase();
-  const filteredData = dataLog.filter(image => 
-    image.name.toLowerCase().includes(searchTerm) || 
-    image.description.toLowerCase().includes(searchTerm)
-  );
-  displayImages(filteredData);
+  const sortCroiss = sortCheckbox.checked;
+  const sortDecroiss = sortCheckboxDecr.checked;
+
+  if(sortCroiss) {
+    dataLog.sort((a, b) => a.cost - b.cost);
+  }
+  if (sortDecroiss) {
+    dataLog.sort((a, b) => b.cost - a.cost);
+  }
+
+  if(showAll || (!showKiller && ! showSurvivor && !showAll)) {
+    const filteredData = dataLog.filter(image => 
+      image.name.toLowerCase().includes(searchTerm) || 
+      image.description.toLowerCase().includes(searchTerm)
+    );
+    displayImages(filteredData);
+  }
+  else {
+    const filteredData = dataLog.filter(image => {
+      const matches = (showKiller && image.type === 'Tueur' && (image.name.toLowerCase().includes(searchTerm) || image.description.toLowerCase().includes(searchTerm))) 
+              || (showSurvivor && image.type === 'Survivant'&& (image.name.toLowerCase().includes(searchTerm) || image.description.toLowerCase().includes(searchTerm)));
+       return matches;
+    });
+    displayImages(filteredData);
+  }
 }
 
 function filterByType(type) {
@@ -152,41 +171,12 @@ function outsideClick(event) {
 }
 // fin modal
 
-// début filtre (OK ? Probable)
-sortCheckbox.addEventListener('change', () => {
-  if (sortCheckbox.checked) {
-    // Sort images by cost (low to high)
-    dataLog.sort((a, b) => a.cost - b.cost);
-    displayImages(dataLog);
-  } else {
-    // Display images in their original order
-    displayImages(dataLog);
-  }
-});
+sortCheckbox.addEventListener('change', performSearch);
+sortCheckboxDecr.addEventListener('change', performSearch);
 
-killerCheckbox.addEventListener('change', filterImages);
-survivorCheckbox.addEventListener('change', filterImages);
-
-// OK (à améliorer pour réafficher l'origine)
-function filterImages() {
-  const showKiller = killerCheckbox.checked;
-  const showSurvivor = survivorCheckbox.checked;
-  const searchTerm = searchInput.value.toLowerCase(); // Get the search input value
-
-  // Filter images based on the checkbox selections and search input
-  const filteredData = dataLog.filter(image => {
-    const matchesType = (showKiller && image.type === 'Tueur') || (showSurvivor && image.type === 'Survivant');
-    const matchesSearch = image.name.toLowerCase().includes(searchTerm) || image.description.toLowerCase().includes(searchTerm);
-    
-    return matchesType && matchesSearch;
-  });
-
-  // Display the filtered images
-  displayImages(filteredData);
-  if(!showKiller && !showSurvivor) {
-    initialisationLanguage();
-  }
-}
+killerCheckbox.addEventListener('change', performSearch);
+survivorCheckbox.addEventListener('change', performSearch);
+characterCheckbox.addEventListener('change', performSearch);
 
 //pour lancer recherche en permanence (OK)
 searchInput.addEventListener('input', performSearch);

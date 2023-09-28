@@ -104,6 +104,10 @@ header h1 {
   background-color: #ff3d00;
 }
 
+#radioKiller {
+  margin-left: 2%;
+}
+
 .type-logo {
   text-align: center;
   margin-top: 10px;

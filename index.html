@@ -38,19 +38,28 @@
 
   <div>
     <span class="translate" data-translation="filterOptions">Options de tri :</span>
-    <label>
-      <input type="checkbox" id="sortCheckbox">
-      <span class="translate" data-translation="sortLabel">Tri par coût (Croissant)</span>
-      
-    </label>
-    <label>
-      <input type="checkbox" id="killerCheckbox">
-      <span class="translate" data-translation="killerLabel">Tueur uniquement</span>
-    </label>
-    <label>
-      <input type="checkbox" id="survivorCheckbox">
-      <span class="translate" data-translation="survivorLabel">Survivant uniquement</span>
-    </label>
+
+      <label>
+        <input type="radio" id="sortCheckbox" name="filterOptions" value="croissant">
+        <span  class="translate" data-translation="sortLabel">Croissant</span>
+      </label>
+    
+      <label>
+        <input type="radio" id="sortCheckboxDecr" name="filterOptions" value="decroissant">
+        <span class="translate" data-translation="sortLabelDecr">Décroissant</span>
+      </label>
+      <label id="radioKiller">
+        <input type="radio" id="killerCheckbox" name="charOptions" value="killer">
+        <span class="translate" data-translation="killerLabel">Tueur uniquement</span>
+      </label>
+      <label>
+        <input type="radio" id="survivorCheckbox" name="charOptions" value="survivor">
+        <span  class="translate" data-translation="survivorLabel">Survivant uniquement</span>
+      </label>
+      <label>
+        <input type="radio" id="characterCheckbox" name="charOptions" value="all">
+        <span  class="translate" data-translation="allLabel">Les deux</span>
+      </label>
   </div>
   <div class="image-container">
     <!-- Images and details will be displayed here -->

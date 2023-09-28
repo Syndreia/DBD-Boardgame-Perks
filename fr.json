@@ -7,5 +7,6 @@
         "filterOptions": "Options de tri :",
         "sortLabel": "Croissant",
         "survivorLabel": "Survivant seulement",
-        "killerLabel": "Tueur seulement"
+        "killerLabel": "Tueur seulement",
+        "allLabel": "Voir les deux"
     }

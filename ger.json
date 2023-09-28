@@ -6,6 +6,8 @@
     "ItemButton": "Nur Artikel",
     "filterOptions": "Filteroptionen :",
     "sortLabel": "Niedrigste bis höchste",
+    "sortLabelDecr": "Aufsteigend",
     "survivorLabel": "Nur Überlebende",
-    "killerLabel": "Nur Killer"
+    "killerLabel": "Nur Killer",
+    "allLabel": "Beide anzeigen"
 }
