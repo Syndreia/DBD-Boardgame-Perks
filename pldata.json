@@ -829,83 +829,389 @@
     },
     {
       "id": 94,
-      "name": "First-aid Kit",
+      "name": "First-aid Kit (Apteczka)",
       "cost": 0,
-      "description": "Discard this during any Survivor turn to have yourself or another Survivor in your space become healthy.",
+      "description": "Odrzuć tę kartę podczas tury dowolnego Ocalałego, aby przywrócić zdrowie tobie lub innemu Ocalałemu na twoim polu.",
       "imagePath": "img/en/firstaidkit.png", 
        "type": "item",
     "lock": false
     },
     {
       "id": 95,
-      "name": "Flashlight",
+      "name": "Flashlight (Latarka)",
       "cost": 0,
-      "description": "Discard this during the Killer's turn to prevent the Killer in your space from interacting.",
+      "description": "Odrzuć tę kartę podczas tury Zabójcy, aby uniemożliwić interakcję Zabójcy na twoim polu.",
       "imagePath": "img/en/flashlight.png", 
        "type": "item",
     "lock": false
     },
     {
       "id": 96,
-      "name": "Broken Key",
+      "name": "Broken Key (Złamany Klucz)",
       "cost": 0,
-      "description": "Discard this at any time to allow any Survivor to re-roll any die or gain a Blood Point.",
+      "description": "Odrzuć tę kartę w dowolnym momencie, aby dowolny Ocalały mógł przerzucić dowolną kość albo otrzymać Punkty Krwi.",
       "imagePath": "img/en/brokenkey.png", 
        "type": "item",
     "lock": false
     },
     {
       "id": 97,
-      "name": "Commodious Toolbox",
+      "name": "Commodious Toolbox (Przestronna Skrzynka z Narzędziami)",
       "cost": 0,
-      "description": "Discard this during any Survivor's turn to add a progress to a generator in your space, then draw an item.",
+      "description": "Odrzuć tę kartę podczas tury dowolnego Ocalałego, aby dodać znacznik Naprawy do Generatora na twoim polu, a następnie dobrać Przedmiot.",
       "imagePath": "img/en/commodioustoolbox.png", 
        "type": "item",
     "lock": false
     },
     {
       "id": 98,
-      "name": "Dull Key",
+      "name": "Dull Key (Zwykły Klucz)",
       "cost": 0,
-      "description": "Discard this at any time to allow any Survivor to re-roll any die or gain 2 Blood Points.",
+      "description": "Odrzuć tę kartę w dowolnym momencie, aby dowolny Ocalały mógł przerzucić dowolną kość albo otrzymać 2 Punkty Krwi.",
       "imagePath": "img/en/dullkey.png", 
        "type": "item",
     "lock": false
     },
     {
       "id": 99,
-      "name": "Firecracker",
+      "name": "Firecracker (Petarda)",
       "cost": 0,
-      "description": "Discard this at any time to remove a breakable wall in a connected space, or to prevent the Killer from moving into your space.",
+      "description": "Odrzuć tę kartę w dowolnym momencie, aby usunąć Nadkruszoną Ścianę na połączonym polu lub uniemożliwić Zabójcy ruch na twoje pole. Zabójca pozostaje na swoim polu i nie wykonuje interakcji.",
       "imagePath": "img/en/firecracker.png", 
        "type": "item",
     "lock": false
     },
     {
       "id": 100,
-      "name": "Map",
+      "name": "Map (Mapa)",
       "cost": 0,
-      "description": "Discard this during any Survivor's turn to reveal up to 3 props anywhere on the game board, or to draw another item.",
+      "description": "Odrzuć tę kartę podczas tury dowolnego Ocalałego, aby odkryć do trzech Elementów gdziekolwiek na planszy albo dobrać nowy Przedmiot.",
       "imagePath": "img/en/map.png", 
        "type": "item",
     "lock": false
     },
     {
       "id": 101,
-      "name": "Rainbow Map",
+      "name": "Rainbow Map (Tęczowa Mapa)",
       "cost": 0,
-      "description": "Discard this during any Survivor's turn to reveal up to 3 props anywhere on the game board, or to reveal all of the Killer's movement cards.",
+      "description": "Odrzuć tę kartę podczas tury dowolnego Ocalałego, aby odkryć do trzech Elementów gdziekolwiek na planszy albo odkryć wszystkie karty Ruchu Zabójcy.",
       "imagePath": "img/en/rainbowmap.png", 
        "type": "item",
     "lock": false
     },
     {
       "id": 102,
-      "name": "Skeleton Key",
+      "name": "Skeleton Key (Uniwersalny Klucz)",
       "cost": 0,
-      "description": "Discard this at any time to allow any Survivor to re-roll any die or gain 3 Blood Points.",
+      "description": "Odrzuć tę kartę w dowolnym momencie, aby dowolny Ocalały mógł przerzucić dowolną kość albo otrzymać 3 Punkty Krwi.",
       "imagePath": "img/en/skeletonkey.png", 
        "type": "item",
     "lock": false
+    },
+    {
+      "id": 103,
+      "name": "Toolbox (Skrzynka z Narzędziami)",
+      "cost": 0,
+      "description": "Odrzuć tę kartę podczas swojej tury, aby dodać znacznik Naprawy do Generatora na twoim polu.",
+      "imagePath": "img/en/toolbox.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 104,
+      "name": "Balanced Landing / Miękkie Lądowanie (Nea Karlsson)",
+      "cost": 20,
+      "description": "Zamiast wchodzić w interakcję podczas swojej tury, porusz się po dowolnej ścieżce, w tym pod prąd na ścieżce jednokierunkowej, a następnie zyskaj 1 Punkty Krwi.",
+      "imagePath": "img/en/balancedlanding.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 105,
+      "name": "Breakdown / Przełamanie (Jeff Johansen)",
+      "cost": 1,
+      "description": "Gdy rozbroisz zajęty Hak lub gdy inny ocalały rozbroi Hak, na którym wisisz, rzuć kością Niebezpieczeństwa. W przypadku sukcesu, Zabójca traci jeden postęp Poświęcenia.",
+      "imagePath": "img/en/breakdown.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 106,
+      "name": "Botany Knowledge / Wiedza Botaniczna (Claudette Morel)",
+      "cost": 1,
+      "description": "W swojej turze, przed lub po ruchu, rzuć kością Niebezpieczeństwa. W przypadku sukcesu inny Ocalały na twoim polu staje się zdrowy. W tej turze nadal możesz wejść w interakcję.",
+      "imagePath": "img/en/botanyknowledge.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 107,
+      "name": "Breakout / Ucieczka (Yui Kimura)",
+      "cost": 1,
+      "description": "Na początku swojej tury, przemieść rannego Ocalałego po dowolnej ścieżce.",
+      "imagePath": "img/en/breakout.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 108,
+      "name": "Desperate Measures / Desperacki Krok (Felix Richter)",
+      "cost": 1,
+      "description": "Po wejściu w pierwszą interakcję w twojej turze, wejdź w kolejną interakcję. Możesz wejść w interakcję wyłącznie z niebieskim Elementem.",
+      "imagePath": "img/en/desperatemeasures.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 109,
+      "name": "Diversion / Dywersja (Adam Francis)",
+      "cost": 2,
+      "description": "Wejdź w interakcję z Zabójcą, przesuwając go po dowolnej ścieżce. Zabójca otrzymuje 1 Punkty Krwi.",
+      "imagePath": "img/en/diversion.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 110,
+      "name": "Fast Track / Szybka Ścieżka (Yun-Jin Lee)",
+      "cost": 1,
+      "description": "Natychmiast po turze, w której inny Ocalały został zraniony lub poświęcony, wejdź w interakcję z Generatorem na twoim polu.",
+      "imagePath": "img/en/fasttrack.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 111,
+      "name": "Iron Will / Żelazna Wola (Jake Park)",
+      "cost": 1,
+      "description": "Kiedy ty lub inny Ocalały na twoim polu lub na polu połączonym z twoim w wyniku rzutu uzyska porażkę, potraktuj ją jako sukces. Zabójca nadal jednak otrzymuje 1 Punkty Krwi.",
+      "imagePath": "img/en/ironwill.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 112,
+      "name": "No Mither / Bez Biadolenia (David King)",
+      "cost": 1,
+      "description": "Gdy Zabójca wejdzie w interakcję z Ocalałym na twoim polu, rzuć kością Niebezpieczeństwa. W przypadku sukcesu, ten Ocalały pozostaje zdrowy, a Zabójca otrzymuje 1 Punkty Krwi.",
+      "imagePath": "img/en/nomither.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 113,
+      "name": "Open Handed / Otwarte Karty (Ace Visconti)",
+      "cost": 1,
+      "description": "Na początku tury dowolnego Ocalałego odkryj jedną z kart Ruchu przygotowanych przez Zabójcę.",
+      "imagePath": "img/en/openhanded.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 114,
+      "name": "Poised / Opanowanie (Jane Romero)",
+      "cost": 1,
+      "description": "Gdy Ocalały uzyska sukces w wyniku rzutu kością na test umiejętności w trakcie swojej tury, ten Ocalały natychmiast rozgrywa dodatkową turę Ocalałego.",
+      "imagePath": "img/en/poised.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 115,
+      "name": "Power Struggle / Intensywna Walka (Elodie Rakoto)",
+      "cost": 2,
+      "description": "Wejdź w interakcję z Zabójcą, aby odkryć jego pierwszą zagraną kartę Ruchu. Zabójca nie będzie mógł wejść w interakcję po przemieszczeniu się przy użyciu tej karty Ruchu. Zabójca uzyskuje 2 Punkty Krwi.",
+      "imagePath": "img/en/powerstruggle.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 116,
+      "name": "Prove Thyself / Wykaż Się (Dwight Fairfield)",
+      "cost": 1,
+      "description": "Kiedy masz wejść w interakcję, zamiast ciebie w interakcję wchodzi inny Ocalały z twojego pola lub pola połączonego z twoim.",
+      "imagePath": "img/en/provethyself.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 117,
+      "name": "Red Herring / Fałszywy Trop (Zarina Kassir)",
+      "cost": 2,
+      "description": "Gdyby Zabójca miał wejść w interakcje z tobą lub innym Ocalałym na twoim polu, zamiast tego zmuś Zabójcę do interakcji z Generatorem na tym polu. Jeśli ten Generator miał dwa znaczniki Naprawy, uzyskaj 1 Punkty Krwi.",
+      "imagePath": "img/en/redherring.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 118,
+      "name": "Sprint Burst / Sprint (Meg Thomas)",
+      "cost": 1,
+      "description": "Po tym jak wykonasz ruch przy użyciu swojej karty Ruchu, porusz się ponownie dowolną inną ścieżką.",
+      "imagePath": "img/en/sprintburst.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 119,
+      "name": "Windows of Opportunity / Ostatnia Szansa (Kate Denson)",
+      "cost": 1,
+      "description": "Możesz wejść w interakcję z niebieskimi lub zielonymi Elementami na połączonym polu. Jeśli tym Elementem jest Szafka, przemieść się natychmiast na to pole.",
+      "imagePath": "img/en/windowsofopportunity.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 120,
+      "name": "Blood Echo / Krwawe Echo (Oni)",
+      "cost": 2,
+      "description": "Po poświęceniu Ocalałego, Ocalały na połączonym polu zostaje ranny.",
+      "imagePath": "img/en/bloodecho.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 121,
+      "name": "Blood Favor / Łaska Krwi (Zaraza)",
+      "cost": 0,
+      "description": "Na początku fazy Porządkowania, jeśli wszyscy Ocalali są ranni i nie ma żadnych poświęconych Ocalałych, uzyskaj znacznik Poświęcenia.",
+      "imagePath": "img/en/bloodfavor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 122,
+      "name": "Brutal Strength / Brutalna Siła (Traper)",
+      "cost": 1,
+      "description": "Po zaatakowaniu zdrowego Ocalałego porusz go dowolną ścieżką. Jeśli poruszysz go przez Paletę lub Nadkruszoną Ścianę, zniszcz Paletę lub Nadkruszoną Ścianę.",
+      "imagePath": "img/en/brutalstrength.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 123,
+      "name": "Coulrophobia / Koulrofobia (Klaun)",
+      "cost": 2,
+      "description": "Gdy Ocalały miałby wejść na twoje pole, zablokuj ten ruch. Ten Ocalały nie może wejść w Interakcję w tej turze.",
+      "imagePath": "img/en/coulrophobia.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 124,
+      "name": "Coup de Grâce / Cios Łaski (Bliźnięta)",
+      "cost": 2,
+      "description": "ANa koniec swojej tury zagraj dodatkową turę Zabójcy. Zamiast zagrywać nową kartę Ruchu, wykorzystaj ponownie kartę ze swojej poprzedniej tury. Możesz zagrać tylko jedną dodatkową turę Zabójcy na rundę.",
+      "imagePath": "img/en/coupdegrace.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 125,
+      "name": "Dark Devotion / Mrocze Oddanie (Plaga)",
+      "cost": 2,
+      "description": "Na początku fazy Porządkowania, porusz dowolną ścieżką Ocalałego na twoim lub połączonym polu.",
+      "imagePath": "img/en/darkdevotion.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 126,
+      "name": "Gearhead / Maniak Techniki (Śmiercionośca)",
+      "cost": 1,
+      "description": "Gdy uszkodzisz Generator, wejdź w kolejną interakcję na twoim polu.",
+      "imagePath": "img/en/gearhead.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 126,
+      "name": "Huntress' Lullaby / Kołysanka Łowczyni (Łowczyni)",
+      "cost": 2,
+      "description": "Kiedy Ocalały miałby poruszyć się przy użyciu karty Ruchu, odrzuć kopię tej karty Ruchu, aby zapobiec ruchowi Ocalałego. Ocalały wciąż może wejść w Interakcję.",
+      "imagePath": "img/en/huntresslullaby.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 127,
+      "name": "Lightborn / Zrodzony w Świetle (Wieśniak)",
+      "cost": 0,
+      "description": "Na koniec fazy Planowania odkryj jedną ze swoich przygotowanych kart Ruchu i zdobądź 1 Punkty Krwi.",
+      "imagePath": "img/en/lightborn.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 128,
+      "name": "Mad Grit / Twardy Charakter (Legion)",
+      "cost": 0,
+      "description": "W trakcie niesienia Ocalałego do Haka, gdy wejdziesz na pole z innym Ocalałym, zrań tego Ocalałego.",
+      "imagePath": "img/en/madgrit.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 129,
+      "name": "Monitor and Abuse / Bestialski Dozorca (Doktor)",
+      "cost": 0,
+      "description": "Na początku fazy Porządkowania, jeśli nie ma Poświęconych Ocalałych, otrzymujesz 1 Punkty Krwi.",
+      "imagePath": "img/en/monitorandabuse.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 130,
+      "name": "No Way Out / Bez Wyjścia (Magik)",
+      "cost": 1,
+      "description": "Gdy Ocalały posiadający mniej Punkty Krwi niż ty wchodzi w interakcję z Generatorem lub Bramą Wyjściową, powstrzymaj tę interakcję.",
+      "imagePath": "img/en/nowayout.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 131,
+      "name": "Rancor / Uraza (Zjawa)",
+      "cost": 2,
+      "description": "Gdy się porzuszasz, ranny Ocalały na twoim polu porusza się razem z tobą.",
+      "imagePath": "img/en/rancor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 132,
+      "name": "Shadowborn / Zrodzony z Cienia (Widmo)",
+      "cost": 2,
+      "description": "Na koniec fazy Planowania umieść trzecią kartę ruchu. (Umożliwi ci to rozegranie trzeciej tury). W tej rundzie nie możesz rozegrać dodatkowych tur Zabójcy.",
+      "imagePath": "img/en/shadowborn.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 133,
+      "name": "Stridor / Jęki (Pielęgniarka)",
+      "cost": 1,
+      "description": "Na początku fazy Planowania wybierz rannego Ocalałego. Musi on zagrać swoją kartę Ruchu odkrytą, zanim zrobisz to ty lub inni Ocalali.",
+      "imagePath": "img/en/stridor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 134,
+      "name": "The Third Seal / Trzecia Pieczęć (Wiedźma)",
+      "cost": 3,
+      "description": "Na początku fazy Planowania odrzuć kartę Ruchu. Podczas tej tury kopie tej karty Ruchu używane przez Ocalałych nie powodują poruszania się. (Jeśli się nie poruszają, nie mogą wchodzić w interakcje).",
+      "imagePath": "img/en/thirdseal.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 135,
+      "name": "Lithe / Gibka (Feng Min)",
+      "cost": 0,
+      "description": "Kiedy podczas swojej tury poruszysz się przez Paletę lub wyjdziesz z pola z Paletą, porusz się ponownie po dowolnej innej ścieżce przed interakcją (jeśli chcesz wejść w interakcję).",
+      "imagePath": "img/en/lithe.png", 
+      "type": "Survivant",
+      "lock": true
     }
   ]

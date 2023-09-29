@@ -907,5 +907,311 @@
       "imagePath": "img/en/skeletonkey.png", 
        "type": "item",
     "lock": false
+    },
+    {
+      "id": 103,
+      "name": "Toolbox",
+      "cost": 0,
+      "description": "Discard this during your turn to add a progress to a generator in your space.",
+      "imagePath": "img/en/toolbox.png", 
+       "type": "item",
+    "lock": false
+    },
+    {
+      "id": 104,
+      "name": "Balanced Landing (Nea Karlsson)",
+      "cost": 20,
+      "description": "Instead of interacting during your turn, move along any path, including against a one-way path, then gain a Blood Point.",
+      "imagePath": "img/en/balancedlanding.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 105,
+      "name": "Breakdown (Jeff Johansen)",
+      "cost": 1,
+      "description": "After you sabotage an occupied hook or the hook you are on is sabotaged by another Survivor, roll the danger die. On a success, the Killer loses a Sacrifice progress.",
+      "imagePath": "img/en/breakdown.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 106,
+      "name": "Botany Knowledge (Claudette Morel)",
+      "cost": 1,
+      "description": "Before or after moving during your turn, roll the danger die. On a success, another Survivor in your space becomes healthy. You can still interact this turn.",
+      "imagePath": "img/en/botanyknowledge.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 107,
+      "name": "Breakout (Yui Kimura)",
+      "cost": 1,
+      "description": "At the start of your turn, move a wounded Survivor along any path.",
+      "imagePath": "img/en/breakout.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 108,
+      "name": "Desperate Measures (Felix Richter)",
+      "cost": 1,
+      "description": "After performing your first interaction, interact again. The second interaction must target a survival prop.",
+      "imagePath": "img/en/desperatemeasures.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 109,
+      "name": "Diversion (Adam Francis)",
+      "cost": 2,
+      "description": "As an interaction, interact with the Killer to move them along any path. The Killer gains a Blood Point.",
+      "imagePath": "img/en/diversion.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 110,
+      "name": "Fast Track (Yun-Jin Lee)",
+      "cost": 1,
+      "description": "After the turn when another Survivor is wounded or sacrificed, interact with a generator in your space.",
+      "imagePath": "img/en/fasttrack.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 111,
+      "name": "Iron Will (Jake Park)",
+      "cost": 1,
+      "description": "When you or another Survivor in your space or a connected space rolls a failure, treat it as a success instead. The Killer still gains 1 Blood Point, however.",
+      "imagePath": "img/en/ironwill.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 112,
+      "name": "No Mither (David King)",
+      "cost": 1,
+      "description": "When the Killer interacts with a healthy Survivor in your space, roll the danger die. On a success, that Survivor remains healthy and the Killer gains a Blood Point.",
+      "imagePath": "img/en/nomither.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 113,
+      "name": "Open Handed (Ace Visconti)",
+      "cost": 1,
+      "description": "At the start of any Survivor turn, reveal one of the Killer's set movement cards.",
+      "imagePath": "img/en/openhanded.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 114,
+      "name": "Poised (Jane Romero)",
+      "cost": 1,
+      "description": "When a Survivor rolls a great success during a skill check on a Survivor turn, that Survivor takes a Survivor bonus turn after this turn.",
+      "imagePath": "img/en/poised.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 115,
+      "name": "Power Struggle (Elodie Rakoto)",
+      "cost": 2,
+      "description": "As an interaction, interact with the Killer to reveal their first set movement card. They cannot interact after moving with their first card. The Killer gains 2 Blood Points.",
+      "imagePath": "img/en/powerstruggle.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 116,
+      "name": "Prove Thyself (Dwight Fairfield)",
+      "cost": 1,
+      "description": "When you would interact, another survivor in your space or a connected space interacts instead.",
+      "imagePath": "img/en/provethyself.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 117,
+      "name": "Red Herring (Zarina Kassir)",
+      "cost": 2,
+      "description": "When the Killer would interact with you or another Survivor in your space, force them to interact with a generator in that space instead. If the generator had 2 progress, gain a Blood Point.",
+      "imagePath": "img/en/redherring.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 118,
+      "name": "Sprint Burst (Meg Thomas)",
+      "cost": 1,
+      "description": "After you move with your movement card, move again along any other path.",
+      "imagePath": "img/en/sprintburst.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 119,
+      "name": "Windows of Opportunity (Kate Denson)",
+      "cost": 1,
+      "description": "You may interact with a survival or altruism prop in a connected space. If that prop was a locker, move into that space.",
+      "imagePath": "img/en/windowsofopportunity.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 120,
+      "name": "Blood Echo (Oni)",
+      "cost": 2,
+      "description": "After you sacrifice a Survivor, a Survivor in a connected space becomes wounded.",
+      "imagePath": "img/en/bloodecho.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 121,
+      "name": "Blood Favor (Blight)",
+      "cost": 0,
+      "description": "At the start of cleanup, if all Survivors are wounded and no Survivors are sacrificed, gain a sacrifice progress.",
+      "imagePath": "img/en/bloodfavor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 122,
+      "name": "Brutal Strength (Trapper)",
+      "cost": 1,
+      "description": "After you attack a healthy Survivor, move them along any path. If you move them through a pallet or breakable wall, destroy the pallet or breakable wall.",
+      "imagePath": "img/en/brutalstrength.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 123,
+      "name": "Coulrophobia (Clown)",
+      "cost": 2,
+      "description": "When a Survivor would move into your space, prevent that move. The Survivor cannot interact during this turn.",
+      "imagePath": "img/en/coulrophobia.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 124,
+      "name": "Coup de Grâce (Twins)",
+      "cost": 2,
+      "description": "At the end of your turn, take a Killer bonus turn. Instead of playing a new card, reuse the movement card from the last Killer turn. (You can only take one Killer bonus turn per round.)",
+      "imagePath": "img/en/coupdegrace.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 125,
+      "name": "Dark Devotion (Plague)",
+      "cost": 2,
+      "description": "At the start of cleanup, move a Survivor in your space or a connected space along any path.",
+      "imagePath": "img/en/darkdevotion.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 126,
+      "name": "Gearhead (Deathslinger)",
+      "cost": 1,
+      "description": "After you damage a generator, interact again in your space.",
+      "imagePath": "img/en/gearhead.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 126,
+      "name": "Huntress' Lullaby (Huntress)",
+      "cost": 2,
+      "description": "When a Survivor would move with their movement card, discard a copy of that movement card to prevent that move. They may still interact.",
+      "imagePath": "img/en/huntresslullaby.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 127,
+      "name": "Lightborn (Hillbilly)",
+      "cost": 0,
+      "description": "At the end of the planning phase, reveal one of your set movement cards and gain a Blood Point.",
+      "imagePath": "img/en/lightborn.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 128,
+      "name": "Mad Grit (Legion)",
+      "cost": 0,
+      "description": "While attempting to sacrifice a Survivor, when you enter a space with another Survivor, wound that Survivor.",
+      "imagePath": "img/en/madgrit.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 129,
+      "name": "Monitor and Abuse (Doctor)",
+      "cost": 0,
+      "description": "At the end of cleanup, if there are no sacrificed Survivors, gain a Blood Point",
+      "imagePath": "img/en/monitorandabuse.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 130,
+      "name": "No Way Out (Trickster)",
+      "cost": 1,
+      "description": "When a Survivor with fewer Blood Point than you would interact with a generator or the exit gates, prevent that interaction.",
+      "imagePath": "img/en/nowayout.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 131,
+      "name": "Rancor (Spirit)",
+      "cost": 2,
+      "description": "When you move, a wounded Survivor in your space moves with you.",
+      "imagePath": "img/en/rancor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 132,
+      "name": "Shadowborn (Wraith)",
+      "cost": 2,
+      "description": "At the end of the planning phase, place a third movement card. (This will allow you to take a third turn.) You cannot take Killer bonus turns this round.",
+      "imagePath": "img/en/shadowborn.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 133,
+      "name": "Stridor (Nurse)",
+      "cost": 1,
+      "description": "At the start of the planning phase, choose a wounded Survivor. They must play their movement card face up before you or any other Survivor.",
+      "imagePath": "img/en/stridor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 134,
+      "name": "The Third Seal (Hag)",
+      "cost": 3,
+      "description": "At the start of the planning phase, discard a movement card. During this turn, copies of that movement card used by Survivors do not move them. (If they do not move, they cannot interact.)",
+      "imagePath": "img/en/thirdseal.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 135,
+      "name": "Lithe (Feng Min)",
+      "cost": 0,
+      "description": "When you move over a pallet or out of a space with a pallet during your turn, move again along any other path before interacting (if you would interact).",
+      "imagePath": "img/en/lithe.png", 
+      "type": "Survivant",
+      "lock": true
     }
   ]

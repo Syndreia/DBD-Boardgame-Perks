@@ -922,17 +922,296 @@
       "name": "Ausgewogene Landung (Nea Karlsson)",
       "cost": 20,
       "description": "Anstelle der Interaktion während deines Spielzugs bewege dich entlang eines beliebiges Pfads, sogar entgegen eines Einbahnpfads, dann erhalte 1 (BP).",
-      "imagePath": "img/en/dejavu.png", 
+      "imagePath": "img/en/balancedlanding.png", 
        "type": "Survivant",
     "lock": true
     },
     {
       "id": 105,
-      "name": "Zerlegen (Jeff Johannsen)",
+      "name": "Zerlegen (Jeff Johansen)",
       "cost": 1,
       "description": "Nachdem du einen besetzten Haken sabotiert hast oder der Haken, auf dem du aufgehängt bist, von einem anderen Überlebenden sabotiert wurde, wirf den Gefahrenwürfel. Bei Erfolg verliert der Killer 1 Opferfortschrittsmarker.",
-      "imagePath": "img/en/dejavu.png", 
+      "imagePath": "img/en/breakdown.png", 
        "type": "Survivant",
     "lock": true
+    },
+    {
+      "id": 106,
+      "name": "Botanisches Wissen (Claudette Morel)",
+      "cost": 1,
+      "description": "Vor oder nach deiner Bewegung in deinem Spielzug wirf den Gefahrenwürfel. Bei Erfolg wird ein anderer Überlebender in deinem Raum gesund. Du kannst in diesem Spielzug immer noch interagieren.",
+      "imagePath": "img/en/botanyknowledge.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 107,
+      "name": "Ausbruch (Yui Kimura)",
+      "cost": 1,
+      "description": "Zu Beginn deines Spielzugs bewege einen verwundeten Überlebenden entlang eines beliebigen Pfads.",
+      "imagePath": "img/en/breakout.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 108,
+      "name": "Verzweifelte Maßnahmen (Felix Richter)",
+      "cost": 1,
+      "description": "Nach deiner ersten Interaktion interagiere erneut. Für die zweite Interaktion muss ein Objekt der Kategorie Überleben gewählt werden.",
+      "imagePath": "img/en/desperatemeasures.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 109,
+      "name": "Ablenkung (Adam Francis)",
+      "cost": 2,
+      "description": "Als deine Interaktion interagiere mit dem Killer, um ihn entlang eines beliebigen Pfads zu bewegen. Der Killer erhält 1 (BP).",
+      "imagePath": "img/en/diversion.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 110,
+      "name": "Überholspur (Yun-Jin Lee)",
+      "cost": 1,
+      "description": "Nach dem Spielzug, in dem ein anderer Überlebender verwundet oder geopfert wurde, interagiere mit einem Generator in deinem Raum.",
+      "imagePath": "img/en/fasttrack.png", 
+       "type": "Survivant",
+    "lock": true
+    },
+    {
+      "id": 111,
+      "name": "Eiserner Wille (Jake Park)",
+      "cost": 1,
+      "description": "Wenn du oder ein anderer Überlebender in deinem oder einem angrenzenden Raum einen Fehlschlag würfelt, behandle das Ergebnis stattdessen als Erfolg. Der Killer erhält jedoch trotzdem den (BP).",
+      "imagePath": "img/en/ironwill.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 112,
+      "name": "Kein Gejammer (David King)",
+      "cost": 1,
+      "description": "Wenn der Killer mit einem gesunden Überlebenden in deinem Raum interagiert, wirf den Gefahrenwürfel. Bei Erfolg bleibt dieser Überlebende gesund und der Killer erhält 1 (BP).",
+      "imagePath": "img/en/nomither.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 113,
+      "name": "Offenes Blatt (Ace Visconti)",
+      "cost": 1,
+      "description": "Zu Beginn des Spielzugs eines beliebigen Überlebenden decke eine der gesetzten Bewegungskarten des Killers auf.",
+      "imagePath": "img/en/openhanded.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 114,
+      "name": "Selbstsicher (Jane Romero)",
+      "cost": 1,
+      "description": "Wenn ein Überlebender bei einem Fähigkeitscheck während eines Überlebendenspielzugs einen großartigen Erfolg würfelt, führt dieser Überlebende einen Überlebenden-Bonusspielzug durch.",
+      "imagePath": "img/en/poised.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 115,
+      "name": "Wildes Herauswinden (Elodie Rakoto)",
+      "cost": 2,
+      "description": "Als deine Interaktion interagiere mit dem Killer, um seine erste gesetzte Bewegungskarte aufzudecken. Er kann nicht interagieren, nachdem er sich mit seiner ersten Karte bewegt hat. Der Killer erhält 2 (BP).",
+      "imagePath": "img/en/powerstruggle.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 116,
+      "name": "Beweise dich (Dwight Fairfield)",
+      "cost": 1,
+      "description": "Wenn du interagieren würdest, interagiert stattdessen ein anderer Überlebender in deinem oder einem angrenzenden Raum.",
+      "imagePath": "img/en/provethyself.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 117,
+      "name": "Roter Hering (Zarina Kassir)",
+      "cost": 2,
+      "description": "Wenn der Killer mit dir oder einem anderen Überlebenden in deinem Raum interagieren würde, zwinge ihn stattdessen mit einem Generator in diesem Raum zu interagieren. Falls der Generator 2 Fortschrittsmarker hatte, erhalte 1 (BP).",
+      "imagePath": "img/en/redherring.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 118,
+      "name": "Sprintboost (Meg Thomas)",
+      "cost": 1,
+      "description": "Nachdem du dich mit deiner Bewegunskarte bewegt hast, bewege dich erneut entlang eines beliebigen anderen Pfads.",
+      "imagePath": "img/en/sprintburst.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 119,
+      "name": "Gelegenheit nutzen (Kate Denson)",
+      "cost": 1,
+      "description": "Du darfst mit einem Objekt der Kategorie Überleben oder Selbstlosigkeit in einem angrenzenden Raum interagieren. Falls dieses Objekt ein Schließschrank war, bewege dich in diesen Raum.",
+      "imagePath": "img/en/windowsofopportunity.png", 
+      "type": "Survivant",
+      "lock": true
+    },
+    {
+      "id": 120,
+      "name": "Blutecho (DER ONI)",
+      "cost": 2,
+      "description": "Nachdem du einen Überlebenden geopfert hast, wird ein Überlebender in einem angrenzenden Raum verwundet.",
+      "imagePath": "img/en/bloodecho.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 121,
+      "name": "Blutgunst (DIE FÄULE)",
+      "cost": 0,
+      "description": "Zu Beginn der Aufräumphase, falls alle Überlebenden verwundet sind und kein Überlebender gerade geopfert wird, erhalte 1 Opferfortschrittsmarker.",
+      "imagePath": "img/en/bloodfavor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 122,
+      "name": "Brutale Stärke (DER FALLENSTELLER)",
+      "cost": 1,
+      "description": "Nachdem du einen gesunden Überlenden angegriffen hast, bewege ihn entlang eines beliebigen Pfads. Wenn du ihn durch eine Palette oder zerstörbare Wand bewegst, zerstöre die Palette oder zerstörbare Wand.",
+      "imagePath": "img/en/brutalstrength.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 123,
+      "name": "Coulrophobie (DER CLOWN)",
+      "cost": 2,
+      "description": "Wenn ein Überlebender sich in deinen Raum bewegen würde, verhindere diese Bewegung. Der Überlebende kann in diesem Spielzug nicht interagieren.",
+      "imagePath": "img/en/coulrophobia.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 124,
+      "name": "Gnadenstoß (DIE ZWILLINGE)",
+      "cost": 2,
+      "description": "Am Ende deines Spielzugs führe einen Killer-Bonusspielzug durch. Anstatt eine neue Karte zu spielen, verwende die Bewegungskarte deines letzten Killerspielzugs noch einmal. (Du kannst pro Runde nur einen Killer-Bonusspielzug durchführen.)",
+      "imagePath": "img/en/coupdegrace.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 125,
+      "name": "Dunkle Hingabe (DIE SEUCHE)",
+      "cost": 2,
+      "description": "Zu Beginn der Aufräumphase bewege einen Überlebenden in deinem oder einem angrenzenden Raum entlang eines beliebigen Pfads.",
+      "imagePath": "img/en/darkdevotion.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 126,
+      "name": "Ausrüstungsspezi (DER TODESBOTE)",
+      "cost": 1,
+      "description": "Nachdem du einen Generator beschädigt hast, interagiere erneut in deinem Raum.",
+      "imagePath": "img/en/gearhead.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 126,
+      "name": "Wiegenlied der Jägerin (DIE JÄGERIN)",
+      "cost": 2,
+      "description": "Wenn sich ein Überlebender mit seiner Bewegungskarte bewegen würde, wirf die gleiche Bewegungskarte ab, um diese Bewegung zu verhindern. Er darf trotzdem noch interagieren.",
+      "imagePath": "img/en/huntresslullaby.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 127,
+      "name": "Lichtgeborener (DER HINTERWÄLDLER)",
+      "cost": 0,
+      "description": "Am Ende der Planungsphase decke eine deiner gesetzten Bewegungskarten auf und erhalte 1 (BP).",
+      "imagePath": "img/en/lightborn.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 128,
+      "name": "Irrer Mut (DIE LEGION)",
+      "cost": 0,
+      "description": "Wenn du einen Raum mit einem Überlebenden betrittst, während du gerade versuchst einen anderen Überlebenden zu opfern, verwunde diesen Überlebenden.",
+      "imagePath": "img/en/madgrit.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 129,
+      "name": "Beobachten und Zuschlagen (DER DOKTOR)",
+      "cost": 0,
+      "description": "Zu Beginn der Aufräumphase, wenn kein Überlebender gerade geopfert wird, erhalte 1 (BP).",
+      "imagePath": "img/en/monitorandabuse.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 130,
+      "name": "Kein Ausweg (DER TRICKSTER)",
+      "cost": 1,
+      "description": "Wenn ein Überlebender mit weniger (BP) als du mit einem Generator oder den Ausgangstoren interagieren würde, verhindere diese Interaktion.",
+      "imagePath": "img/en/nowayout.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 131,
+      "name": "Hass (DAS GESPENST)",
+      "cost": 2,
+      "description": "Wenn du dich bewegst, bewegt sich ein verwundeter Überlebender in deinem Raum mit dir.",
+      "imagePath": "img/en/rancor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 132,
+      "name": "Schattengeborener (DER GEIST)",
+      "cost": 2,
+      "description": "Am Ende der Planungsphase lege eine dritte Bewegungskarte. (Dies erlaubt dir einen dritten Spielzug durchzuführen.) Du darfst in dieser Runde keine Killer-Bonusspielzüge durchführen.",
+      "imagePath": "img/en/shadowborn.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 133,
+      "name": "Stridor (DIE KRANKENSCHWESTER)",
+      "cost": 1,
+      "description": "Zu Beginn der Planungsphase wähle einen verwundeten Überlebenden. Er muss seine Bewegungskarte aufgedeckt ausspielen bevor du oder irgendein anderer Überlebender es tun.",
+      "imagePath": "img/en/stridor.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 134,
+      "name": "Das dritte Siegel (DIE HEXE)",
+      "cost": 3,
+      "description": "Zu Beginn der Planungsphase wirf eine Bewegungskarte ab. Während dieses Spielzugs können sich Überlebende mit der gleichen Karte nicht bewegen, wenn sie sie verwenden. (Wenn sie sich nicht bewegen, können sie auch nicht interagieren.)",
+      "imagePath": "img/en/thirdseal.png", 
+      "type": "Tueur",
+      "lock": true
+    },
+    {
+      "id": 135,
+      "name": "Flink (Feng Min)",
+      "cost": 0,
+      "description": "Wenn du dich während deines Spielzugs über eine Palette oder aus einem Raum mit einer Palette bewegst, bewege dich erneut entlang eines beliebigen anderen Pfads, bevor du interagierst (falls du interagieren würdest).",
+      "imagePath": "img/en/lithe.png", 
+      "type": "Survivant",
+      "lock": true
     }
   ]
