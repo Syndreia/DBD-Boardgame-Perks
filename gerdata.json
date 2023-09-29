@@ -920,7 +920,7 @@
     {
       "id": 104,
       "name": "Ausgewogene Landung (Nea Karlsson)",
-      "cost": 20,
+      "cost": 0,
       "description": "Anstelle der Interaktion während deines Spielzugs bewege dich entlang eines beliebiges Pfads, sogar entgegen eines Einbahnpfads, dann erhalte 1 (BP).",
       "imagePath": "img/en/balancedlanding.png", 
        "type": "Survivant",
