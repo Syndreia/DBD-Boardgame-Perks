@@ -28,7 +28,16 @@ function displayImages(images) {
     const imageElement = document.createElement('div');
     imageElement.classList.add('image-item');
 
-    const logoSrc = image.type === 'Tueur' ? 'img/tueur-logo.png' : 'img/survivant-logo.png';
+//    const logoSrc = image.type === 'Tueur' ? 'img/tueur-logo.png' : 'img/survivant-logo.png';
+    // Set the logo source based on the "statut" value
+    let logoSrc = '';
+    if (image.type === 'Tueur') {
+      logoSrc = 'img/tueur-logo.png';
+    } else if (image.type === 'Survivant') {
+      logoSrc = 'img/survivant-logo.png';
+    } else if (image.type === 'item') {
+      logoSrc = 'img/item-logo.png';
+    }
 
     imageElement.innerHTML = `
       <img src="${image.imagePath}" alt="${image.name}">
@@ -45,17 +54,6 @@ function displayImages(images) {
   });
 }
 
-/*
-// démarrage ici, récupération des éléments fr -> doit être transformé en fonction qui fait pareil mais avec le bon json
-fetch('data.json')
-  .then(response => response.json())
-  .then(data => {
-    // Assign fetched data to the variable
-    dataLog = data;
-    displayImages(data);
-  })
-  .catch(error => console.error('Error fetching data:', error));
-*/
 
 function initialisationLanguage() {
   fetch(languageSelect.value+'data.json')
@@ -68,7 +66,34 @@ function initialisationLanguage() {
   .catch(error => console.error('Error fetching data:', error));
 }
 
+// fonction pour avoir les perks excluses uniquement
+function showLockedPerks() {
+  fetch(languageSelect.value+'data.json')
+    .then(response => response.json())
+    .then(data => {
+      // Assign fetched data to the variable
+      dataLog = data.filter(item => item.lock === true);
+      displayImages(dataLog);
+    })
+  .catch(error => console.error('Error fetching data:', error));
+}
+
+// fonction pour les items uniquement
+function showItemsOnly() {
+  fetch(languageSelect.value+'data.json')
+    .then(response => response.json())
+    .then(data => {
+      // Assign fetched data to the variable
+      dataLog = data.filter(item => item.type === "item");
+      displayImages(dataLog);
+    })
+  .catch(error => console.error('Error fetching data:', error));
+}
+
+//setup initial
 initialisationLanguage();
+
+
 
 // éléments pour la recherche
 searchButton.addEventListener('click', performSearch);
@@ -79,17 +104,43 @@ searchInput.addEventListener('keydown', (event) => {
   }
 });
 
-// Attach event listeners to the filter buttons (les 2 boutons de base)
-filterTueurButton.addEventListener('click', () => filterByType('Tueur'));
-filterSurvivantButton.addEventListener('click', () => filterByType('Survivant'));
+
+//REMPLACE LES ANCIENS BOUTONS
+noFilter.addEventListener('click', initialisationLanguage);
+filterLockedPerks.addEventListener('click', showLockedPerks);
+filterItem.addEventListener('click', showItemsOnly);
+
 
 function performSearch() {
+  const showKiller = killerCheckbox.checked;
+  const showSurvivor = survivorCheckbox.checked;
+  const showAll = characterCheckbox.checked;
   const searchTerm = searchInput.value.toLowerCase();
-  const filteredData = dataLog.filter(image => 
-    image.name.toLowerCase().includes(searchTerm) || 
-    image.description.toLowerCase().includes(searchTerm)
-  );
-  displayImages(filteredData);
+  const sortCroiss = sortCheckbox.checked;
+  const sortDecroiss = sortCheckboxDecr.checked;
+
+  if(sortCroiss) {
+    dataLog.sort((a, b) => a.cost - b.cost);
+  }
+  if (sortDecroiss) {
+    dataLog.sort((a, b) => b.cost - a.cost);
+  }
+
+  if(showAll || (!showKiller && ! showSurvivor && !showAll)) {
+    const filteredData = dataLog.filter(image => 
+      image.name.toLowerCase().includes(searchTerm) || 
+      image.description.toLowerCase().includes(searchTerm)
+    );
+    displayImages(filteredData);
+  }
+  else {
+    const filteredData = dataLog.filter(image => {
+      const matches = (showKiller && image.type === 'Tueur' && (image.name.toLowerCase().includes(searchTerm) || image.description.toLowerCase().includes(searchTerm))) 
+              || (showSurvivor && image.type === 'Survivant'&& (image.name.toLowerCase().includes(searchTerm) || image.description.toLowerCase().includes(searchTerm)));
+       return matches;
+    });
+    displayImages(filteredData);
+  }
 }
 
 function filterByType(type) {
@@ -120,41 +171,12 @@ function outsideClick(event) {
 }
 // fin modal
 
-// début filtre (OK ? Probable)
-sortCheckbox.addEventListener('change', () => {
-  if (sortCheckbox.checked) {
-    // Sort images by cost (low to high)
-    dataLog.sort((a, b) => a.cost - b.cost);
-    displayImages(dataLog);
-  } else {
-    // Display images in their original order
-    displayImages(dataLog);
-  }
-});
+sortCheckbox.addEventListener('change', performSearch);
+sortCheckboxDecr.addEventListener('change', performSearch);
 
-killerCheckbox.addEventListener('change', filterImages);
-survivorCheckbox.addEventListener('change', filterImages);
-
-// OK
-function filterImages() {
-  const showKiller = killerCheckbox.checked;
-  const showSurvivor = survivorCheckbox.checked;
-  const searchTerm = searchInput.value.toLowerCase(); // Get the search input value
-
-  // Filter images based on the checkbox selections and search input
-  const filteredData = dataLog.filter(image => {
-    const matchesType = (showKiller && image.type === 'Tueur') || (showSurvivor && image.type === 'Survivant');
-    const matchesSearch = image.name.toLowerCase().includes(searchTerm) || image.description.toLowerCase().includes(searchTerm);
-    
-    return matchesType && matchesSearch;
-  });
-
-  // Display the filtered images
-  displayImages(filteredData);
-  if(!showKiller && !showSurvivor) {
-    initialisationLanguage();
-  }
-}
+killerCheckbox.addEventListener('change', performSearch);
+survivorCheckbox.addEventListener('change', performSearch);
+characterCheckbox.addEventListener('change', performSearch);
 
 //pour lancer recherche en permanence (OK)
 searchInput.addEventListener('input', performSearch);

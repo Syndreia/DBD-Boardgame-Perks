@@ -1,10 +1,13 @@
     {
         "searchButton": "Search",
         "searchPlaceholder": "Search by name/description",
-        "KillerPerks": "Killer perks",
-        "SurvivorPerks": "Survivor perks",
+        "nofilter": "Show everything",
+        "lockedPerks": "Character exclusive perks",
+        "ItemButton": "Items only",
         "filterOptions": "Filter options :",
-        "sortLabel": "Lowest to highest",
+        "sortLabel": "Ascending",
+        "sortLabelDecr": "Descending",
         "survivorLabel": "Survivor only",
-        "killerLabel": "Killer only"
+        "killerLabel": "Killer only",
+        "allLabel": "Show both"
     }

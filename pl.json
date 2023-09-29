@@ -1,10 +1,13 @@
     {
         "searchButton": "Wyszukiwanie",
         "searchPlaceholder": "Szukaj po nazwie lub opisie",
-        "KillerPerks": "Zabójca",
-        "SurvivorPerks": "Ocalały",
+        "nofilter": "Zobacz wszystkie",
+        "lockedPerks": "Ekskluzywne korzyści dla postaci",
+        "ItemButton": "Tylko przedmioty",
         "filterOptions": "Opcje sortowania :",
         "sortLabel": "Półksiężyc",
+        "sortLabelDecr": "Malejący",
         "survivorLabel": "Tylko ocalały",
-        "killerLabel": "Tylko zabójca"
+        "killerLabel": "Tylko zabójca",
+        "allLabel": "Pokaż oba"
     }
