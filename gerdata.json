@@ -561,7 +561,7 @@
       "id": 64,
       "name": "Wildpferd",
       "cost": 2,
-      "description": "Wenn du oder ein anderer Überlebender aufgehoben wird, nachdem der Killer entschieden hat wieviele Würfel geworfen werden, darf der aufgehobene Überlebende 4 Fähigkeitscheck-Würfel werfen anstatt der Anzahl, die der Killer gewählt hat.",
+      "description": "Wenn du oder ein anderer Überlebender in deinem Raum aufgehoben wird, nachdem der Killer entschieden hat wieviele Würfel geworfen werden, darf der aufgehobene Überlebende 4 Fähigkeitscheck-Würfel werfen anstatt der Anzahl, die der Killer gewählt hat.",
       "imagePath": "img/en/boilover.png", 
        "type": "Survivant",
     "lock": false
