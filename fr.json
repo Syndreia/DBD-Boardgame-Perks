@@ -8,5 +8,7 @@
         "sortLabel": "Croissant",
         "survivorLabel": "Survivant seulement",
         "killerLabel": "Tueur seulement",
-        "allLabel": "Voir les deux"
+        "allLabel": "Voir les deux",
+        "randoSurvivant": "Random pour Survivant",
+        "randoTueur": "Random pour Tueur"
     }

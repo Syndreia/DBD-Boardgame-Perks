@@ -9,5 +9,7 @@
     "sortLabelDecr": "Aufsteigend",
     "survivorLabel": "Nur Überlebende",
     "killerLabel": "Nur Killer",
-    "allLabel": "Beide anzeigen"
+    "allLabel": "Beide anzeigen",
+    "randoSurvivant": "Zufällig für Überlebende",
+    "randoTueur": "Zufällig für Mörder"
 }
