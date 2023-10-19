@@ -215,6 +215,29 @@ loadLanguage(languageSelect.value);
      TRADUCTION */
 
 
+// partie randomizer
+randomizeTueur.addEventListener("click", () => {
+  randomizeBuild("Tueur");
+});
+
+randomizeTueur.addEventListener("click", () => {
+  randomizeBuild("Survivant");
+});
+
+function randomizeBuild(information) {
+  fetch(languageSelect.value+'data.json')
+  .then(response => response.json())
+  .then(data => {
+    // Assign fetched data to the variable
+    dataLog = data.filter(item => item.type === information);
+    //sélectionner 4 perks aléatoires
+    dataLog.sort((a, b) => 0.5 - Math.random());
+    dataLog = dataLog(1,2); // ça marche ça ?
+    displayImages(dataLog);
+  })
+.catch(error => console.error('Error fetching data:', error));
+}
+
 /* parallax cool pour + tard
 window.addEventListener('scroll', () => {
   const scrollPosition = window.scrollY;
